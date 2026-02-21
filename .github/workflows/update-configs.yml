@@ -2,14 +2,22 @@ name: Update Proxy Configs
 
 on:
   schedule:
-    - cron: '30 20 * * *'  # 00:00 تهران
-    - cron: '30 23 * * *'  # 03:00 تهران
-    - cron: '30 2 * * *'   # 06:00 تهران
-    - cron: '30 5 * * *'   # 09:00 تهران
-    - cron: '30 8 * * *'   # 12:00 تهران
-    - cron: '30 11 * * *'  # 15:00 تهران
-    - cron: '30 14 * * *'  # 18:00 تهران
-    - cron: '30 17 * * *'  # 21:00 تهران
+    - cron: '0 0 * * *'    # 03:30 Tehran
+    - cron: '30 1 * * *'   # 05:00 Tehran
+    - cron: '0 3 * * *'    # 06:30 Tehran
+    - cron: '30 4 * * *'   # 08:00 Tehran
+    - cron: '0 6 * * *'    # 09:30 Tehran
+    - cron: '30 7 * * *'   # 11:00 Tehran
+    - cron: '0 9 * * *'    # 12:30 Tehran
+    - cron: '30 10 * * *'  # 14:00 Tehran
+    - cron: '0 12 * * *'   # 15:30 Tehran
+    - cron: '30 13 * * *'  # 17:00 Tehran
+    - cron: '0 15 * * *'   # 18:30 Tehran
+    - cron: '30 16 * * *'  # 20:00 Tehran
+    - cron: '0 18 * * *'   # 21:30 Tehran
+    - cron: '30 19 * * *'  # 23:00 Tehran
+    - cron: '0 21 * * *'   # 00:30 Tehran
+    - cron: '30 22 * * *'  # 02:00 Tehran
   workflow_dispatch:
 
 permissions:
@@ -234,23 +242,14 @@ jobs:
         run: python src/xray_balancer.py
         continue-on-error: true
 
-      # ---------------------------------------------------------------
-      # NEW: Generate v2rayNG / NekoBox subscription (Base64)
-      # ---------------------------------------------------------------
-      - name: Generate v2n Base64 subscription
+      - name: Generate v2n plain-text subscription
         run: python src/generate_v2n.py configs/proxy_configs.txt configs/proxy_configs_v2n.txt
         continue-on-error: true
 
-      # ---------------------------------------------------------------
-      # NEW: Google-200 filter (HEAD https://aistudio.google.com/)
-      # ---------------------------------------------------------------
       - name: Filter proxies that reach Google AI Studio (HTTP 200)
         run: python src/google_filter.py configs/proxy_configs.txt
         continue-on-error: true
 
-      # ---------------------------------------------------------------
-      # NEW: Hiddify SLI (chain through landing SS proxy)
-      # ---------------------------------------------------------------
       - name: Generate Hiddify SLI chained subscription
         run: python src/generate_sli.py configs/proxy_configs.txt configs/proxy_configs_sli.txt
         continue-on-error: true
