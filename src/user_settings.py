@@ -15,6 +15,7 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/Freedom-Guard-Builder/FL/refs/heads/main/config/Fast.txt",
     "https://raw.githubusercontent.com/Ashkan-m/v2ray/main/Sub.txt",
     "https://raw.githubusercontent.com/davudsedft/purvpn/refs/heads/main/links/purkow.txt",
+    "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
 ]
 
 # Set to True to fetch the maximum possible number of configurations.
