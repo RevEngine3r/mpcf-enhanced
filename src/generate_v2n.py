@@ -1,13 +1,12 @@
 """generate_v2n.py
 
-Reads proxy_configs.txt and writes proxy_configs_v2n.txt.
-The output is a single Base64-encoded string (no newlines inside),
-readable as a subscription link by NekoBox / v2rayNG.
+Reads proxy_configs.txt and writes proxy_configs_v2n.txt as plain text
+(one proxy URI per line, blank line as separator) – directly importable
+by v2rayNG and NekoBox as a local subscription file.
 
 Usage:
     python src/generate_v2n.py [input.txt] [output.txt]
 """
-import base64
 import logging
 import os
 import sys
@@ -30,16 +29,12 @@ def load_proxy_lines(path: str) -> list[str]:
         return []
 
 
-def encode_to_v2n(lines: list[str]) -> str:
-    """Join proxy lines with newlines then Base64-encode the result."""
-    joined = '\n'.join(lines)
-    return base64.b64encode(joined.encode('utf-8')).decode('ascii')
-
-
-def write_output(path: str, content: str) -> None:
+def write_plain(path: str, lines: list[str]) -> None:
+    """Write proxy lines separated by blank lines (v2rayNG / NekoBox format)."""
     os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
     with open(path, 'w', encoding='utf-8') as fh:
-        fh.write(content + '\n')
+        for line in lines:
+            fh.write(line + '\n\n')
 
 
 def main() -> None:
@@ -49,12 +44,11 @@ def main() -> None:
     lines = load_proxy_lines(input_file)
     if not lines:
         logger.error("No proxy lines found – writing empty file.")
-        write_output(output_file, '')
+        open(output_file, 'w').close()
         sys.exit(0)
 
-    encoded = encode_to_v2n(lines)
-    write_output(output_file, encoded)
-    logger.info(f"Wrote v2n subscription ({len(lines)} proxies) → {output_file}")
+    write_plain(output_file, lines)
+    logger.info(f"Wrote {len(lines)} proxies (plain text) → {output_file}")
 
 
 if __name__ == '__main__':

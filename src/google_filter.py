@@ -2,15 +2,17 @@
 
 Tests every proxy in proxy_configs.txt by routing a HEAD request to
 https://aistudio.google.com/ through that proxy (via a temporary Xray
-HTTP inbound).  Proxies that return HTTP 200 are written to:
+HTTP inbound).  Proxies that return HTTP 200 are written as plain text to:
 
-  configs/proxy_configs_g200.txt      – plain text (Hiddify)
-  configs/proxy_configs_v2n_g200.txt  – Base64-encoded (v2rayNG / NekoBox)
+  configs/proxy_configs_g200.txt      – Hiddify-compatible plain text
+  configs/proxy_configs_v2n_g200.txt  – plain text for v2rayNG / NekoBox
+
+Both files use the same format: one proxy URI per line with a blank line
+between entries, which is natively understood by all three clients.
 
 Usage:
     python src/google_filter.py [input.txt]
 """
-import base64
 import json
 import logging
 import os
@@ -33,15 +35,15 @@ import transport_builder
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-TARGET_URL    = 'https://aistudio.google.com/'
-XRAY_PATH     = 'xray'
-TIMEOUT       = 20           # seconds per proxy
-MAX_WORKERS   = 6
+TARGET_URL     = 'https://aistudio.google.com/'
+XRAY_PATH      = 'xray'
+TIMEOUT        = 20
+MAX_WORKERS    = 6
 SKIP_PROTOCOLS = {'tuic://', 'wireguard://', 'hysteria2://', 'hy2://'}
 
 
 # ---------------------------------------------------------------------------
-# Helpers shared with xray_config_tester
+# Port helper
 # ---------------------------------------------------------------------------
 
 def find_free_port() -> int:
@@ -58,6 +60,10 @@ def find_free_port() -> int:
                 return port
     raise RuntimeError("Cannot find a free port")
 
+
+# ---------------------------------------------------------------------------
+# Proxy parser
+# ---------------------------------------------------------------------------
 
 def build_xray_outbound(config_str: str) -> Optional[dict]:
     """Parse a proxy URI into an Xray outbound dict."""
@@ -139,12 +145,16 @@ def build_xray_outbound(config_str: str) -> Optional[dict]:
     return None
 
 
+# ---------------------------------------------------------------------------
+# Test worker
+# ---------------------------------------------------------------------------
+
 def test_single(config_str: str) -> Tuple[bool, str]:
-    """Return (passed, config_str).  Spins up a temporary Xray HTTP proxy."""
+    """Spin up a temporary Xray HTTP proxy and HEAD the target URL."""
     lower = config_str.lower()
     for skip in SKIP_PROTOCOLS:
         if lower.startswith(skip):
-            logger.info(f"⊘ skip unsupported: {skip}")
+            logger.info(f"⊘ skip unsupported protocol: {skip}")
             return False, config_str
 
     outbound = build_xray_outbound(config_str)
@@ -185,7 +195,7 @@ def test_single(config_str: str) -> Tuple[bool, str]:
                 allow_redirects=True,
             )
             ok = resp.status_code == 200
-            logger.info(f"{'✓' if ok else '✗'} {resp.status_code} – {config_str[:60]}")
+            logger.info(f"{'\u2713' if ok else '\u2717'} {resp.status_code} – {config_str[:60]}")
             return ok, config_str
 
         except Exception as exc:
@@ -205,6 +215,10 @@ def test_single(config_str: str) -> Tuple[bool, str]:
         time.sleep(0.2)
 
 
+# ---------------------------------------------------------------------------
+# I/O helpers
+# ---------------------------------------------------------------------------
+
 def load_lines(path: str) -> list[str]:
     try:
         with open(path, 'r', encoding='utf-8') as fh:
@@ -218,18 +232,16 @@ def load_lines(path: str) -> list[str]:
 
 
 def write_plain(path: str, lines: list[str]) -> None:
+    """Write proxy lines as plain text, one per line with blank separator."""
     os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
     with open(path, 'w', encoding='utf-8') as fh:
         for line in lines:
             fh.write(line + '\n\n')
 
 
-def write_v2n(path: str, lines: list[str]) -> None:
-    os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
-    encoded = base64.b64encode('\n'.join(lines).encode()).decode()
-    with open(path, 'w', encoding='utf-8') as fh:
-        fh.write(encoded + '\n')
-
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
 
 def main() -> None:
     input_file = sys.argv[1] if len(sys.argv) > 1 else 'configs/proxy_configs.txt'
@@ -255,9 +267,15 @@ def main() -> None:
 
     logger.info(f"{len(passing)} proxies passed the Google 200 filter.")
 
+    # Both files are identical plain-text – one is labelled for Hiddify,
+    # the other for v2rayNG / NekoBox.  All three clients accept this format.
     write_plain('configs/proxy_configs_g200.txt',     passing)
-    write_v2n  ('configs/proxy_configs_v2n_g200.txt', passing)
-    logger.info("Written: configs/proxy_configs_g200.txt  |  configs/proxy_configs_v2n_g200.txt")
+    write_plain('configs/proxy_configs_v2n_g200.txt', passing)
+    logger.info(
+        "Written (plain text):\n"
+        "  configs/proxy_configs_g200.txt\n"
+        "  configs/proxy_configs_v2n_g200.txt"
+    )
 
 
 if __name__ == '__main__':
