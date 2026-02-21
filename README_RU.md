@@ -1,335 +1,171 @@
-[![Stars](https://img.shields.io/github/stars/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/stargazers)
-[![Forks](https://img.shields.io/github/forks/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/network/members)
-[![Issues](https://img.shields.io/github/issues/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/issues)
-[![License](https://img.shields.io/github/license/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/blob/main/LICENSE)
-[![Activity](https://img.shields.io/github/last-commit/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/commits)
+[![Stars](https://img.shields.io/github/stars/RevEngine3r/mpcf-enhanced?style=flat-square)](https://github.com/RevEngine3r/mpcf-enhanced/stargazers)
+[![Forks](https://img.shields.io/github/forks/RevEngine3r/mpcf-enhanced?style=flat-square)](https://github.com/RevEngine3r/mpcf-enhanced/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/RevEngine3r/mpcf-enhanced?style=flat-square)](https://github.com/RevEngine3r/mpcf-enhanced/commits/main)
+[![License](https://img.shields.io/github/license/RevEngine3r/mpcf-enhanced?style=flat-square)](LICENSE)
 
 <div dir="ltr">
 
-# Multi Proxy Config Fetcher
+# 🛡️ MPCF Enhanced
 
-[**🇺🇸English**](README.md) | [**![Lang_farsi](https://user-images.githubusercontent.com/125398461/234186932-52f1fa82-52c6-417f-8b37-08fe9250a55f.png)فارسی**](README_FA.md) | [**🇨🇳中文**](README_CN.md) | [**🇷🇺Русский**](README_RU.md)
+[**🇺🇸 English**](README.md) | [**🇮🇷 فارسی**](README_FA.md) | [**🇨🇳 中文**](README_CN.md) | [**🇷🇺 Русский**](README_RU.md)
 
-Продвинутая автоматизированная система управления конфигурациями прокси, которая собирает, проверяет, тестирует, обогащает и фильтрует конфигурации прокси из нескольких источников. Проект предоставляет корпоративное управление прокси с мониторингом состояния в реальном времени, геотегированием и многоступенчатой фильтрацией безопасности.
+Автоматический агрегатор прокси, который каждые **90 минут** собирает, геотегирует и тестирует конфигурации из нескольких источников. Каждый прокси проверяется в реальном времени по адресу `https://aistudio.google.com/` — те, что возвращают HTTP 200, попадают в файлы Google-200; остальные рабочие — в общие файлы.
 
-## 🌐 Доступ к конфигурациям
+---
 
-Все конфигурации прокси и конечные точки доступны через наш унифицированный веб-интерфейс:
+## 📥 Ссылки на подписки
 
-### **[👉 Anonymous Proxy Hub - доступ ко всем конечным точкам](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)**
+Импортируйте напрямую в клиент, используя ссылки ниже.
 
-Веб-интерфейс предоставляет:
-- **7 различных конечных точек** для разных сценариев использования
-- **Сырые конфигурации** — неотфильтрованные оригинальные конфиги
-- **Проверено Xray** — конфигурации, проверенные ядром Xray (Этап 1)
-- **Xray с балансировкой нагрузки** — умные JSON-конфиги с балансировкой нагрузки
-- **Xray Secure** — конфигурации с повышенной безопасностью
-- **Sing-box All** — все конфигурации в формате Sing-box
-- **Sing-box Tested** — конфигурации, проверенные Sing-box (Этап 2)
-- **Sing-box Secure** — максимально безопасные конфигурации Sing-box
+### v2rayNG / NekoBox
 
-## 📊 Мониторинг производительности источников
+| Файл | Содержимое |
+|---|---|
+| [`all_working.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/all_working.txt) | Все рабочие прокси (не Google-200) |
+| [`google_200.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/google_200.txt) | Прокси с доступом к Google AI Studio |
 
-Статистика производительности в реальном времени для всех настроенных источников (каналы Telegram и URL). Этот график автоматически обновляется каждые 12 часов.
+### Hiddify
 
-### Быстрый обзор
+| Файл | Содержимое |
+|---|---|
+| [`hiddify_all_working.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/hiddify_all_working.txt) | Все рабочие прокси |
+| [`hiddify_google_200.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/hiddify_google_200.txt) | Прокси Google-200 |
+| [`hiddify_all_detour.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/hiddify_all_detour.txt) | Все прокси через нидерландский узел |
+
+---
+
+## ⚙️ Как это работает
+
+```
+Сбор  →  Геообогащение  →  Переименование  →  Единый тест  →  Запись 5 файлов
+```
+
+1. **Сбор** — получение сырых URI из Telegram-каналов и GitHub-источников
+2. **Геообогащение** — определение страны сервера через бесплатные IP-API
+3. **Переименование** — тегирование протоколом, транспортом, безопасностью, портом и флагом страны
+4. **Единый тест** — для каждого конфига запускается временный HTTP-прокси Xray и отправляется один `HEAD`-запрос на `https://aistudio.google.com/`:
+   - `HTTP 200` → бакет **google_200**
+   - Рабочий, но не 200 → бакет **all_working**
+   - Ошибка → отброс
+5. **Запись** — генерация 5 plain-text файлов подписок
+
+---
+
+## 📊 Производительность источников
+
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg" alt="Статистика производительности источников" width="800">
+    <img src="assets/channel_stats_chart.svg?v=1" alt="Статистика производительности источников" width="800">
   </a>
 </div>
 
-### Подробная аналитика
-📊 [Просмотреть полную интерактивную панель](https://htmlpreview.github.io/?https://github.com/4n0nymou3/multi-proxy-config-fetcher/blob/main/assets/performance_report.html)
+📊 [Открыть интерактивный отчёт](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1)
 
-> **Важно для форков репозитория**:  
-> Если вы форкнули этот репозиторий, замените `4n0nymou3` в ссылке на панели выше на ваш GitHub-логин, чтобы получить доступ к собственной аналитике.
+Каждый источник оценивается по:
+- **Надёжности (35%)** — успешность получения
+- **Качеству конфигов (25%)** — доля валидных
+- **Уникальности (25%)** — вклад уникальных конфигов
+- **Времени отклика (15%)** — доступность сервера
 
-Каждый источник оценивается по четырем ключевым метрикам:
-- **Оценка надежности (35%)**: процент успеха при получении и обновлении конфигураций
-- **Качество конфигурации (25%)**: отношение валидных конфигов к общему числу
-- **Уникальность конфигурации (25%)**: процент уникальных конфигураций
-- **Время отклика (15%)**: время ответа сервера и доступность
+Источники ниже 30% отключаются автоматически.
 
-Источники с оценкой ниже 30% автоматически отключаются для поддержания качества системы.
+---
 
-## ✨ Ключевые возможности
+## 🔧 Настройка
 
-### Поддержка нескольких протоколов
-- **WireGuard** — современный быстрый VPN-протокол
-- **Hysteria2** — высокопроизводительный прокси-протокол
-- **VLESS** — лёгкая альтернатива VMess
-- **VMess** — популярный протокол V2Ray
-- **Shadowsocks** — безопасный SOCKS5-прокси
-- **Trojan** — прокси-протокол на основе TLS
-- **TUIC** — прокси-протокол на основе UDP
-
-### Продвинутая обработка (pipeline)
-
-1. **Интеллектуальный сбор**
-   - Поддержка Telegram-каналов, SSCONF-ссылок и пользовательских URL
-   - Автоматическое base64-декодирование и определение формата
-   - Удаление дубликатов и валидация
-
-2. **Двухэтапная система тестирования**
-   - **Этап 1**: проверка работоспособности с помощью Xray core
-   - **Этап 2**: проверка работоспособности с помощью Sing-box core
-   - Параллельное тестирование с настраиваемым количеством воркеров
-   - Настраиваемый таймаут и тестовые URL
-
-3. **Географическое обогащение**
-   - Автоматическое определение местоположения сервера
-   - Пометка флагом страны (emoji)
-   - Поддержка нескольких геолокационных API
-   - Интеллектуальный механизм резервного варианта
-
-4. **Умное переименование**
-   - Описательные теги с деталями протокола
-   - Определение типа транспорта (WS, GRPC, HTTP2 и т.д.)
-   - Обнаружение функций безопасности (TLS, Reality, XTLS, Vision)
-   - Информация о порте и стране
-
-5. **Фильтрация безопасности**
-   - Удаление небезопасных методов шифрования
-   - Проверка TLS/SSL конфигураций
-   - Фильтрация устаревших протоколов
-   - Генерация отдельных файлов для безопасных конечных точек
-
-6. **Преобразование форматов**
-   - Автоматическое преобразование в формат Sing-box JSON
-   - Генерация конфигураций Xray с балансировкой нагрузки
-   - Совместимость с обеими реализациями (cores)
-
-## 🚀 Быстрый старт
-
-### Для пользователей (рекомендуется)
-
-1. Посетите **[Anonymous Proxy Hub](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)**  
-2. Выберите предпочитаемую конечную точку  
-3. Скопируйте URL и используйте его в вашем прокси-клиенте
-
-### Для разработчиков
-
-#### Fork и кастомизация
-
-1. Forkните репозиторий  
-2. Отредактируйте `src/user_settings.py` чтобы настроить:
-   - URL источников (Telegram-каналы, SSCONF-ссылки и т.д.)
-   - Включенные протоколы
-   - Параметры тестирования
-   - Предпочтения геолокационных API
-3. Включите GitHub Actions в вашем fork'е  
-4. Конфигурации будут автоматически обновляться каждые 12 часов
-
-#### Локальная настройка
-
-**[Anonymous Wizard](README_WIZARD_FA.md
-)**
-
-## ⚙️ Параметры конфигурации
-
-### `src/user_settings.py`
+Отредактируйте [`src/user_settings.py`](src/user_settings.py):
 
 ```python
-# Source URLs
+# Источники прокси
 SOURCE_URLS = [
     "https://t.me/s/your_channel",
     "https://raw.githubusercontent.com/user/repo/main/configs.txt",
-    # Add your sources here
 ]
 
-# Power Mode
-USE_MAXIMUM_POWER = True  # Fetch maximum configs
-SPECIFIC_CONFIG_COUNT = 50  # Used if USE_MAXIMUM_POWER is False
-
-# Protocol Filtering
+# Включение/отключение протоколов
 ENABLED_PROTOCOLS = {
-    "wireguard://": False,
+    "vless://":     True,
+    "vmess://":     True,
+    "ss://":        True,
+    "trojan://":    True,
     "hysteria2://": True,
-    "vless://": True,
-    "vmess://": True,
-    "ss://": True,
-    "trojan://": True,
-    "tuic://": False,
+    "wireguard://": False,
+    "tuic://":      False,
 }
 
-# Config Age Filtering
+# Максимальный возраст конфига в днях
 MAX_CONFIG_AGE_DAYS = 1
-
-# Sing-box Testing
-ENABLE_SINGBOX_TESTER = True
-SINGBOX_TESTER_MAX_WORKERS = 8
-SINGBOX_TESTER_TIMEOUT_SECONDS = 10
-SINGBOX_TESTER_URLS = ['https://www.youtube.com/generate_204']
-
-# Xray Testing
-ENABLE_XRAY_TESTER = True
-XRAY_TESTER_MAX_WORKERS = 8
-XRAY_TESTER_TIMEOUT_SECONDS = 10
-XRAY_TESTER_URLS = ['https://www.youtube.com/generate_204']
-
-# Geolocation APIs (in priority order)
-LOCATION_APIS = [
-    'api.iplocation.net',
-    'freeipapi.com',
-    'ip-api.com',
-    'ipapi.co'
-]
 ```
 
-## 📁 Выходные файлы
+---
 
-Система генерирует несколько выходных файлов для разных сценариев использования:
+## 🗂️ Выходные файлы
 
-- `configs/proxy_configs.txt` - Сырые полученные конфигурации
-- `configs/proxy_configs_tested.txt` - Конфигурации, протестированные Xray
-- `configs/singbox_configs_all.json` - Все конфигурации в формате Sing-box
-- `configs/singbox_configs_tested.json` - Конфигурации, протестированные Sing-box
-- `configs/singbox_configs_secure.json` - Конфигурации Sing-box, отфильтрованные по безопасности
-- `configs/xray_loadbalanced_config.json` - Конфигурация Xray с балансировкой нагрузки
-- `configs/xray_secure_loadbalanced_config.json` - Безопасная конфигурация Xray с балансировкой нагрузки
-- `configs/location_cache.json` - Кэш геолокационных данных
-- `configs/channel_stats.json` - Метрики производительности источников
+| Файл | Клиент |
+|---|---|
+| `configs/all_working.txt` | v2rayNG, NekoBox |
+| `configs/google_200.txt` | v2rayNG, NekoBox |
+| `configs/hiddify_all_working.txt` | Hiddify |
+| `configs/hiddify_google_200.txt` | Hiddify |
+| `configs/hiddify_all_detour.txt` | Hiddify (цепочка через NL SS) |
+| `configs/proxy_configs.txt` | Сырой сбор (до теста) |
+| `configs/location_cache.json` | Гео-кэш |
+| `configs/channel_stats.json` | Метрики источников |
+
+---
 
 ## 🔄 Автоматизация
 
-Проект использует GitHub Actions для автоматических обновлений:
+- Запускается автоматически каждые **90 минут** через GitHub Actions
+- Поддерживает ручной запуск через `workflow_dispatch`
+- Автоматически коммитит и пушит все выходные файлы
+- Таймаут выполнения: 90 минут
 
-- Запускается дважды в день (08:00 и 20:00 UTC)
-- Может быть запущен вручную через workflow_dispatch
-- Автоматически коммитит и пушит обновлённые конфигурации
-- Генерирует отчёты производительности и диаграммы
+### Этапы пайплайна
 
-### Последовательность GitHub Actions
+1. Checkout и установка Python-зависимостей
+2. Установка последней версии Xray core
+3. `fetch_configs.py`
+4. `enrich_configs.py`
+5. `rename_configs.py`
+6. `unified_tester.py` ← один проход, все 5 выходных файлов
+7. `generate_charts.py`
+8. Commit и Push
 
-Рабочий процесс выполняет следующие шаги:
-1. Извлечение конфигураций со всех источников
-2. Обогащение геолокационными данными
-3. Переименование с описательными тегами
-4. Тестирование с Xray core (Этап 1)
-5. Конвертация в формат Sing-box
-6. Тестирование с Sing-box core (Этап 2)
-7. Фильтрация по безопасности
-8. Генерация конфигураций с балансировкой нагрузки
-9. Обновление диаграмм и отчётов
-10. Коммит и пуш изменений
+---
 
-## 🛡️ Функции безопасности
+## 🌍 API геолокации
 
-### Автоматическая фильтрация безопасности
+Цепочка резервирования (без API-ключей):
 
-Система автоматически удаляет:
-- **Небезопасные шифры Shadowsocks** (не-AEAD методы)
-- **VMess с MD5-аутентификацией** (устаревший alter_id)
-- **Не зашифрованные протоколы** (VLESS/Trojan без TLS)
-- **Неверные TLS-конфигурации** (insecure=true)
-- **VMess с security=none**
+1. `api.iplocation.net` — без ограничений, быстро
+2. `freeipapi.com` — 60 запросов/мин
+3. `ip-api.com` — 45 запросов/мин
+4. `ipapi.co` — 1000 запросов/день
 
-### Безопасные конечные точки
+---
 
-Специальные файлы безопасных конечных точек содержат только конфигурации, соответствующие современным стандартам безопасности:
-- Действительные сертификаты TLS/SSL
-- Современные алгоритмы шифрования
-- Отсутствие устаревших методов аутентификации
-- Правильная проверка сертификатов
+## 🚀 Fork и запуск
 
-## 📈 Оптимизация производительности
+1. Сделайте форк репозитория
+2. Отредактируйте `src/user_settings.py` под ваши источники
+3. Включите GitHub Actions
+4. Конфиги будут обновляться каждые 90 минут
 
-- **Параллельная обработка** для ускорения тестирования конфигураций
-- **Интеллектуальное кеширование** геоданных
-- **Пул подключений** для HTTP-запросов
-- **Настраиваемые таймауты** для баланса между скоростью и надежностью
-- **Умная логика повтора** с экспоненциальным backoff
-- **Очистка ресурсов** для предотвращения утечек памяти
-
-## 🌍 Геолокационная система
-
-### Поддержка нескольких API
-
-Система поддерживает несколько бесплатных геолокационных API с автоматическим резервированием:
-
-1. **api.iplocation.net** — неограниченно, быстро и точно
-2. **freeipapi.com** — 60 запросов/мин, очень быстро
-3. **ip-api.com** — 45 запросов/мин, надежно
-4. **ipapi.co** — 1000 запросов/день
-
-### Умное обнаружение
-
-- Автоматическое распознавание паттернов URL
-- Эффективное кеширование для минимизации запросов к API
-- Грациозное снижение качества при сбое API
-- Не требует ключей API
-
-## 📊 Статистика и мониторинг
-
-### Метрики в реальном времени
-
-Система отслеживает исчерпывающие метрики по каждому источнику:
-- Общее число полученных конфигураций
-- Соотношение валидных и невалидных
-- Вклад уникальных конфигураций
-- Среднее время отклика
-- Процент успешных/ошибочных запросов
-- Общий показатель здоровья
-
-### Визуальные панели
-
-- **SVG график** — быстрый обзор производительности
-- **Интерактивный HTML отчёт** — подробный анализ с:
-  - Активными/неактивными источниками
-  - Распределением протоколов
-  - Анализом времени ответа
-  - Историческими трендами
-
-## 🤝 Вклад в проект
-
-Вклады приветствуются! Вот как вы можете помочь:
-
-1. **Сообщайте об ошибках** — нашли баг? Откройте issue
-2. **Предлагайте фичи** — есть идея? Начните обсуждение
-3. **Отправляйте PR** — улучшения всегда приветствуются
-4. **Добавляйте источники** — знаете хорошие прокси-источники? Поделитесь
-5. **Улучшайте документацию** — помогите сделать документацию лучше
+---
 
 ## ⚠️ Отказ от ответственности
 
-Проект предоставляется только в **образовательных и информационных целях**. Разработчики не несут ответственности за:
-- Любое злоупотребление этим ПО
-- Любые убытки или ущерб
-- Качество или безопасность сторонних прокси-конфигураций
-- Нарушение местных законов или правил
-
-**Ответственность пользователей:**
-- Соблюдать местные законы
-- Проверять безопасность конфигураций
-- Понимать риски использования прокси-сервисов
-- Соблюдать условия обслуживания поставщиков прокси
+Только для образовательных и информационных целей. Пользователи несут ответственность за соблюдение местного законодательства и условий использования провайдеров прокси.
 
 ## 📜 Лицензия
 
-Проект лицензирован по MIT — см. файл [LICENSE](LICENSE) для деталей.
-
-## 👤 Об авторе
-
-Разработано с любовью ❤️ **4n0nymou3**
-
-- 🐙 GitHub: [@4n0nymou3](https://github.com/4n0nymou3)
-- 🐦 Twitter/X: [@4n0nymou3](https://x.com/4n0nymou3)
-- 📦 Репозиторий: [multi-proxy-config-fetcher](https://github.com/4n0nymou3/multi-proxy-config-fetcher)
-
-## 🙏 Благодарности
-
-- **Xray-core** — высокопроизводительная прокси-платформа
-- **Sing-box** — универсальная прокси-платформа
-- **GitHub Actions** — инфраструктура автоматизации
+[MIT](LICENSE)
 
 ---
 
 <div align="center">
-
-**[⬆ Back to Top](#-access-configurations)**
-
-Made with 💚 by Anonymous
-
+Сделано с 💚 <a href="https://github.com/RevEngine3r">RevEngine3r</a>
 </div>
+
 </div>

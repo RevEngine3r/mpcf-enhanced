@@ -1,335 +1,171 @@
-[![Stars](https://img.shields.io/github/stars/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/stargazers)
-[![Forks](https://img.shields.io/github/forks/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/network/members)
-[![Issues](https://img.shields.io/github/issues/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/issues)
-[![License](https://img.shields.io/github/license/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/blob/main/LICENSE)
-[![Activity](https://img.shields.io/github/last-commit/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/commits)
+[![Stars](https://img.shields.io/github/stars/RevEngine3r/mpcf-enhanced?style=flat-square)](https://github.com/RevEngine3r/mpcf-enhanced/stargazers)
+[![Forks](https://img.shields.io/github/forks/RevEngine3r/mpcf-enhanced?style=flat-square)](https://github.com/RevEngine3r/mpcf-enhanced/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/RevEngine3r/mpcf-enhanced?style=flat-square)](https://github.com/RevEngine3r/mpcf-enhanced/commits/main)
+[![License](https://img.shields.io/github/license/RevEngine3r/mpcf-enhanced?style=flat-square)](LICENSE)
 
 <div dir="ltr">
 
-# Multi Proxy Config Fetcher
+# 🛡️ MPCF Enhanced
 
-[**🇺🇸English**](README.md) | [**فارسی**](README_FA.md) | [**🇨🇳中文**](README_CN.md) | [**🇷🇺Русский**](README_RU.md)
+[**🇺🇸 English**](README.md) | [**🇮🇷 فارسی**](README_FA.md) | [**🇨🇳 中文**](README_CN.md) | [**🇷🇺 Русский**](README_RU.md)
 
-An advanced, automated proxy configuration management system that fetches, validates, tests, enriches, and filters proxy configurations from multiple sources. This project provides enterprise-grade proxy management with real-time health monitoring, geographical tagging, and multi-stage security filtering.
+An automated proxy aggregator that collects, geo-tags, and tests configs from multiple sources every **90 minutes**. Every proxy is verified live against `https://aistudio.google.com/` — those that return HTTP 200 go into the Google-200 files; all other working proxies go into the general files.
 
-## 🌐 Access Configurations
+---
 
-All proxy configurations and endpoints are available through our unified web interface:
+## 📥 Subscription Links
 
-### **[👉 Anonymous Proxy Hub - Access All Endpoints](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)**
+Import directly into your client using the raw GitHub URLs below.
 
-The web interface provides:
-- **7 Different Endpoints** for various use cases
-- **Raw Configurations** - Unfiltered original configs
-- **Xray Tested** - Configs verified with Xray core (Pass 1)
-- **Xray Load Balanced** - Smart load-balanced JSON configs
-- **Xray Secure** - High-security filtered configs
-- **Sing-box All** - All configs in Sing-box format
-- **Sing-box Tested** - Sing-box verified configs (Pass 2)
-- **Sing-box Secure** - Maximum security Sing-box configs
+### v2rayNG / NekoBox
 
-## 📊 Source Performance Monitoring
+| File | Contents |
+|---|---|
+| [`all_working.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/all_working.txt) | All working proxies (non-Google-200) |
+| [`google_200.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/google_200.txt) | Proxies confirmed to reach Google AI Studio |
 
-Real-time performance statistics of all configured sources (Telegram channels and URLs). This chart is automatically updated every 12 hours.
+### Hiddify
 
-### Quick Overview
+| File | Contents |
+|---|---|
+| [`hiddify_all_working.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/hiddify_all_working.txt) | All working proxies |
+| [`hiddify_google_200.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/hiddify_google_200.txt) | Google-200 proxies |
+| [`hiddify_all_detour.txt`](https://raw.githubusercontent.com/RevEngine3r/mpcf-enhanced/main/configs/hiddify_all_detour.txt) | All working proxies chained through NL landing proxy |
+
+---
+
+## ⚙️ How It Works
+
+```
+Fetch  →  Geo-enrich  →  Rename  →  Unified Test  →  Write 5 files
+```
+
+1. **Fetch** — Pulls raw proxy URIs from Telegram channels and GitHub sources
+2. **Geo-enrich** — Resolves each server IP to a country via free geolocation APIs
+3. **Rename** — Tags each proxy with protocol, transport, security, port and country flag
+4. **Unified test** — Spins a temporary Xray HTTP proxy per config and fires a single `HEAD` to `https://aistudio.google.com/`:
+   - `HTTP 200` → **google_200** bucket
+   - Working but non-200 → **all_working** bucket
+   - Failed → discarded
+5. **Write** — Produces 5 plain-text subscription files
+
+---
+
+## 📊 Source Performance
+
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg" alt="Source Performance Statistics" width="800">
+    <img src="assets/channel_stats_chart.svg?v=1" alt="Source Performance Statistics" width="800">
   </a>
 </div>
 
-### Detailed Analytics
-📊 [View Full Interactive Dashboard](https://htmlpreview.github.io/?https://github.com/4n0nymou3/multi-proxy-config-fetcher/blob/main/assets/performance_report.html)
+📊 [View Full Interactive Report](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1)
 
-> **Important for Forked Repositories**:  
-> If you fork this repository, replace `4n0nymou3` in the dashboard link above with your GitHub username to access your own analytics dashboard.
+Each source is scored on:
+- **Reliability (35%)** — fetch success rate
+- **Config quality (25%)** — valid vs total ratio
+- **Uniqueness (25%)** — unique config contribution
+- **Response time (15%)** — server availability
 
-Each source is scored based on four key metrics:
-- **Reliability Score (35%)**: Success rate in fetching and updating configurations
-- **Config Quality (25%)**: Ratio of valid configs to total fetched
-- **Config Uniqueness (25%)**: Percentage of unique configs contributed
-- **Response Time (15%)**: Server response time and availability
+Sources below 30% are automatically disabled.
 
-Sources scoring below 30% are automatically disabled to maintain system quality.
+---
 
-## ✨ Key Features
+## 🔧 Configuration
 
-### Multi-Protocol Support
-- **WireGuard** - Modern, fast VPN protocol
-- **Hysteria2** - High-performance proxy protocol
-- **VLESS** - Lightweight VMess alternative
-- **VMess** - Popular V2Ray protocol
-- **Shadowsocks** - Secure SOCKS5 proxy
-- **Trojan** - TLS-based proxy protocol
-- **TUIC** - UDP-based proxy protocol
-
-### Advanced Processing Pipeline
-
-1. **Intelligent Fetching**
-   - Supports Telegram channels, SSCONF links, and custom URLs
-   - Automatic base64 decoding and format detection
-   - Duplicate removal and validation
-
-2. **Two-Stage Testing System**
-   - **Pass 1**: Health check using Xray core
-   - **Pass 2**: Health check using Sing-box core
-   - Parallel testing with configurable workers
-   - Custom timeout and test URL configuration
-
-3. **Geographical Enrichment**
-   - Automatic server location detection
-   - Country flag emoji tagging
-   - Support for multiple geolocation APIs
-   - Intelligent fallback system
-
-4. **Smart Renaming**
-   - Descriptive tags with protocol details
-   - Transport type identification (WS, GRPC, HTTP2, etc.)
-   - Security feature detection (TLS, Reality, XTLS, Vision)
-   - Port and country information
-
-5. **Security Filtering**
-   - Removes insecure encryption methods
-   - Validates TLS/SSL configurations
-   - Filters deprecated protocols
-   - Generates separate secure endpoint files
-
-6. **Format Conversion**
-   - Automatic conversion to Sing-box JSON format
-   - Xray load-balanced configuration generation
-   - Maintains compatibility with both cores
-
-## 🚀 Quick Start
-
-### For Users (Recommended)
-
-1. Visit the **[Anonymous Proxy Hub](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)**
-2. Choose your preferred endpoint
-3. Copy the URL and use it in your proxy client
-
-### For Developers
-
-#### Fork and Customize
-
-1. Fork this repository
-2. Edit `src/user_settings.py` to configure:
-   - Source URLs (Telegram channels, SSCONF links, etc.)
-   - Enabled protocols
-   - Testing parameters
-   - Geolocation API preferences
-3. Enable GitHub Actions in your forked repository
-4. Configurations will auto-update every 12 hours
-
-#### Local Setup
-
-**[Anonymous Wizard](README_WIZARD_FA.md
-)**
-
-## ⚙️ Configuration Options
-
-### `src/user_settings.py`
+Edit [`src/user_settings.py`](src/user_settings.py) to customise:
 
 ```python
-# Source URLs
+# Add or remove proxy sources
 SOURCE_URLS = [
     "https://t.me/s/your_channel",
     "https://raw.githubusercontent.com/user/repo/main/configs.txt",
-    # Add your sources here
 ]
 
-# Power Mode
-USE_MAXIMUM_POWER = True  # Fetch maximum configs
-SPECIFIC_CONFIG_COUNT = 50  # Used if USE_MAXIMUM_POWER is False
-
-# Protocol Filtering
+# Enable / disable protocols
 ENABLED_PROTOCOLS = {
-    "wireguard://": False,
+    "vless://":     True,
+    "vmess://":     True,
+    "ss://":        True,
+    "trojan://":    True,
     "hysteria2://": True,
-    "vless://": True,
-    "vmess://": True,
-    "ss://": True,
-    "trojan://": True,
-    "tuic://": False,
+    "wireguard://": False,
+    "tuic://":      False,
 }
 
-# Config Age Filtering
+# Max config age in days
 MAX_CONFIG_AGE_DAYS = 1
-
-# Sing-box Testing
-ENABLE_SINGBOX_TESTER = True
-SINGBOX_TESTER_MAX_WORKERS = 8
-SINGBOX_TESTER_TIMEOUT_SECONDS = 10
-SINGBOX_TESTER_URLS = ['https://www.youtube.com/generate_204']
-
-# Xray Testing
-ENABLE_XRAY_TESTER = True
-XRAY_TESTER_MAX_WORKERS = 8
-XRAY_TESTER_TIMEOUT_SECONDS = 10
-XRAY_TESTER_URLS = ['https://www.youtube.com/generate_204']
-
-# Geolocation APIs (in priority order)
-LOCATION_APIS = [
-    'api.iplocation.net',
-    'freeipapi.com',
-    'ip-api.com',
-    'ipapi.co'
-]
 ```
 
-## 📁 Output Files
+---
 
-The system generates multiple output files for different use cases:
+## 🗂️ Output Files
 
-- `configs/proxy_configs.txt` - Raw fetched configurations
-- `configs/proxy_configs_tested.txt` - Xray-tested configurations
-- `configs/singbox_configs_all.json` - All configs in Sing-box format
-- `configs/singbox_configs_tested.json` - Sing-box tested configs
-- `configs/singbox_configs_secure.json` - Security-filtered Sing-box configs
-- `configs/xray_loadbalanced_config.json` - Load-balanced Xray config
-- `configs/xray_secure_loadbalanced_config.json` - Secure load-balanced Xray config
-- `configs/location_cache.json` - Cached geolocation data
-- `configs/channel_stats.json` - Source performance metrics
+| File | Use with |
+|---|---|
+| `configs/all_working.txt` | v2rayNG, NekoBox |
+| `configs/google_200.txt` | v2rayNG, NekoBox |
+| `configs/hiddify_all_working.txt` | Hiddify |
+| `configs/hiddify_google_200.txt` | Hiddify |
+| `configs/hiddify_all_detour.txt` | Hiddify (chained via NL SS) |
+| `configs/proxy_configs.txt` | Raw fetched (pre-test) |
+| `configs/location_cache.json` | Geo cache |
+| `configs/channel_stats.json` | Source metrics |
+
+---
 
 ## 🔄 Automation
 
-The project uses GitHub Actions for automatic updates:
+- Runs automatically **every 90 minutes** via GitHub Actions
+- Can be triggered manually via `workflow_dispatch`
+- Auto-commits and pushes all output files
+- Full run timeout: 90 minutes
 
-- Runs twice daily (08:00 and 20:00 UTC)
-- Can be triggered manually via workflow_dispatch
-- Automatically commits and pushes updated configurations
-- Generates performance reports and charts
+### Pipeline Steps
 
-### GitHub Actions Workflow
+1. Checkout & install Python deps
+2. Install latest Xray core (with fallback)
+3. `fetch_configs.py`
+4. `enrich_configs.py`
+5. `rename_configs.py`
+6. `unified_tester.py` ← single pass, all 5 outputs
+7. `generate_charts.py`
+8. Commit & push
 
-The workflow performs these steps in order:
-1. Fetch configs from all sources
-2. Enrich with geolocation data
-3. Rename with descriptive tags
-4. Test with Xray core (Pass 1)
-5. Convert to Sing-box format
-6. Test with Sing-box core (Pass 2)
-7. Filter for security
-8. Generate load-balanced configs
-9. Update charts and reports
-10. Commit and push changes
+---
 
-## 🛡️ Security Features
+## 🌍 Geolocation APIs
 
-### Automatic Security Filtering
+Fallback chain (no API keys required):
 
-The system automatically removes:
-- **Insecure Shadowsocks ciphers** (non-AEAD methods)
-- **VMess with MD5 authentication** (deprecated alter_id)
-- **Unencrypted protocols** (VLESS/Trojan without TLS)
-- **Invalid TLS configurations** (insecure=true)
-- **VMess with security=none**
+1. `api.iplocation.net` — unlimited, fast
+2. `freeipapi.com` — 60 req/min
+3. `ip-api.com` — 45 req/min
+4. `ipapi.co` — 1000 req/day
 
-### Secure Endpoints
+---
 
-Dedicated secure endpoint files contain only configurations that meet modern security standards:
-- Valid TLS/SSL certificates
-- Modern encryption algorithms
-- No deprecated authentication methods
-- Proper certificate validation
+## 🚀 Fork & Run
 
-## 📈 Performance Optimization
+1. Fork this repository
+2. Edit `src/user_settings.py` with your sources
+3. Enable GitHub Actions
+4. Configs auto-update every 90 minutes
 
-- **Parallel processing** for faster config testing
-- **Intelligent caching** for geolocation data
-- **Connection pooling** for HTTP requests
-- **Configurable timeouts** to balance speed and reliability
-- **Smart retry logic** with exponential backoff
-- **Resource cleanup** to prevent memory leaks
-
-## 🌍 Geolocation System
-
-### Multi-API Support
-
-The system supports multiple free geolocation APIs with automatic fallback:
-
-1. **api.iplocation.net** - Unlimited, fast, accurate
-2. **freeipapi.com** - 60 req/min, very fast
-3. **ip-api.com** - 45 req/min, reliable
-4. **ipapi.co** - 1000 req/day
-
-### Smart Detection
-
-- Automatic URL pattern detection
-- Efficient caching to minimize API calls
-- Graceful degradation if APIs fail
-- No API keys required
-
-## 📊 Statistics and Monitoring
-
-### Real-time Metrics
-
-The system tracks comprehensive metrics for each source:
-- Total configs fetched
-- Valid vs invalid ratio
-- Unique config contribution
-- Average response time
-- Success/failure rates
-- Overall health score
-
-### Visual Dashboards
-
-- **SVG Chart** - Quick performance overview
-- **Interactive HTML Report** - Detailed analytics with:
-  - Active/inactive sources
-  - Protocol distribution
-  - Response time analysis
-  - Historical trends
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Report Issues** - Found a bug? Open an issue
-2. **Suggest Features** - Have an idea? Start a discussion
-3. **Submit PRs** - Improvements are always appreciated
-4. **Add Sources** - Know good proxy sources? Share them
-5. **Improve Docs** - Help make documentation better
+---
 
 ## ⚠️ Disclaimer
 
-This project is provided for **educational and informational purposes only**. The developers are not responsible for:
-- Any misuse of this software
-- Any damage or losses incurred
-- The quality or security of third-party proxy configurations
-- Violations of local laws or regulations
-
-**Users are responsible for:**
-- Ensuring compliance with local laws
-- Verifying the security of configurations
-- Understanding the risks of using proxy services
-- Respecting the terms of service of proxy providers
+For educational and informational purposes only. Users are responsible for compliance with local laws and the terms of service of any proxy providers.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 About the Developer
-
-Developed with ❤️ by **4n0nymou3**
-
-- 🐙 GitHub: [@4n0nymou3](https://github.com/4n0nymou3)
-- 🐦 Twitter/X: [@4n0nymou3](https://x.com/4n0nymou3)
-- 📦 Repository: [multi-proxy-config-fetcher](https://github.com/4n0nymou3/multi-proxy-config-fetcher)
-
-## 🙏 Acknowledgments
-
-- **Xray-core** - High-performance proxy platform
-- **Sing-box** - Universal proxy platform
-- **GitHub Actions** - Automation infrastructure
+[MIT](LICENSE)
 
 ---
 
 <div align="center">
-
-**[⬆ Back to Top](#-access-configurations)**
-
-Made with 💚 by Anonymous
-
+Made with 💚 by <a href="https://github.com/RevEngine3r">RevEngine3r</a>
 </div>
+
 </div>
