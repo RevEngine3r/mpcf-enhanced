@@ -30,7 +30,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from contextlib import closing
 from typing import Optional, Tuple
-from urllib.parse import unquote, quote
+from urllib.parse import unquote
 
 import requests
 
@@ -47,21 +47,31 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-GOOGLE_TARGET   = 'https://aistudio.google.com/'
-XRAY_PATH       = 'xray'
-TIMEOUT         = 15          # seconds for HTTP request
-STARTUP_DELAY   = 2.0         # seconds to wait for xray inbound to bind
-MAX_WORKERS     = max(4, (os.cpu_count() or 4) * 2)
+GOOGLE_TARGET  = 'https://aistudio.google.com/'
+XRAY_PATH      = 'xray'
+TIMEOUT        = 15
+STARTUP_DELAY  = 2.0
+MAX_WORKERS    = max(4, (os.cpu_count() or 4) * 2)
 
-# Protocols xray cannot handle natively — skip cleanly
-SKIP_PROTOCOLS  = {'tuic://', 'wireguard://', 'hysteria2://', 'hy2://'}
+SKIP_PROTOCOLS = {'tuic://', 'wireguard://', 'hysteria2://', 'hy2://'}
 
-# Landing (SLI) proxy for detour chain
-LANDING_PROXY = (
+# Landing proxy for the detour chain.
+# LANDING_TAG must be the exact decoded fragment of LANDING_PROXY
+# (i.e. what appears after '#', percent-decoded) so Hiddify can resolve it.
+LANDING_PROXY_RAW = (
     'ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443'
     '#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%B3%F0%9F%87%B1%20NL-109.201.152.181:443'
 )
-LANDING_TAG = 'SS-TCP-NA-NL'
+# Decoded name of the landing proxy — this is what Hiddify sees as the tag.
+LANDING_TAG = unquote(
+    LANDING_PROXY_RAW.split('#', 1)[1]
+)  # → "🔒 SS-TCP-NA 🇳🇱 NL-109.201.152.181:443"
+
+# Write the landing proxy with its decoded fragment so all names in the file
+# are consistent plain-text (Hiddify reads fragments as plain text).
+LANDING_PROXY = (
+    LANDING_PROXY_RAW.split('#')[0] + '#' + LANDING_TAG
+)
 
 
 # ---------------------------------------------------------------------------
@@ -73,7 +83,6 @@ def find_free_port() -> int:
             s.bind(('127.0.0.1', 0))
             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
             port = s.getsockname()[1]
-            # verify nothing actually bound there yet
             try:
                 with closing(socket.socket(socket.AF_INET, socket.SOCK_STREAM)) as t:
                     t.settimeout(0.05)
@@ -158,7 +167,7 @@ def build_outbound(uri: str) -> Optional[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Single-proxy test: returns ('google200' | 'working' | 'failed', uri)
+# Single-proxy test
 # ---------------------------------------------------------------------------
 def test_proxy(uri: str) -> Tuple[str, str]:
     low = uri.lower()
@@ -233,17 +242,19 @@ def test_proxy(uri: str) -> Tuple[str, str]:
 
 
 # ---------------------------------------------------------------------------
-# Detour helper for hiddify_all_detour.txt
+# Detour helper
 # ---------------------------------------------------------------------------
 def with_detour(uri: str, tag: str) -> str:
-    """Append &detour=<tag> to the URI fragment."""
+    """Append detour=<tag> to the proxy name (fragment), keeping everything
+    as plain decoded text so Hiddify can match the tag by exact string."""
     if '#' in uri:
         base, frag = uri.split('#', 1)
+        # Always work with the decoded fragment - never re-encode it.
         frag_decoded = unquote(frag)
         if 'detour=' not in frag_decoded:
             frag_decoded += f'&detour={tag}'
-        return base + '#' + quote(frag_decoded, safe='=&@:-_.!~*()')
-    return uri + f'#detour={tag}'
+        return base + '#' + frag_decoded
+    return uri + '#' + f'detour={tag}'
 
 
 # ---------------------------------------------------------------------------
@@ -281,6 +292,7 @@ def main() -> None:
 
     logger.info(f'Testing {len(lines)} proxies with {MAX_WORKERS} workers ...')
     logger.info(f'Google target: {GOOGLE_TARGET}')
+    logger.info(f'Landing proxy tag: {LANDING_TAG}')
 
     google200: list[str] = []
     all_working: list[str] = []
@@ -324,10 +336,10 @@ def main() -> None:
     write_plain('configs/hiddify_google_200.txt',  google200)
     write_plain('configs/hiddify_all_working.txt', all_working)
 
-    # detour file: landing proxy first, then all_working chained
+    # Detour file: landing proxy first (plain-text fragment), then every
+    # all_working proxy with &detour=<landing tag> appended to its name.
     detour_lines = [LANDING_PROXY]
     for uri in all_working:
-        # skip the landing proxy itself if it appears in the pool
         if '109.201.152.181:443' in uri:
             continue
         detour_lines.append(with_detour(uri, LANDING_TAG))
