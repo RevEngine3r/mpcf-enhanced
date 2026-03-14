@@ -6,61 +6,41 @@ vless://00000000-0000-4000-8000-000000000000@45.145.42.170:8005?allowInsecure=1&
 
 vless://00000000-0000-4000-8000-000000000000@8.208.10.113:17817?allowInsecure=1&encryption=none&host=sub.mot.ip-ddns.com&security=tls&sni=sub.mot.ip-ddns.com&type=ws#🇬🇧 13 - GB - VLESS/WS/TLS - 17817
 
-vless://03896a37-db8f-44ed-8ce1-45a1577f6da6@172.67.216.218:443?allowInsecure=1&encryption=none&host=stipulations.gelatin.workers.dev&path=/eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=stipulations.gelatin.workers.dev&type=ws#🇺🇸 32 - US - VLESS/WS/TLS - 443
+vless://034a8ae2-9565-474c-9e91-c0f3a53326cc@3g.vles.space:510?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=gTLxGPaumAT1gY3dEXIbZcr0Ocspb1hdrEG5oBkPOA8&security=reality&sni=cdn.vkvideo.ru&type=tcp#🇨🇭 30 - CH - VLESS/REALITY/PBK/VISION/UTLS - 510
 
 vless://034a8ae2-9565-474c-9e91-c0f3a53326cc@xxx.vles.space:9443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=4iRluJhaeflkqdEO8RLeLxTeTVIhzw9r8Y35fppsTFg&security=reality&sni=sun1-91.userapi.com&type=tcp#🇩🇪 31 - DE - VLESS/REALITY/PBK/VISION/UTLS - 9443
 
-vless://034a8ae2-9565-474c-9e91-c0f3a53326cc@3g.vles.space:510?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=gTLxGPaumAT1gY3dEXIbZcr0Ocspb1hdrEG5oBkPOA8&security=reality&sni=cdn.vkvideo.ru&type=tcp#🇨🇭 30 - CH - VLESS/REALITY/PBK/VISION/UTLS - 510
-
 vless://055e3bd2-10f8-4d9c-8f7d-70b9f659e476@162.159.38.204:443?allowInsecure=1&encryption=none&host=x1.mwu.de5.net&path=/proxyip=sjc.o00o.ooo&security=tls&sni=x1.mwu.de5.net&type=ws#🇺🇸 37 - US - VLESS/WS/TLS - 443
+
+vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc#🇺🇸 36 - US - VLESS/REALITY/PBK/VISION/UTLS - 443
 
 vless://081efe27-f6b8-4f60-aedb-3c9effe9c67d@162.159.152.17:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=80bab3a2.gon-7ye.pages.dev&path=/&security=tls&sni=80bab3a2.gon-7ye.pages.dev&type=ws#🇺🇸 40 - US - VLESS/WS/TLS - 443
 
 vless://081efe27-f6b8-4f60-aedb-3c9effe9c67d@poe.com:443?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=80bab3a2.gon-7ye.pages.dev&type=ws&allowInsecure=1&sni=80bab3a2.gon-7ye.pages.dev#🇺🇸 41 - US - VLESS/WS/TLS - 443
 
-vless://0833debf-4a9e-4c31-a5b7-a88574bddf18@104.18.32.47:443?allowInsecure=1&encryption=none&host=fancy-haze-01e3.ipv4-917.workers.dev&path=/&security=tls&sni=fancy-haze-01e3.ipv4-917.workers.dev&type=ws#🇺🇸 42 - US - VLESS/WS/TLS - 443
-
-vless://0833debf-4a9e-4c31-a5b7-a88574bddf18@162.159.36.20:443?allowInsecure=1&encryption=none&host=fancy-haze-01e3.ipv4-917.workers.dev&path=/&security=tls&sni=fancy-haze-01e3.ipv4-917.workers.dev&type=ws#🇺🇸 43 - US - VLESS/WS/TLS - 443
-
-vless://0833debf-4a9e-4c31-a5b7-a88574bddf18@172.64.155.209:443?allowInsecure=1&encryption=none&host=fancy-haze-01e3.ipv4-917.workers.dev&path=/&security=tls&sni=fancy-haze-01e3.ipv4-917.workers.dev&type=ws#🇺🇸 44 - US - VLESS/WS/TLS - 443
-
-vless://0833debf-4a9e-4c31-a5b7-a88574bddf18@saas.sin.fan:443?allowInsecure=1&encryption=none&host=fancy-haze-01e3.ipv4-917.workers.dev&path=/&security=tls&sni=fancy-haze-01e3.ipv4-917.workers.dev&type=ws#🇺🇸 45 - US - VLESS/WS/TLS - 443
-
 vless://0b93fd13-de5c-4ca5-8530-435bfa2a0955@172.67.173.9:2053?allowInsecure=1&encryption=none&host=025.ELEcTROcELLco-Cf-025.wORkeRS.DeV&path=/eyJqdW5rIjoiblpnQTM1U2tMRVNQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==&security=tls&sni=025.ELEcTROcELLco-Cf-025.wORkeRS.DeV&type=ws#🇺🇸 51 - US - VLESS/WS/TLS - 2053
 
-vless://11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf@104.21.75.235:443?allowInsecure=1&encryption=none&host=ancient-heart-60c5.dpccgizieb.workers.dev&path=/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV&type=ws#🇺🇸 76 - US - VLESS/WS/TLS - 443
+vless://13d2b959-9bc1-40eb-eb69-7856f3495a7f@151.243.3.59:15187?encryption=none&security=none&type=tcp#🇳🇱 82 - NL - VLESS - 15187
 
-vless://11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf@chatgpt.com:443?allowInsecure=1&encryption=none&host=ancient-heart-60c5.dpccgizieb.workers.dev&path=/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&security=tls&sni=ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV&type=ws#🇺🇸 77 - US - VLESS/WS/TLS - 443
+vless://13d2b959-9bc1-40eb-eb69-7856f3495a7f@151.243.3.59:15187?path=/#🇳🇱 83 - NL - VLESS - 15187
 
-vless://1027b850-de79-4a94-b337-eccdac28e141@144.24.126.26:443?allowInsecure=1&encryption=none&host=g.sandesh.qzz.io&path=/vless&security=tls&sni=g.sandesh.qzz.io&type=ws#🇮🇳 72 - IN - VLESS/WS/TLS - 443
+vless://1027b850-de79-4a94-b337-eccdac28e141@144.24.126.26:443?allowInsecure=1&encryption=none&host=g.sandesh.qzz.io&path=/vless&security=tls&sni=g.sandesh.qzz.io&type=ws#🇮🇳 73 - IN - VLESS/WS/TLS - 443
 
-vless://1027b850-de79-4a94-b337-eccdac28e141@g.sandesh.qzz.io:443?type=ws&encryption=none&host=g.sandesh.qzz.io&path=/vless&security=tls&sni=g.sandesh.qzz.io&allowInsecure=1#🇮🇳 74 - IN - VLESS/WS/TLS - 443
+vless://14818654-7689-453a-9a1f-4c72f89782d5@108.165.174.192:2040?encryption=none&fp=chrome&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&security=reality&sid=50ed6f6007515d63&sni=tradingview.com&type=tcp#🇬🇧 85 - GB - VLESS/REALITY/PBK/SID/UTLS - 2040
 
-vless://1027b850-de79-4a94-b337-eccdac28e141@chatgpt.com:443?encryption=none&host=g.sandesh.qzz.io&path=/vless&security=tls&sni=g.sandesh.qzz.io&type=ws#🇺🇸 73 - US - VLESS/WS/TLS - 443
+vless://14818654-7689-453a-9a1f-4c72f89782d5@94.131.104.225:2040?type=tcp&encryption=none&sni=tradingview.com&fp=chrome&security=reality&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&sid=50ed6f6007515d63#🇱🇻 86 - LV - VLESS/REALITY/PBK/SID/UTLS - 2040
 
-vless://13d2b959-9bc1-40eb-eb69-7856f3495a7f@151.243.3.59:15187?encryption=none&security=none&type=tcp#🇳🇱 81 - NL - VLESS - 15187
+vless://1027b850-de79-4a94-b337-eccdac28e141@chatgpt.com:443?encryption=none&host=g.sandesh.qzz.io&path=/vless&security=tls&sni=g.sandesh.qzz.io&type=ws#🇺🇸 74 - US - VLESS/WS/TLS - 443
 
-vless://13d2b959-9bc1-40eb-eb69-7856f3495a7f@151.243.3.59:15187?path=/#🇳🇱 82 - NL - VLESS - 15187
+vless://14818654-7689-453a-9a1f-4c72f89782d5@94.131.104.229:2040?type=tcp&encryption=none&sni=tradingview.com&fp=chrome&security=reality&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&sid=50ed6f6007515d63#🇱🇻 87 - LV - VLESS/REALITY/PBK/SID/UTLS - 2040
 
-vless://14818654-7689-453a-9a1f-4c72f89782d5@108.165.174.192:2040?encryption=none&fp=chrome&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&security=reality&sid=50ed6f6007515d63&sni=tradingview.com&type=tcp#🇬🇧 86 - GB - VLESS/REALITY/PBK/SID/UTLS - 2040
+vless://14818654-7689-453a-9a1f-4c72f89782d5@94.131.104.229:2040?encryption=none&type=tcp&security=reality&fp=chrome&sni=tradingview.com&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&sid=50ed6f6007515d63&spx=/#🇱🇻 88 - LV - VLESS/REALITY/PBK/SID/UTLS - 2040
 
-vless://14818654-7689-453a-9a1f-4c72f89782d5@94.131.104.225:2040?type=tcp&encryption=none&sni=tradingview.com&fp=chrome&security=reality&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&sid=50ed6f6007515d63#🇱🇻 87 - LV - VLESS/REALITY/PBK/SID/UTLS - 2040
+vless://15cbab96-197e-46a5-9042-073b3980c798@213.136.69.8:80?encryption=none&host=fsdns.ectunnelvpn.me&path=/vless&security=none&type=ws#🇫🇷 94 - FR - VLESS/WS - 80
 
-vless://14818654-7689-453a-9a1f-4c72f89782d5@94.131.104.229:2040?type=tcp&encryption=none&sni=tradingview.com&fp=chrome&security=reality&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&sid=50ed6f6007515d63#🇱🇻 88 - LV - VLESS/REALITY/PBK/SID/UTLS - 2040
+vless://15cbab96-197e-46a5-9042-073b3980c798@fsdns.ectunnelvpn.me:80?encryption=none&host=fsdns.ectunnelvpn.me&path=/vless&security=none&type=ws#🇫🇷 95 - FR - VLESS/WS - 80
 
-vless://14818654-7689-453a-9a1f-4c72f89782d5@94.131.104.229:2040?encryption=none&type=tcp&security=reality&fp=chrome&sni=tradingview.com&pbk=1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg&sid=50ed6f6007515d63&spx=/#🇱🇻 89 - LV - VLESS/REALITY/PBK/SID/UTLS - 2040
-
-vless://14e1775b-d92c-455b-8db3-e6c6d61909e0@104.21.80.5:80?encryption=none&host=vpnpro.eshghiabolfazl2009.workers.dev&path=/&security=none&type=ws#🇺🇸 93 - US - VLESS/WS - 80
-
-vless://15cbab96-197e-46a5-9042-073b3980c798@213.136.69.8:80?encryption=none&host=fsdns.ectunnelvpn.me&path=/vless&security=none&type=ws#🇫🇷 95 - FR - VLESS/WS - 80
-
-vless://15cbab96-197e-46a5-9042-073b3980c798@fsdns.ectunnelvpn.me:80?encryption=none&host=fsdns.ectunnelvpn.me&path=/vless&security=none&type=ws#🇫🇷 96 - FR - VLESS/WS - 80
-
-vless://1679af35-6dd6-4c09-ae3b-18f239217f3e@172.66.40.139:443?allowInsecure=1&encryption=none&host=rAyAn-007.pArViN.DpDnS.OrG&path=/&security=tls&sni=rAyAn-007.pArViN.DpDnS.OrG&type=ws#🇺🇸 114 - US - VLESS/WS/TLS - 443
-
-vless://1679af35-6dd6-4c09-ae3b-18f239217f3e@172.66.43.117:443?allowInsecure=1&encryption=none&host=rAyAn-007.pArViN.DpDnS.OrG&path=/&security=tls&sni=rAyAn-007.pArViN.DpDnS.OrG&type=ws#🇺🇸 115 - US - VLESS/WS/TLS - 443
-
-vless://1679af35-6dd6-4c09-ae3b-18f239217f3e@adf.ly:443?encryption=none&security=tls&sni=rAyAn-007.pArViN.DpDnS.OrG&allowInsecure=1&type=ws&host=rAyAn-007.pArViN.DpDnS.OrG&path=/?ed=2560fp=chrome#🇺🇸 116 - US - VLESS/WS/TLS - 443
+vless://17cdeaa0-d9f0-443d-8f14-80cef1de5529@ma-1.vpnd.io:12574?type=tcp&security=reality&encryption=none&pbk=_rRqFVyD5EgBQt9YWutbSjidLJEjoLcxBejrytypBDU&fp=random&sni=amazon.com&sid=7fa5d084&spx=/&flow=xtls-rprx-vision#🇲🇦 117 - MA - VLESS/REALITY/PBK/SID/VISION/UTLS - 12574
 
 vless://18805ff3-b420-45de-af18-93be14024ae8@47.251.25.74:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.amazon.com&fp=chrome&security=reality&pbk=H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8#🇺🇸 123 - US - VLESS/REALITY/PBK/VISION/UTLS - 443
 
@@ -76,35 +56,23 @@ vless://1e878456-0f00-4a85-99a6-1d69bdc62e3d@152.53.116.71:443?encryption=none&t
 
 vless://1e97f262-296c-45cf-afc0-6ed86f768013@57.129.119.115:443?encryption=none&path=/&security=none&type=ws#🇩🇪 148 - DE - VLESS/WS - 443
 
-vless://203e82ed-a6b7-416a-b04e-ba8a20d8a0c4@104.21.23.22:443?path=/eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119&security=tls&encryption=none&insecure=0&host=014.ELectRoceLlCO-Cf-014.worKeRS.dev&type=ws&allowInsecure=0&sni=014.ELectRoceLlCO-Cf-014.worKeRS.dev#🇺🇸 151 - US - VLESS/WS/TLS - 443
+vless://203e82ed-a6b7-416a-b04e-ba8a20d8a0c4@104.21.23.22:443?path=/eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119&security=tls&encryption=none&insecure=0&host=014.ELectRoceLlCO-Cf-014.worKeRS.dev&type=ws&allowInsecure=0&sni=014.ELectRoceLlCO-Cf-014.worKeRS.dev#🇺🇸 152 - US - VLESS/WS/TLS - 443
 
-vless://20e295db-a6af-4006-bfd6-91453f169968@mci.buzzmuzzpanel.online:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=057.electrocellco-cf-057.workers.dev&path=/eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=057.ElecTRocElLco-Cf-057.wOrKeRs.dEv&type=ws#🇷🇺 152 - RU - VLESS/WS/TLS - 443
+vless://20e295db-a6af-4006-bfd6-91453f169968@mci.buzzmuzzpanel.online:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=057.electrocellco-cf-057.workers.dev&path=/eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=057.ElecTRocElLco-Cf-057.wOrKeRs.dEv&type=ws#🇷🇺 153 - RU - VLESS/WS/TLS - 443
 
-vless://22620697-6fba-4b71-a348-0cef2f7bec1e@104.18.44.182:443?allowInsecure=1&encryption=none&host=do88.cmddo.ggff.net&path=/&security=tls&sni=do88.cmddo.ggff.net&type=ws#🇺🇸 156 - US - VLESS/WS/TLS - 443
+vless://22620697-6fba-4b71-a348-0cef2f7bec1e@104.18.44.182:443?allowInsecure=1&encryption=none&host=do88.cmddo.ggff.net&path=/&security=tls&sni=do88.cmddo.ggff.net&type=ws#🇺🇸 157 - US - VLESS/WS/TLS - 443
 
-vless://25efc727-e853-49ba-9609-3c20009d0e7a@104.18.13.229:2052?encryption=none&host=winbiss-0tpka6-v1.winbiss.workers.dev&path=/&security=none&type=ws#🇺🇸 165 - US - VLESS/WS - 2052
+vless://237120d4-6f8e-47de-b50c-2c8218a720df@45.88.182.24:25380?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=G7LvWyxJWO4f-YKZM-Nf7n3hd3AHfThLX3aOIC2qKXg&sid=d6cd&type=tcp&headerType=none&path=/#🇰🇷 163 - KR - VLESS/REALITY/PBK/SID/UTLS - 25380
 
-vless://237120d4-6f8e-47de-b50c-2c8218a720df@45.88.182.24:25380?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=G7LvWyxJWO4f-YKZM-Nf7n3hd3AHfThLX3aOIC2qKXg&sid=d6cd&type=tcp&headerType=none&path=/#🇰🇷 162 - KR - VLESS/REALITY/PBK/SID/UTLS - 25380
+vless://25efc727-e853-49ba-9609-3c20009d0e7a@104.18.13.229:2052?encryption=none&host=winbiss-0tpka6-v1.winbiss.workers.dev&path=/&security=none&type=ws#🇺🇸 166 - US - VLESS/WS - 2052
 
-vless://25efc727-e853-49ba-9609-3c20009d0e7a@104.18.13.229:2052?path=/?ed=2560&security=none&encryption=none&host=winbiss-0tpka6-v1.winbiss.workers.dev&type=ws#🇺🇸 166 - US - VLESS/WS - 2052
-
-vless://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?security=tls&encryption=none&sni=blackshadow.dpdns.org&fp=chrome&type=ws&host=blackshadow.dpdns.org&path=/44.209.52.7-443&allow_insecure=0#🇺🇸 193 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://2dd1a15d-1426-413a-a3b8-a645788bc844@85.159.229.164:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426&sni=irl.speedload.online#🇮🇪 197 - IE - VLESS/REALITY/PBK/SID/VISION/UTLS - 8443
-
-vless://2e71d8fc-d2e8-44fc-89bd-c8a449a193aa@104.24.45.247:80?encryption=none&host=odd-bread-435d.ahmadrezasteamacc.workers.dev&path=/&security=none&type=ws#🇺🇸 199 - US - VLESS/WS - 80
+vless://25efc727-e853-49ba-9609-3c20009d0e7a@104.18.13.229:2052?path=/?ed=2560&security=none&encryption=none&host=winbiss-0tpka6-v1.winbiss.workers.dev&type=ws#🇺🇸 167 - US - VLESS/WS - 2052
 
 vless://309fa273-6579-4cb2-9143-7cad50401eba@188.34.193.153:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&sid=7cad5040#🇩🇪 206 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
 vless://309fa273-6579-4cb2-9143-7cad50401eba@46.62.128.207:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#🇫🇮 207 - FI - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
 vless://305419ed-4ef5-3e5a-8d48-b803c58853d3@chatgpt.com:443?alpn=h3,h2&encryption=none&host=s6.oboob.cn&path=/db10248afdcb0daf&security=tls&sni=s6.oboob.cn&type=ws#🇺🇸 205 - US - VLESS/WS/TLS - 443
-
-vless://35b71a84-5ea5-4498-8733-0bab71803700@159.203.165.63:42503?encryption=none&path=/35b71a84&security=none&type=ws#🇺🇸 215 - US - VLESS/WS - 42503
-
-vless://36a857e4-f3d4-43aa-8b90-d7da849da989@002.inc-electrocell-001-002.workers.dev:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=002.inc-electrocell-001-002.workers.dev&path=/eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=002.Inc-ElectROcElL-001-002.WoRKERS.DEV&type=ws#🇺🇸 217 - US - VLESS/WS/TLS - 443
-
-vless://36a857e4-f3d4-43aa-8b90-d7da849da989@002.inc-electrocell-001-002.workers.dev:443?security=tls&encryption=none&sni=002.Inc-ElectROcElL-001-002.WoRKERS.DEV&alpn=http/1.1&type=ws&host=002.inc-electrocell-001-002.workers.dev&path=/eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=#🇺🇸 218 - US - VLESS/WS/TLS - 443
 
 vless://38715482-05f5-4ea0-aebf-60d3b8c71f30@104.21.0.128:443?allowInsecure=1&encryption=none&host=myserviran.serviran.workers.dev&path=/?ed&security=tls&sni=myserviran.serviran.workers.dev&type=ws#🇺🇸 219 - US - VLESS/WS/TLS - 443
 
@@ -148,11 +116,9 @@ vless://405ba2d6-7fcb-4cdd-9c77-4ecc616d77c8@93.94.51.210:443?allowInsecure=1&en
 
 vless://3f9c8463-8610-3ed8-86c8-a26713067825@104.26.1.221:443?encryption=none&security=tls&sni=dabaius2.sylu.net&fp=chrome&insecure=1&type=ws&host=dabaius2.sylu.net&path=/db10240eb751d6ab#🇺🇸 283 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://40afa553-1745-4f62-a380-4163c7bb4870@restless-dew-894b.amirhost4.workers.dev:443?allowInsecure=1&encryption=none&host=restless-dew-894b.amirhost4.workers.dev&security=tls&sni=restless-dew-894b.amirhost4.workers.dev&type=ws#🇺🇸 287 - US - VLESS/WS/TLS - 443
+vless://427d85cd-a2a8-4668-8118-0d43d2d57f77@104.17.192.0:443?encryption=none&security=tls&sni=asmaos.uk&type=ws&host=asmaos.uk&path=/?ed=2560#🇺🇸 296 - US - VLESS/WS/TLS - 443
 
 vless://426c7830-1d5c-11f1-add8-52ac00d0e60c@195.123.216.159:10004?encryption=none&path=/vpnjantit&security=none&type=ws#🇳🇱 295 - NL - VLESS/WS - 10004
-
-vless://427d85cd-a2a8-4668-8118-0d43d2d57f77@104.17.192.0:443?encryption=none&security=tls&sni=asmaos.uk&type=ws&host=asmaos.uk&path=/?ed=2560#🇺🇸 296 - US - VLESS/WS/TLS - 443
 
 vless://4307e484-6c8b-46d0-9df4-8b3983ab27b4@198.41.193.151:80?encryption=none&security=none&sni=198.41.193.151&fp=chrome&type=ws&host=029.electrocellco-cf-029.workers.dev&path=/eyJqdW5rIjoibWNPczJHelJTUmpXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNzcuMjM4LjIzMS4xNzkiLCIzMS40NC4yLjU3Il19?ed=2560#🇺🇸 297 - US - VLESS/WS/UTLS - 80
 
@@ -168,9 +134,9 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.197:23576?type=tcp&encryp
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.197:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇺🇸 313 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇺🇸 314 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
-
 vless://48ddd7e3-5d31-46ab-9153-16c0e4d92adc@139.59.3.70:24725?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=dash.cloudflare.com&fp=chrome&security=reality&pbk=PAAYOscWvc6-DIWjJ8cHWpgX-xkMUVmu8Nz24itmo34#🇮🇳 310 - IN - VLESS/REALITY/PBK/VISION/UTLS - 24725
+
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇺🇸 314 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.198:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇺🇸 315 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
@@ -184,9 +150,9 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.216:23576?type=tcp&encryp
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@15.204.97.219:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇺🇸 320 - US - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 321 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
-
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.12:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 322 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
+
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 321 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.19:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 323 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
@@ -202,23 +168,23 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.34:23576?type=tcp&encryp
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.80:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 329 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.86:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 330 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.8:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 332 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 331 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
-
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.8:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 332 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.93:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 333 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.96:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 334 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.86:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 330 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
+
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.97:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 335 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.98:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇳🇱 336 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.49.1:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇩🇪 337 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
-
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.180:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇩🇪 338 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
+
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.49.1:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇩🇪 337 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@57.129.53.181:23576?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#🇩🇪 339 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 23576
 
@@ -250,25 +216,13 @@ vless://5152ff5b-56f7-400c-bc1d-2f1dd1ac1e13@104.17.148.22:443?path=/eyJqdW5rIjo
 
 vless://5152ff5b-56f7-400c-bc1d-2f1dd1ac1e13@www.speedtest.net:443?path=/eyJqdW5rIjoiZ2FTSnpWSlFGbENDM0xrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTI1LjcuMjQuMjUxIl19?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=010.electrocellco-cf-010.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=010.elECtROcEllCo-CF-010.woRKerS.DEv#🇺🇸 392 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://532a9115-aee7-4d39-9638-1e5146de075b@172.67.215.39:443?allowInsecure=1&encryption=none&host=muddy-math-c1fc.tmpnriqueau89.workers.dev&path=/js/cHlpcC55Z2tray5kcGRucy5vcmc=/&security=tls&sni=muddy-math-c1fc.tmpnriqueau89.workers.dev&type=ws#🇺🇸 395 - US - VLESS/WS/TLS - 443
-
 vless://5238a315-4427-4915-a1de-4978e3029a1c@www.speedtest.net:2096?path=/eyJqdW5rIjoiZjBrTGJtaWQ2MSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0&security=tls&encryption=none&insecure=0&host=long-mode-2783.sepna114.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=loNg-modE-2783.SEpna114.WOrkERs.dEV#🇺🇸 394 - US - VLESS/WS/TLS/UTLS - 2096
-
-vless://532a9115-aee7-4d39-9638-1e5146de075b@muddy-math-c1fc.tmpnriqueau89.workers.dev:443?allowInsecure=1&encryption=none&host=muddy-math-c1fc.tmpnriqueau89.workers.dev&path=/js/cHlpcC55Z2tray5kcGRucy5vcmc=/&security=tls&sni=muddy-math-c1fc.tmpnriqueau89.workers.dev&type=ws#🇺🇸 396 - US - VLESS/WS/TLS - 443
-
-vless://532a9115-aee7-4d39-9638-1e5146de075b@muddy-math-c1fc.tmpnriqueau89.workers.dev:443?security=tls&encryption=none&sni=muddy-math-c1fc.tmpnriqueau89.workers.dev&alpn=h2,http/1.1&fp=chrome&type=ws&host=muddy-math-c1fc.tmpnriqueau89.workers.dev&path=/js/cHlpcC55Z2tray5kcGRucy5vcmc=/?ed=2048&allow_insecure=0#🇺🇸 397 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://53342b53-157e-4475-9f3a-40439434e689@104.18.173.174:80?encryption=none&host=c.iamdt.dpdns.org&path=/&security=none&type=ws#🇺🇸 398 - US - VLESS/WS - 80
 
 vless://53cd8178-2ee6-43d9-a2a7-881f287fd408@172.234.130.82:10001?encryption=none&security=reality&sni=yahoo.com&fp=firefox&pbk=kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM&sid=1a24af87&type=tcp&headerType=none#🇺🇸 399 - US - VLESS/REALITY/PBK/SID/UTLS - 10001
 
-vless://55cb8179-ce11-4ec8-a03c-333f797265f9@162.159.14.88:80?type=ws&encryption=none&host=long-forest-ac72.salari1382m.workers.dev&path=/#🇺🇸 404 - US - VLESS/WS - 80
+vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@90909.sbs:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=dropbox.com&type=tcp#🇨🇭 401 - CH - VLESS/REALITY/PBK/VISION/UTLS - 8443
 
-vless://54e5a989-5938-43ce-ba58-026ddbfd4d7b@45.141.234.159:30724?security=reality&encryption=none&pbk=KcWxOI6Y2kqFd_cg4bu-hWBZDlsJhT6TyRHhwFAHa0A&headerType=none&fp=chrome&spx=/&type=tcp&sni=yandex.ru&sid=eab8ab08e4d6faa0#🇮🇪 401 - IE - VLESS/REALITY/PBK/SID/UTLS - 30724
-
-vless://553faafb-9d5e-4986-a2ab-450ad9fc6a3f@90909.sbs:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=dropbox.com&type=tcp#🇨🇭 402 - CH - VLESS/REALITY/PBK/VISION/UTLS - 8443
-
-vless://57a5f6b3-ea58-4d4e-ad9c-a9830f148184@93.152.207.254:45884?security=reality&encryption=none&pbk=_GoR9cR6JOUmQ1PM-s2GsHiy6OuIo1Ek1a7lhNKkvj4&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&type=tcp&sni=yahoo.com&sid=9a#🇫🇮 411 - FI - VLESS/REALITY/PBK/SID/UTLS - 45884
+vless://57a5f6b3-ea58-4d4e-ad9c-a9830f148184@93.152.207.254:45884?security=reality&encryption=none&pbk=_GoR9cR6JOUmQ1PM-s2GsHiy6OuIo1Ek1a7lhNKkvj4&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&type=tcp&sni=yahoo.com&sid=9a#🇫🇮 410 - FI - VLESS/REALITY/PBK/SID/UTLS - 45884
 
 vless://5b002005-7fb1-413e-8cbd-08e50c87c2ea@104.18.4.46:8880?type=ws&encryption=none&host=wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev#🇺🇸 426 - US - VLESS/WS - 8880
 
@@ -277,26 +231,6 @@ vless://5ac2d3b6-33cc-4442-9c0b-ae3909cabaae@31.42.190.76:443?encryption=none&pa
 vless://5b002005-7fb1-413e-8cbd-08e50c87c2ea@104.18.5.46:8880?encryption=none&host=wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev&path=/?@V2rayBaaz&security=none&type=ws#🇺🇸 427 - US - VLESS/WS - 8880
 
 vless://5b002005-7fb1-413e-8cbd-08e50c87c2ea@africa.visa.com:8880?type=ws&encryption=none&host=wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev&path=/?ed=2560Join---V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz#🇺🇸 428 - US - VLESS/WS - 8880
-
-vless://5db4fb64-d99f-4745-b550-9e937bd2f448@172.66.202.57:443?type=ws&encryption=none&host=steep-poetry-829c.false-mossy-caucus.workers.dev&path=/&security=tls&sni=steep-poetry-829c.false-mossy-caucus.workers.dev&allowInsecure=1#🇺🇸 440 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@162.159.39.18:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 441 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@162.159.44.235:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 442 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@162.159.45.153:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 443 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@172.64.52.178:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 445 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@162.159.45.173:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 444 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@172.64.53.115:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 446 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@172.64.53.126:443?allowInsecure=1&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws#🇺🇸 447 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@chatgpt.com:443?encryption=none&security=tls&sni=powered-by-surena.user68f797c2f3e1b.workers.dev&type=ws&host=powered-by-surena.user68f797c2f3e1b.workers.dev&path=/?ed#🇺🇸 449 - US - VLESS/WS/TLS - 443
-
-vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@chatgpt.com:443?path=/?ed&security=tls&encryption=none&host=powered-by-surena.user68f797c2f3e1b.workers.dev&fp=chrome&type=ws&sni=powered-by-surena.user68f797c2f3e1b.workers.dev#🇺🇸 450 - US - VLESS/WS/TLS/UTLS - 443
 
 vless://5e8fd1a8-45d1-407a-89f2-de14d766133a@178.22.31.68:8443?allowInsecure=1&alpn=h2,http/1.1&encryption=none&security=tls&sni=at17.fastlanehosting.ru&type=tcp#🇦🇹 454 - AT - VLESS/TLS - 8443
 
@@ -308,15 +242,15 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.32.47:2096?allowInsecure=1&e
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.32.47:8443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/?Telegram🇨🇳+@WangCai2&security=tls&sni=sni.111000.dynv6.net&type=ws#🇺🇸 476 - US - VLESS/WS/TLS - 8443
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.21.7.193:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=sant.atira-40.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=sant.atira-40.workers.dev&type=ws#🇺🇸 477 - US - VLESS/WS/TLS - 443
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.26.7.205:2096?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=/?ed&security=tls&sni=sni.111000.indevs.in&type=ws#🇺🇸 478 - US - VLESS/WS/TLS - 2096
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.21.7.193:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=sant.atira-40.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=sant.atira-40.workers.dev&type=ws#🇺🇸 477 - US - VLESS/WS/TLS - 443
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.64.222:443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/&security=tls&sni=sni.111000.dynv6.net&type=ws#🇺🇸 480 - US - VLESS/WS/TLS - 443
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@116.203.233.255:443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=&security=tls&sni=sni.111000.v6.navy&type=ws#🇩🇪 479 - DE - VLESS/WS/TLS - 443
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.64.226:443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=&security=tls&sni=sni.111000.dynv6.net&type=ws#🇺🇸 481 - US - VLESS/WS/TLS - 443
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@116.203.233.255:443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=&security=tls&sni=sni.111000.v6.navy&type=ws#🇩🇪 479 - DE - VLESS/WS/TLS - 443
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.84.72.18:443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=&security=tls&sni=sni.111000.dynv6.net&type=ws#🇺🇸 482 - US - VLESS/WS/TLS - 443
 
@@ -328,9 +262,9 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@155.46.167.138:2096?allowInsecure=1
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.94.77.169:2053?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&path=/&security=tls&sni=sni.111000.v6.navy&type=ws#🇫🇷 485 - FR - VLESS/WS/TLS - 2053
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.12.151:443?path=/&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#🇺🇸 489 - US - VLESS/WS/TLS - 443
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@146.59.230.8:8443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&security=tls&sni=sni.111000.v6.navy&type=ws#🇫🇷 486 - FR - VLESS/WS/TLS - 8443
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@159.223.24.65:443?path=/?ed=2560&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#🇩🇪 488 - DE - VLESS/WS/TLS - 443
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.12.151:443?path=/&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#🇺🇸 489 - US - VLESS/WS/TLS - 443
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@162.159.153.231:2096?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=/?ed&security=tls&sni=sni.111000.indevs.in&type=ws#🇺🇸 490 - US - VLESS/WS/TLS - 2096
 
@@ -342,27 +276,25 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.155.209:2096?allowInsecure=1
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.155.209:8443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/?Telegram🇨🇳 @WangCai2&security=tls&sni=sni.111000.dynv6.net&type=ws#🇺🇸 494 - US - VLESS/WS/TLS - 8443
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@146.59.230.8:8443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&security=tls&sni=sni.111000.v6.navy&type=ws#🇫🇷 486 - FR - VLESS/WS/TLS - 8443
-
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.67.187.251:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=sant.atira-40.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=sant.atira-40.workers.dev&type=ws#🇺🇸 495 - US - VLESS/WS/TLS - 443
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@176.124.223.138:2096?path=/?ed=2560&telegram🇨🇳+@wangcai2&security=tls&encryption=none&host=sni.111000.indevs.in&fp=chrome&type=ws&sni=sni.111000.indevs.in#🇨🇳 497 - CN - VLESS/WS/TLS/UTLS - 2096
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.67.192.0:443?allowInsecure=1&encryption=none&host=nameless-heart-02e4.ariya-696.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=nameless-heart-02e4.ariya-696.workers.dev&type=ws#🇺🇸 496 - US - VLESS/WS/TLS - 443
 
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.67.187.251:443?allowInsecure=1&alpn=http/1.1&encryption=none&host=sant.atira-40.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=sant.atira-40.workers.dev&type=ws#🇺🇸 495 - US - VLESS/WS/TLS - 443
+
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@176.124.223.238:2096?encryption=none&security=tls&sni=sni.jpmj.dev&type=ws&host=sni.jpmj.dev&path=/?ed=2560#🇨🇳 498 - CN - VLESS/WS/TLS - 2096
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@178.33.161.186:8443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&security=tls&sni=sni.111000.v6.navy&type=ws#🇪🇸 499 - ES - VLESS/WS/TLS - 8443
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@181.214.1.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&path=/&security=tls&sni=sni.jpmj.dev&type=ws#🇳🇱 500 - NL - VLESS/WS/TLS - 2096
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@178.33.161.186:8443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&security=tls&sni=sni.111000.v6.navy&type=ws#🇪🇸 499 - ES - VLESS/WS/TLS - 8443
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@184.174.80.238:2096?encryption=none&security=tls&sni=sni.jpmj.dev&type=ws&host=sni.jpmj.dev&path=/?ed=2560#🇺🇸 501 - US - VLESS/WS/TLS - 2096
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.158.133.138:2096?path=/?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=&security=tls&encryption=none&insecure=1&host=sni.111000.indevs.in&type=ws&allowInsecure=1&sni=sni.111000.indevs.in#🇧🇪 502 - BE - VLESS/WS/TLS - 2096
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.16.110.238:2096?path=/?ed=2560&Telegram🇨🇳+@WangCai2&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&type=ws&allowInsecure=0&sni=sni.jpmj.dev#🇫🇷 503 - FR - VLESS/WS/TLS - 2096
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.162.229.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&security=tls&sni=sni.jpmj.dev&type=ws#🇬🇧 504 - GB - VLESS/WS/TLS - 2096
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.16.110.238:2096?path=/?ed=2560&Telegram🇨🇳+@WangCai2&security=tls&encryption=none&insecure=0&host=sni.jpmj.dev&type=ws&allowInsecure=0&sni=sni.jpmj.dev#🇫🇷 503 - FR - VLESS/WS/TLS - 2096
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.162.231.138:2096?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=/&security=tls&sni=sni.111000.indevs.in&type=ws#🇬🇧 505 - GB - VLESS/WS/TLS - 2096
 
@@ -376,15 +308,15 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.244.122.138:2096?allowInsecure=
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@190.93.244.138:2096?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=/&security=tls&sni=sni.111000.indevs.in&type=ws#🇨🇷 511 - CR - VLESS/WS/TLS - 2096
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.245.108.104:2053?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=/?telegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2=&security=tls&sni=sni.111000.indevs.in&type=ws#🇩🇪 510 - DE - VLESS/WS/TLS - 2053
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.0.54.238:2096?path=/?ed=2560&telegram🇨🇳+@wangcai2&security=tls&encryption=none&insecure=1&host=sni.jpmj.dev&fp=chrome&type=ws&allowInsecure=1&sni=sni.jpmj.dev#🇺🇸 513 - US - VLESS/WS/TLS/UTLS - 2096
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@194.59.5.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&path=/?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=&security=tls&sni=sni.jpmj.dev&type=ws#🇰🇿 516 - KZ - VLESS/WS/TLS - 2096
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.245.108.104:2053?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&path=/?telegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2=&security=tls&sni=sni.111000.indevs.in&type=ws#🇩🇪 510 - DE - VLESS/WS/TLS - 2053
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@194.36.55.138:2096?encryption=none&security=tls&sni=sni.111000.indevs.in&type=ws&host=sni.111000.indevs.in&path=/?ed=2560#🇬🇧 515 - GB - VLESS/WS/TLS - 2096
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@193.37.70.98:2053?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#🇩🇪 514 - DE - VLESS/WS/TLS - 2053
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@194.59.5.238:2096?allowInsecure=1&encryption=none&host=sni.jpmj.dev&path=/?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=&security=tls&sni=sni.jpmj.dev&type=ws#🇰🇿 516 - KZ - VLESS/WS/TLS - 2096
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@195.85.23.138:2096?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#🇨🇿 517 - CZ - VLESS/WS/TLS - 2096
 
@@ -396,9 +328,9 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@216.205.52.138:2096?encryption=none
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@212.34.152.234:8443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=&security=tls&sni=sni.111000.dynv6.net&type=ws#🇳🇱 520 - NL - VLESS/WS/TLS - 8443
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.43.179.238:2096?encryption=none&security=tls&sni=sni.jpmj.dev&type=ws&host=sni.jpmj.dev&path=/?ed=2560#🇰🇿 523 - KZ - VLESS/WS/TLS - 2096
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.192.237.186:8443?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#🇩🇪 522 - DE - VLESS/WS/TLS - 8443
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.43.179.238:2096?encryption=none&security=tls&sni=sni.jpmj.dev&type=ws&host=sni.jpmj.dev&path=/?ed=2560#🇰🇿 523 - KZ - VLESS/WS/TLS - 2096
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.59.121.227:8443?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#🇫🇷 524 - FR - VLESS/WS/TLS - 8443
 
@@ -424,9 +356,9 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@87.120.92.150:8443?allowInsecure=1&
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.218.78.149:8443?allowInsecure=1&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#🇫🇷 536 - FR - VLESS/WS/TLS - 8443
 
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@stock.hostmonit.com:443?allowInsecure=1&encryption=none&host=empty-dawn-c148.elenac4.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=empty-dawn-c148.elenac4.workers.dev&type=ws#🇺🇸 539 - US - VLESS/WS/TLS - 443
-
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.218.78.167:443?path=/&security=tls&encryption=none&insecure=0&host=sni.111000.indevs.in&type=ws&allowInsecure=0&sni=sni.111000.indevs.in#🇫🇷 537 - FR - VLESS/WS/TLS - 443
+
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@stock.hostmonit.com:443?allowInsecure=1&encryption=none&host=empty-dawn-c148.elenac4.workers.dev&path=/sni.111000.dynv6.net/&security=tls&sni=empty-dawn-c148.elenac4.workers.dev&type=ws#🇺🇸 539 - US - VLESS/WS/TLS - 443
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@90.156.254.74:443?allowInsecure=1&encryption=none&host=sni.111000.v6.navy&path=/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=&security=tls&sni=sni.111000.v6.navy&type=ws#🇱🇻 538 - LV - VLESS/WS/TLS - 443
 
@@ -434,21 +366,19 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@64.227.174.213:2053?path=/?ed=2560&
 
 vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@144.31.129.38:443?allowInsecure=1&encryption=none&security=tls&sni=alcdn2.suio.me&type=tcp#🇦🇱 550 - AL - VLESS/TLS - 443
 
-vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@45.144.53.229:443?allowInsecure=1&encryption=none&security=tls&sni=ficdn16.suio.me&type=tcp#🇫🇮 551 - FI - VLESS/TLS - 443
-
 vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@alcdn2.suio.me:443?allowInsecure=1&encryption=none&security=tls&sni=alcdn2.suio.me&type=tcp#🇦🇱 552 - AL - VLESS/TLS - 443
 
-vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@ficdn16.suio.me:443?allowInsecure=1&encryption=none&security=tls&sni=ficdn16.suio.me&type=tcp#🇫🇮 553 - FI - VLESS/TLS - 443
+vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@45.144.53.229:443?allowInsecure=1&encryption=none&security=tls&sni=ficdn16.suio.me&type=tcp#🇫🇮 551 - FI - VLESS/TLS - 443
 
 vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@nlcdn7.suio.me:443?security=tls&encryption=none&headerType=none&type=tcp&sni=nlcdn7.suio.me#🇳🇱 554 - NL - VLESS/TLS - 443
 
 vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@nlcdn7.suio.me:443?security=tls&encryption=none&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=nlcdn7.suio.me#🇳🇱 555 - NL - VLESS/TLS - 443
 
+vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@ficdn16.suio.me:443?allowInsecure=1&encryption=none&security=tls&sni=ficdn16.suio.me&type=tcp#🇫🇮 553 - FI - VLESS/TLS - 443
+
 vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@plcdn17.suio.me:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=plcdn17.suio.me#🇵🇱 556 - PL - VLESS/TLS/UTLS - 443
 
 vless://62ad5a48-f452-4868-b7eb-d27df9b3d723@secdn14.suio.me:443?allowInsecure=1&encryption=none&security=tls&sni=secdn14.suio.me&type=tcp#🇸🇪 557 - SE - VLESS/TLS - 443
-
-vless://65e542e0-0690-4787-b7e3-a4706013097d@vps.jentago.web.id:80?type=ws&encryption=none&host=vps.jentago.web.id&path=/vless#🇸🇬 579 - SG - VLESS/WS - 80
 
 vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.16.250.22:2096?allowInsecure=1&encryption=none&host=ca.adobe-connect.top&path=/&security=tls&sni=ca.adobe-connect.top&type=ws#🇺🇸 582 - US - VLESS/WS/TLS - 2096
 
@@ -464,81 +394,69 @@ vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@chatgpt.com:2096?allowInsecure=1&al
 
 vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@chatgpt.com:2096?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=ca.adobe-connect.top&fp=chrome&type=ws&allowInsecure=1&sni=ca.adobe-connect.top#🇺🇸 588 - US - VLESS/WS/TLS/UTLS - 2096
 
-vless://69d38faa-21a1-4d18-82cb-796a942c181b@104.17.46.112:443?allowInsecure=1&encryption=none&host=sfsl.ardomains1.dpdns.org&path=/&security=tls&sni=sfsl.ardomains1.dpdns.org&type=ws#🇺🇸 590 - US - VLESS/WS/TLS - 443
-
-vless://69d38faa-21a1-4d18-82cb-796a942c181b@104.17.46.112:80?encryption=none&host=sfsl.ardomains1.dpdns.org&security=none&type=ws#🇺🇸 591 - US - VLESS/WS - 80
-
-vless://69d38faa-21a1-4d18-82cb-796a942c181b@172.67.111.41:443?allowInsecure=1&encryption=none&host=sfsl.ardomains1.dpdns.org&path=/&security=tls&sni=sfsl.ardomains1.dpdns.org&type=ws#🇺🇸 592 - US - VLESS/WS/TLS - 443
-
 vless://6a719f2b-b629-462d-975a-9c0daa3edb75@chatgpt.com:2083?path=/QDHqawq0xGrFP7Pa/MTU4LjE4MC4xMi4xMTc=?ed=2560&security=tls&encryption=none&insecure=0&host=raviddd.pages.dev&fp=chrome&type=ws&allowInsecure=0&sni=rAviDdD.paGEs.DEv#🇺🇸 593 - US - VLESS/WS/TLS/UTLS - 2083
 
-vless://73a4456a-0442-4550-8b4f-c719871a4eeb@chatgpt.com:443?security=tls&type=ws&host=011.electrocellco-cf-011.workers.dev&path=/eyJqdW5rIjoibWRiMjNWaUwxNHVWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMjE3LjE0Mi4yMzYuOTMiXX0=?ed=2560&sni=011.electrOCELlCO-CF-011.WorKERS.dEV&fp=chrome#🇺🇸 620 - US - VLESS/WS/TLS/UTLS - 443
+vless://75e13bcc-139b-4fe7-8525-548c8cfca08d@144.76.188.130:443?encryption=none&path=/&security=none&type=ws#🇩🇪 624 - DE - VLESS/WS - 443
 
-vless://73d17f62-d0c0-4c90-903c-a2b3f3806cca@104.19.151.106:80?encryption=none&host=fragrant-tooth-a5b7.cajeba6448.workers.dev&path=/&security=none&type=ws#🇺🇸 621 - US - VLESS/WS - 80
+vless://77777777-6663-4ef2-b26b-ed2d70642678@104.18.42.163:2087?allowInsecure=1&encryption=none&host=8fbxjhscv17.fx02.ccwu.cc&path=/&security=tls&sni=8fbxjhscv17.fx02.ccwu.cc&type=ws#🇺🇸 628 - US - VLESS/WS/TLS - 2087
 
-vless://761de185-8b90-407c-89ad-6be8d880f6f8@162.159.12.102:8443?allowInsecure=1&encryption=none&host=xrqj.pages.dev&path=/friends/player/anime&security=tls&sni=xrqj.pages.dev&type=ws#🇺🇸 626 - US - VLESS/WS/TLS - 8443
+vless://77777777-6663-4ef2-b26b-ed2d70642678@172.64.145.202:2087?allowInsecure=1&encryption=none&host=afxmsv51.fx02.ccwu.cc&path=/&security=tls&sni=afxmsv51.fx02.ccwu.cc&type=ws#🇺🇸 629 - US - VLESS/WS/TLS - 2087
 
-vless://75e13bcc-139b-4fe7-8525-548c8cfca08d@144.76.188.130:443?encryption=none&path=/&security=none&type=ws#🇩🇪 625 - DE - VLESS/WS - 443
+vless://77777777-6663-4ef2-b26b-ed2d70642678@172.64.145.93:2087?allowInsecure=1&encryption=none&host=8fbxjhscv17.fx02.ccwu.cc&path=/&security=tls&sni=8fbxjhscv17.fx02.ccwu.cc&type=ws#🇺🇸 630 - US - VLESS/WS/TLS - 2087
 
-vless://761de185-8b90-407c-89ad-6be8d880f6f8@162.159.44.105:443?allowInsecure=1&encryption=none&host=xrqj.pages.dev&path=/list/player/teacher&security=tls&sni=xrqj.pages.dev&type=ws#🇺🇸 627 - US - VLESS/WS/TLS - 443
+vless://77777777-6663-4ef2-b26b-ed2d70642678@cf.9999669.xyz:2087?allowInsecure=1&encryption=none&host=hfnb8xmvw3h14.fx02.ccwu.cc&path=/&security=tls&sni=hfnb8xmvw3h14.fx02.ccwu.cc&type=ws#🇺🇸 631 - US - VLESS/WS/TLS - 2087
 
-vless://77777777-6663-4ef2-b26b-ed2d70642678@104.18.42.163:2087?allowInsecure=1&encryption=none&host=8fbxjhscv17.fx02.ccwu.cc&path=/&security=tls&sni=8fbxjhscv17.fx02.ccwu.cc&type=ws#🇺🇸 629 - US - VLESS/WS/TLS - 2087
-
-vless://77777777-6663-4ef2-b26b-ed2d70642678@172.64.145.202:2087?allowInsecure=1&encryption=none&host=afxmsv51.fx02.ccwu.cc&path=/&security=tls&sni=afxmsv51.fx02.ccwu.cc&type=ws#🇺🇸 630 - US - VLESS/WS/TLS - 2087
-
-vless://77777777-6663-4ef2-b26b-ed2d70642678@172.64.145.93:2087?allowInsecure=1&encryption=none&host=8fbxjhscv17.fx02.ccwu.cc&path=/&security=tls&sni=8fbxjhscv17.fx02.ccwu.cc&type=ws#🇺🇸 631 - US - VLESS/WS/TLS - 2087
-
-vless://77777777-6663-4ef2-b26b-ed2d70642678@www.shopify.com:2087?allowInsecure=1&encryption=none&host=8fbxjhscv17.fx02.ccwu.cc&path=/&security=tls&sni=8fbxjhscv17.fx02.ccwu.cc&type=ws#🇺🇸 633 - US - VLESS/WS/TLS - 2087
-
-vless://77777777-6663-4ef2-b26b-ed2d70642678@cf.9999669.xyz:2087?allowInsecure=1&encryption=none&host=hfnb8xmvw3h14.fx02.ccwu.cc&path=/&security=tls&sni=hfnb8xmvw3h14.fx02.ccwu.cc&type=ws#🇺🇸 632 - US - VLESS/WS/TLS - 2087
-
-vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.67.150.254:2095?encryption=none&security=none&type=ws&host=iioo.iioou.workers.dev&path=/?ed=2560#🇺🇸 634 - US - VLESS/WS - 2095
-
-vless://7890ce31-9a25-4fd4-90e7-80e5823ff510@172.67.203.94:2086?encryption=none&host=iioo.iioou.workers.dev&path=/&security=none&type=ws#🇺🇸 635 - US - VLESS/WS - 2086
+vless://77777777-6663-4ef2-b26b-ed2d70642678@www.shopify.com:2087?allowInsecure=1&encryption=none&host=8fbxjhscv17.fx02.ccwu.cc&path=/&security=tls&sni=8fbxjhscv17.fx02.ccwu.cc&type=ws#🇺🇸 632 - US - VLESS/WS/TLS - 2087
 
 vless://7b188eea-b08f-42c2-bac7-d3b0e74218b8@147.182.212.232:56565?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.paypal.com&fp=chrome&security=reality&pbk=Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY#🇺🇸 639 - US - VLESS/REALITY/PBK/VISION/UTLS - 56565
 
 vless://7d7d00cb-53a3-4cb4-bef7-3b2d431b1107@chatgpt.com:443?security=tls&type=ws&host=telegram.proxie1-tel.workers.dev&path=/eyJqdW5rIjoiRlpGZjNZYno0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560&sni=tElEgRAm.proXIE1-tel.WORKers.deV&fp=chrome#🇺🇸 651 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://873a8e21-5fed-36a7-b251-734ebc97381c@s1.db-link.in:443?encryption=none&security=tls&sni=s6.oboob.cn&alpn=h3,h2&fp=chrome&insecure=1&type=ws&host=s6.oboob.cn&path=/db1024c59ce5eab9#🇺🇸 668 - US - VLESS/WS/TLS/UTLS - 443
-
 vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?security=reality&encryption=none&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=modily.net&sid=8c01e365#🇵🇱 664 - PL - VLESS/REALITY/PBK/SID/VISION/UTLS - 7242
 
 vless://859b7d71-a9fc-4234-8e03-42eb876a170a@151.115.96.243:7242?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=modily.net&fp=firefox&security=reality&pbk=jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM&sid=8c01e365#🇵🇱 663 - PL - VLESS/REALITY/PBK/SID/VISION/UTLS - 7242
 
-vless://8d893f78-c600-4354-9bc1-5f71ee2e0386@162.55.190.0:50219?encryption=none&security=none&type=tcp#🇩🇪 679 - DE - VLESS - 50219
+vless://824dc1b1-e35b-4121-ad73-9acaf13d6410@n1761184282.74qxv.top:443?encryption=none&security=tls&sni=n1761184282.74qxv.top&type=ws&host=n1761184282.74qxv.top&path=/824dc1b1-e35b-4121-ad73-9acaf13d6410#🇭🇰 656 - HK - VLESS/WS/TLS - 443
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MWQ2NjU1ZDM2MjVmZDE0@185.244.208.150:11201#🇭🇰 1 - HK - SS/AEAD - 11201
+vless://873a8e21-5fed-36a7-b251-734ebc97381c@s1.db-link.in:443?encryption=none&security=tls&sni=s6.oboob.cn&alpn=h3,h2&fp=chrome&insecure=1&type=ws&host=s6.oboob.cn&path=/db1024c59ce5eab9#🇺🇸 670 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://8d893f78-c600-4354-9bc1-5f71ee2e0386@162.55.190.0:50219?encryption=none&security=none&type=tcp#🇩🇪 681 - DE - VLESS - 50219
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YjQ3NjNlZmVmYTk1MTE0@135.125.10.106:10018#🇫🇷 6 - FR - SS/AEAD - 10018
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MWQ2NjU1ZDM2MjVmZDE0@185.244.208.150:11201#🇭🇰 1 - HK - SS/AEAD - 11201
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWRkYzk3NzM2MGRkZTg5@135.125.219.2:41042#🇩🇪 8 - DE - SS/AEAD - 41042
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#🇸🇬 2 - SG - SS/AEAD - 16922
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZjI2ZDhiYjU5M2E1ZmM1@154.205.154.200:11201#🇦🇷 7 - AR - SS/AEAD - 11201
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MjY3MTY0N2FmMGNmZmEw@38.242.222.183:11201#🇫🇷 9 - FR - SS/AEAD - 11201
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2N2ZRWHA3QXlzYXc5RzlTdkVVdFE3@171.22.181.186:16570#🇬🇧 13 - GB - SS/AEAD - 16570
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Yjk3ODA0N2I0N2Y3ZWFi@154.205.154.184:11201#🇦🇷 10 - AR - SS/AEAD - 11201
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2Njc1Y2JmNjJkNmEzYTRm@57.129.95.45:11201#🇩🇪 16 - DE - SS/AEAD - 11201
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#🇸🇬 2 - SG - SS/AEAD - 16922
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MGM0NTVjOWYxOWFhM2E1@57.129.94.79:11206#🇩🇪 20 - DE - SS/AEAD - 11206
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZDAwODRjNmU0NTAyYWI3@163.171.137.76:48436#🇺🇦 18 - UA - SS/AEAD - 48436
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MGM0NTVjOWYxOWFhM2E1@57.129.94.79:11206#🇩🇪 20 - DE - SS/AEAD - 11206
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTgwNzcxOGY1OTNkM2U2@154.205.148.202:11201#🇹🇷 21 - TR - SS/AEAD - 11201
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47386#🇦🇺 28 - AU - SS/AEAD - 47386
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NjRhNGQ4YzFjNzZlYjUw@194.233.73.51:14453#🇸🇬 25 - SG - SS/AEAD - 14453
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47385#🇦🇺 26 - AU - SS/AEAD - 47385
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47385#🇦🇺 27 - AU - SS/AEAD - 47385
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47386#🇦🇺 28 - AU - SS/AEAD - 47386
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47386#🇦🇺 29 - AU - SS/AEAD - 47386
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NjRhNGQ4YzFjNzZlYjUw@194.233.73.51:14453#🇸🇬 25 - SG - SS/AEAD - 14453
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47388#🇦🇺 32 - AU - SS/AEAD - 47388
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47387#🇦🇺 31 - AU - SS/AEAD - 47387
 
@@ -546,33 +464,29 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47387#�
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YTEwNmFmYzMzZWFhMjYx@148.113.139.160:46534#🇨🇦 34 - CA - SS/AEAD - 46534
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47388#🇦🇺 32 - AU - SS/AEAD - 47388
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ODMyMmU0YjkzNDg3MGI2@154.26.156.99:47388#🇦🇺 33 - AU - SS/AEAD - 47388
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48803#🇸🇬 37 - SG - SS/AEAD - 48803
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48802#🇸🇬 36 - SG - SS/AEAD - 48802
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4NWQzZDhjY2JhMjg3ZDNl@135.125.245.131:20939#🇩🇪 41 - DE - SS/AEAD - 20939
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48801#🇸🇬 35 - SG - SS/AEAD - 48801
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48804#🇸🇬 39 - SG - SS/AEAD - 48804
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48802#🇸🇬 36 - SG - SS/AEAD - 48802
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48804#🇸🇬 38 - SG - SS/AEAD - 48804
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MmZkODA4OGU0ODJlZTAw@51.161.80.138:43178#🇨🇦 52 - CA - SS/AEAD - 43178
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48804#🇸🇬 39 - SG - SS/AEAD - 48804
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDdlOTFlZGY4NDgyNmMz@154.90.62.145:46575#🇰🇷 48 - KR - SS/AEAD - 46575
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDdlOTFlZGY4NDgyNmMz@154.90.62.145:46576#🇰🇷 49 - KR - SS/AEAD - 46576
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MmZkODA4OGU0ODJlZTAw@51.161.80.138:43178#🇨🇦 52 - CA - SS/AEAD - 43178
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzJhNTE5YzgxNDdhOTk4@38.54.29.18:11201#🇬🇷 53 - GR - SS/AEAD - 11201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDdlOTFlZGY4NDgyNmMz@154.90.62.145:46576#🇰🇷 49 - KR - SS/AEAD - 46576
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDdlOTFlZGY4NDgyNmMz@154.90.62.145:46577#🇰🇷 50 - KR - SS/AEAD - 46577
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MDdlOTFlZGY4NDgyNmMz@154.90.62.145:46578#🇰🇷 51 - KR - SS/AEAD - 46578
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzJhNTE5YzgxNDdhOTk4@38.54.29.18:11201#🇬🇷 53 - GR - SS/AEAD - 11201
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YWZhMzkwMTZkNWE0MDlj@194.233.73.51:48801#🇸🇬 35 - SG - SS/AEAD - 48801
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NGFhZTA1MTAxODhlOGM1@141.95.106.127:11201#🇩🇪 62 - DE - SS/AEAD - 11201
 
@@ -586,11 +500,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNzFKMm4wRUdMNERDWFZmcGljRDJs@77.110.116.135
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOGU0MDkwYmM0NmZkOGE2@163.171.213.47:46281#🇮🇱 77 - IL - SS/AEAD - 46281
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOGU0MDkwYmM0NmZkOGE2@163.171.213.47:46281#🇮🇱 78 - IL - SS/AEAD - 46281
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowODkyYjJjY2NjYzAxMmY2@154.90.62.145:16672#🇰🇷 76 - KR - SS/AEAD - 16672
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOGU0MDkwYmM0NmZkOGE2@163.171.213.47:46282#🇮🇱 79 - IL - SS/AEAD - 46282
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOGU0MDkwYmM0NmZkOGE2@163.171.213.47:46281#🇮🇱 78 - IL - SS/AEAD - 46281
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOGU0MDkwYmM0NmZkOGE2@163.171.213.47:46282#🇮🇱 80 - IL - SS/AEAD - 46282
 
@@ -598,9 +512,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowY2RkZTY5NTg3MzU2NWVl@38.54.59.38:11201#🇪
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowY2RkZTY5NTg3MzU2NWVl@38.54.59.38:11202#🇪🇬 82 - EG - SS/AEAD - 11202
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjJlMzlhNDY0MjY4NGFh@135.125.219.2:23349#🇩🇪 86 - DE - SS/AEAD - 23349
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowY2RkZTY5NTg3MzU2NWVl@38.54.59.38:11203#🇪🇬 83 - EG - SS/AEAD - 11203
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjJlMzlhNDY0MjY4NGFh@135.125.219.2:23349#🇩🇪 86 - DE - SS/AEAD - 23349
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowY2RkZTY5NTg3MzU2NWVl@38.54.59.38:11204#🇪🇬 84 - EG - SS/AEAD - 11204
 
@@ -616,35 +530,37 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48210#�
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48212#🇯🇴 100 - JO - SS/AEAD - 48212
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48211#🇯🇴 99 - JO - SS/AEAD - 48211
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48213#🇯🇴 101 - JO - SS/AEAD - 48213
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48211#🇯🇴 99 - JO - SS/AEAD - 48211
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxa1ZyMEtBVElKSTdtd09G@admin.c1.havij.co:443#🇬🇧 107 - GB - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZTY4ZDRiZDAwMjQzN2Fi@149.104.71.134:11201#🇸🇦 106 - SA - SS/AEAD - 11201
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyS3Q4RTg2eDJ0VnRLYnRwc2dWcEhIRTExclUzWFd1aEM4V3pNNktBVXd3d3BETGNKRjZ2cVd2eVI4VkhnMkxEYkpRUWpWQTF3QTZUTXE4SlN4MTdaY0tWeGNBUEdudXI@mx2.drawnrisha.one:55988#🇬🇧 110 - GB - SS/AEAD - 55988
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyZTVjNzVjMzVkN2VlOTI5@163.171.213.47:19702#🇮🇱 111 - IL - SS/AEAD - 19702
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2UxZjRmNmUzNjlkNjcz@135.125.219.2:42681#🇩🇪 114 - DE - SS/AEAD - 42681
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyZTk2NjU5NzdlZTBkY2Y4@135.125.219.2:15294#🇩🇪 113 - DE - SS/AEAD - 15294
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM2UxZjRmNmUzNjlkNjcz@135.125.219.2:42681#🇩🇪 114 - DE - SS/AEAD - 42681
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyZTVjNzVjMzVkN2VlOTI5@163.171.213.47:19702#🇮🇱 112 - IL - SS/AEAD - 19702
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11201#🇯🇵 115 - JP - SS/AEAD - 11201
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11204#🇯🇵 118 - JP - SS/AEAD - 11204
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11202#🇯🇵 116 - JP - SS/AEAD - 11202
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11203#🇯🇵 117 - JP - SS/AEAD - 11203
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyS3Q4RTg2eDJ0VnRLYnRwc2dWcEhIRTExclUzWFd1aEM4V3pNNktBVXd3d3BETGNKRjZ2cVd2eVI4VkhnMkxEYkpRUWpWQTF3QTZUTXE4SlN4MTdaY0tWeGNBUEdudXI@mx2.drawnrisha.one:55988#🇬🇧 110 - GB - SS/AEAD - 55988
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11204#🇯🇵 118 - JP - SS/AEAD - 11204
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11205#🇯🇵 119 - JP - SS/AEAD - 11205
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzg1MWM1NmExYWExYjI2@51.161.33.111:24041#🇨🇦 124 - CA - SS/AEAD - 24041
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#🇳🇱 126 - NL - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZaY1JvUElaWnRCZG5JRUw@89.44.197.181:31348#🇧🇬 127 - BG - SS/AEAD - 31348
 
@@ -652,17 +568,15 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZ
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.2.182:990#🇧🇭 131 - BH - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#🇳🇱 126 - NL - SS/AEAD - 443
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.205.159.100:990#🇮🇩 130 - ID - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@103.106.228.247:990#🇯🇵 132 - JP - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@103.57.251.240:990#🇦🇪 133 - AE - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@109.61.39.28:990#🇰🇿 136 - KZ - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@138.186.142.80:990#🇵🇦 137 - PA - SS/AEAD - 990
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@103.106.228.247:990#🇯🇵 132 - JP - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@138.186.142.81:990#🇵🇦 138 - PA - SS/AEAD - 990
 
@@ -680,13 +594,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.47.253.227:990#🇪🇨 148 - EC - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@103.97.203.227:990#🇮🇳 135 - IN - SS/AEAD - 990
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.47.254.87:990#🇬🇹 149 - GT - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@190.103.176.32:990#🇦🇷 151 - AR - SS/AEAD - 990
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@156.59.243.6:990#🇵🇰 144 - PK - SS/AEAD - 990
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@190.103.176.32:990#🇦🇷 151 - AR - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@203.23.128.92:990#🇭🇰 154 - HK - SS/AEAD - 990
 
@@ -694,43 +606,43 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@37.235.56.69:990#🇦🇹 159 - AT - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.59.107:990#🇪🇬 161 - EG - SS/AEAD - 990
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.165.231.25:990#🇪🇨 160 - EC - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.250.107:990#🇩🇪 164 - DE - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.59.107:990#🇪🇬 161 - EG - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.59.180:990#🇪🇬 162 - EG - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.247.151:990#🇧🇬 163 - BG - SS/AEAD - 990
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.250.107:990#🇩🇪 164 - DE - SS/AEAD - 990
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@46.183.217.204:990#🇱🇻 169 - LV - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@79.127.200.169:990#🇨🇦 170 - CA - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@91.148.135.31:990#🇨🇾 172 - CY - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@89.46.239.231:990#🇮🇱 171 - IL - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.82.252.109:990#🇭🇰 168 - HK - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.89.142.56:990#🇸🇬 165 - SG - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.82.252.109:990#🇭🇰 168 - HK - SS/AEAD - 990
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.15.185.70:990#🇦🇺 166 - AU - SS/AEAD - 990
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@89.46.239.231:990#🇮🇱 171 - IL - SS/AEAD - 990
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@91.148.135.31:990#🇨🇾 172 - CY - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.107.101:990#🇹🇼 181 - TW - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.2.182:990#🇧🇭 182 - BH - SS/AEAD - 990
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.59.107:990#🇪🇬 185 - EG - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#🇰🇭 183 - KH - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.2.182:990#🇧🇭 182 - BH - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.171.254:990#🇮🇩 186 - ID - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#🇰🇭 183 - KH - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@138.186.142.80:990#🇵🇦 188 - PA - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@138.186.142.81:990#🇵🇦 189 - PA - SS/AEAD - 990
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.171.254:990#🇮🇩 186 - ID - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDaWtuNWdQSnROWnF1ck5CUHNwRUR6@45.12.109.198:24604#🇨🇿 192 - CZ - SS/AEAD - 24604
 
@@ -744,21 +656,17 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWVcydzlmd2Ryd2oycUM5TnlUQnVCTktRSlV2a0tuQ3A
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWVcydzlmd2Ryd2oycUM5TnlUQnVCTktRSlV2a0tuQ3A5VXhWbkZXNkxxZVNwaUNjbnpWMWNNb2hCVW5DQ1dCa2prcDgzclY5d1dlWVFRcVVad011WXUxWXlDdDE3dFc@media.mothyleela.cfd:40521#🇱🇹 239 - LT - SS/AEAD - 40521
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSdVB2Xzg1OVY2MlBZY1QzNE5zYzhFZWVIMFI4QmR1dA@de1.node.getvpn4you.ru:1080#🇩🇪 250 - DE - SS/AEAD - 1080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#🇳🇱 247 - NL - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSWmlySHpTcXl5YjM3RERJaVFlRExaVEpmdDVaUUdtVUN3eUEzd201YXRoNGo5WTM@124.217.247.205:51348#🇲🇾 248 - MY - SS/AEAD - 51348
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSWmlySHpTcXl5YjM3RERJaVFlRExaVEpmdDVaUUdtVUN3eUEzd201YXRoNGo5WTM@124.217.247.205:51348#🇲🇾 249 - MY - SS/AEAD - 51348
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSdVB2Xzg1OVY2MlBZY1QzNE5zYzhFZWVIMFI4QmR1dA@fi1.node.getvpn4you.ru:1080#🇫🇮 251 - FI - SS/AEAD - 1080
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVWG11a25HUXFpSm9JdG1RVFhqY0Yy@104.192.227.162:443#🇺🇸 253 - US - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@admin.c1.webramz.co:443#🇬🇧 256 - GB - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#🇬🇧 257 - GB - SS/AEAD - 443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#🇳🇱 247 - NL - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#🇬🇧 258 - GB - SS/AEAD - 443
 
@@ -770,33 +678,33 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMTBiZDI1YjIxOTk1ZTU2@135.125.219.2:40266#�
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNzkyZmY0YjUxN2ZkZjFj@51.68.146.248:10011#🇵🇱 276 - PL - SS/AEAD - 10011
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDZhN2YxODc2NDcyNTUy@38.60.203.155:11201#🇭🇰 275 - HK - SS/AEAD - 11201
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDZhN2YxODc2NDcyNTUy@38.60.203.155:11201#🇭🇰 274 - HK - SS/AEAD - 11201
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYmU1OTVhZWI3YTZhMDM1@163.171.213.47:12025#🇮🇱 278 - IL - SS/AEAD - 12025
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYmU1OTVhZWI3YTZhMDM1@163.171.213.47:12025#🇮🇱 279 - IL - SS/AEAD - 12025
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDZhN2YxODc2NDcyNTUy@38.60.203.155:11201#🇭🇰 274 - HK - SS/AEAD - 11201
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDZhN2YxODc2NDcyNTUy@38.60.203.155:11201#🇭🇰 275 - HK - SS/AEAD - 11201
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNTc1ODllNTkyNDdkZGRi@57.128.190.238:10012#🇬🇧 281 - GB - SS/AEAD - 10012
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWjg3YW1QcGRHN0t1V002MmJLdG0xS0hvb3d1VmpuVjhDS3RxNjUzeW1IY2cyZFBZY1BKZm5hUTYxc3R1QWpyMlppTERhcUg1Nlhwa3hFWXV3RHp6UnJNV2llZWJXR3Q@mx2.drawnrisha.one:55988#🇬🇧 282 - GB - SS/AEAD - 55988
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOGQ5Mjg0ODFhMmEwOTg4@94.72.98.25:41684#🇬🇧 287 - GB - SS/AEAD - 41684
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNWJhNDg1OWZlMzkxODE0@135.125.219.2:43081#🇩🇪 286 - DE - SS/AEAD - 43081
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOGQ5Mjg0ODFhMmEwOTg4@94.72.98.25:41684#🇬🇧 287 - GB - SS/AEAD - 41684
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWjg3YW1QcGRHN0t1V002MmJLdG0xS0hvb3d1VmpuVjhDS3RxNjUzeW1IY2cyZFBZY1BKZm5hUTYxc3R1QWpyMlppTERhcUg1Nlhwa3hFWXV3RHp6UnJNV2llZWJXR3Q@mx2.drawnrisha.one:55988#🇬🇧 282 - GB - SS/AEAD - 55988
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZTRhNmZkMjIwOWY2MmE3@185.67.125.109:11201#🇮🇳 284 - IN - SS/AEAD - 11201
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#🇻🇳 291 - VN - SS/AEAD - 45311
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45310#🇻🇳 290 - VN - SS/AEAD - 45310
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29461#🇸🇦 294 - SA - SS/AEAD - 29461
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#🇻🇳 293 - VN - SS/AEAD - 45313
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45311#🇻🇳 291 - VN - SS/AEAD - 45311
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45312#🇻🇳 292 - VN - SS/AEAD - 45312
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTVhNWVmYWUwMGE4MzJi@112.197.26.106:45313#🇻🇳 293 - VN - SS/AEAD - 45313
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjQyNThkYzFiNTM2MTNj@163.171.207.11:29464#🇸🇦 297 - SA - SS/AEAD - 29464
 
@@ -816,21 +724,23 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47392#�
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47393#🇺🇦 313 - UA - SS/AEAD - 47393
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZWQ3MThmY2IyYmIxN2I3@154.26.132.38:27883#🇸🇬 308 - SG - SS/AEAD - 27883
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZWQ3MThmY2IyYmIxN2I3@154.26.132.38:27885#🇸🇬 310 - SG - SS/AEAD - 27885
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47394#🇺🇦 314 - UA - SS/AEAD - 47394
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZWQ3MThmY2IyYmIxN2I3@154.26.132.38:27883#🇸🇬 308 - SG - SS/AEAD - 27883
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47395#🇺🇦 315 - UA - SS/AEAD - 47395
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZWQ3MThmY2IyYmIxN2I3@154.26.132.38:27885#🇸🇬 310 - SG - SS/AEAD - 27885
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZDdiMGQxNGI1OTBiY2Vi@112.197.26.106:26417#🇻🇳 318 - VN - SS/AEAD - 26417
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppWkRKczJDRGNrSEtxSjVXN2NwdkNxMnZlcXNxV245NWlxczZLcjZGM1lObnlNc2sydVBkUnJDaFFmU2h2SDF2NTZCcjFxV0VXNDRxSm5hNVFjTWNaRjdSQ0ptZHZ3dXE@185.5.38.111:55988#🇬🇧 325 - GB - SS/AEAD - 55988
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZWQ3MThmY2IyYmIxN2I3@154.26.132.38:27884#🇸🇬 309 - SG - SS/AEAD - 27884
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.186:8080#🇳🇱 331 - NL - SS/AEAD - 8080
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.187:8080#🇳🇱 332 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppWkRKczJDRGNrSEtxSjVXN2NwdkNxMnZlcXNxV245NWlxczZLcjZGM1lObnlNc2sydVBkUnJDaFFmU2h2SDF2NTZCcjFxV0VXNDRxSm5hNVFjTWNaRjdSQ0ptZHZ3dXE@185.5.38.111:55988#🇬🇧 325 - GB - SS/AEAD - 55988
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.194:8080#🇳🇱 334 - NL - SS/AEAD - 8080
 
@@ -846,37 +756,39 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#🇺🇸 381 - US - SS/A
 
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.95.183:443#🇨🇦 380 - CA - SS/AEAD - 443
 
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#🇯🇵 379 - JP - SS/AEAD - 443
-
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#🇺🇸 382 - US - SS/AEAD - 443
+
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#🇯🇵 379 - JP - SS/AEAD - 443
 
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#🇺🇸 383 - US - SS/AEAD - 443
 
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#🇺🇸 386 - US - SS/AEAD - 443
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@158.173.20.171:443#🇳🇱 384 - NL - SS/AEAD - 443
 
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#🇺🇸 385 - US - SS/AEAD - 443
 
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@158.173.20.171:443#🇳🇱 384 - NL - SS/AEAD - 443
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#🇺🇸 386 - US - SS/AEAD - 443
 
 trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:3057?security=tls&sni=www.nintendogames.net#🇯🇵 34 - JP - Trojan/TLS - 3057
 
 trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:3057?sni=www.nintendogames.net&path=/#🇯🇵 35 - JP - Trojan/TLS - 3057
 
+trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:34818?security=tls&sni=www.nintendogames.net#🇯🇵 36 - JP - Trojan/TLS - 34818
+
 trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:34818?sni=www.nintendogames.net&path=/#🇯🇵 37 - JP - Trojan/TLS - 34818
 
-trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:34818?security=tls&sni=www.nintendogames.net#🇯🇵 36 - JP - Trojan/TLS - 34818
+trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:4674?sni=www.nintendogames.net&path=/#🇯🇵 39 - JP - Trojan/TLS - 4674
 
 trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:3057?sni=www.nintendogames.net&path=/#🇯🇵 40 - JP - Trojan/TLS - 3057
 
 trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:4674?security=tls&sni=www.nintendogames.net#🇯🇵 38 - JP - Trojan/TLS - 4674
 
-trojan://f389ed926e512e15f382dc3804029474@153.121.45.139:4674?sni=www.nintendogames.net&path=/#🇯🇵 39 - JP - Trojan/TLS - 4674
-
 trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:4674?sni=www.nintendogames.net&path=/#🇯🇵 41 - JP - Trojan/TLS - 4674
+
+trojan://f389ed926e512e15f382dc3804029474@160.16.72.205:3057?security=tls&sni=www.nintendogames.net#🇯🇵 45 - JP - Trojan/TLS - 3057
 
 trojan://f389ed926e512e15f382dc3804029474@160.16.214.104:3057?security=tls&sni=www.nintendogames.net#🇯🇵 44 - JP - Trojan/TLS - 3057
 
-trojan://f389ed926e512e15f382dc3804029474@160.16.72.205:3057?security=tls&sni=www.nintendogames.net#🇯🇵 45 - JP - Trojan/TLS - 3057
+trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:4937?sni=www.nintendogames.net&path=/#🇯🇵 43 - JP - Trojan/TLS - 4937
 
 trojan://f389ed926e512e15f382dc3804029474@160.16.72.205:3057?sni=www.nintendogames.net&path=/#🇯🇵 46 - JP - Trojan/TLS - 3057
 
@@ -884,23 +796,15 @@ trojan://f389ed926e512e15f382dc3804029474@160.16.85.33:4674?security=tls&sni=www
 
 trojan://humanity@104.18.32.47:443?type=ws&host=www.multiplydose.com&path=/assignment&security=tls&sni=www.multiplydose.com&allowInsecure=1#🇺🇸 52 - US - Trojan/WS/TLS - 443
 
-trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:4937?sni=www.nintendogames.net&path=/#🇯🇵 43 - JP - Trojan/TLS - 4937
+trojan://humanity@104.18.32.47:443?path=/assignment&security=tls&insecure=0&host=www.multiplydose.com&type=ws&allowInsecure=0&sni=www.multiplydose.com#🇺🇸 53 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@104.18.32.47:443?path=/assignment&security=tls&insecure=0&host=www.multiplydose.com&type=ws&allowInsecure=0&sni=www.multiplydose.com#🇺🇸 54 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@104.18.32.47:443?path=/assignment&security=tls&insecure=0&host=www.multiplydose.com&type=ws&allowInsecure=0&sni=www.multiplydose.com#🇺🇸 53 - US - Trojan/WS/TLS - 443
-
-trojan://f389ed926e512e15f382dc3804029474@160.16.85.33:4937?security=tls&sni=www.nintendogames.net&type=tcp&path=/#🇯🇵 49 - JP - Trojan/TLS - 4937
-
-trojan://f389ed926e512e15f382dc3804029474@160.16.85.33:4937?security=tls&sni=www.nintendogames.net#🇯🇵 48 - JP - Trojan/TLS - 4937
-
-trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:4937?security=tls&sni=www.nintendogames.net&path=/#🇯🇵 42 - JP - Trojan/TLS - 4937
-
 trojan://humanity@104.21.40.34:443?path=/assignment&security=tls&insecure=1&host=www.gossipglove.com&type=ws&allowInsecure=1&sni=www.gossipglove.com#🇺🇸 57 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@104.21.40.34:443?security=tls&sni=www.gossipglove.com&allowInsecure=1&type=ws&host=www.gossipglove.com&path=/assignment#🇺🇸 59 - US - Trojan/WS/TLS - 443
-
 trojan://humanity@104.21.40.34:443?security=tls&sni=www.gossipglove.com&allowInsecure=1&type=ws&host=www.gossipglove.com&path=/assignment#🇺🇸 58 - US - Trojan/WS/TLS - 443
+
+trojan://humanity@104.21.40.34:443?security=tls&sni=www.gossipglove.com&allowInsecure=1&type=ws&host=www.gossipglove.com&path=/assignment#🇺🇸 59 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@104.21.40.34:443?security=tls&sni=www.gossipglove.com&allowInsecure=1&type=ws&host=www.gossipglove.com&path=/assignment#🇺🇸 60 - US - Trojan/WS/TLS - 443
 
@@ -922,9 +826,9 @@ trojan://humanity@172.64.152.23:443?path=/assignment&security=tls&insecure=1&hos
 
 trojan://humanity@172.67.180.92:443?path=/assignment&security=tls&host=www.multiplydose.com&fp=chrome&type=ws&sni=www.multiplydose.com#🇺🇸 76 - US - Trojan/WS/TLS/UTLS - 443
 
-trojan://humanity@172.67.180.92:443?path=/assignment&security=tls&insecure=1&host=www.multiplydose.com&fp=chrome&type=ws&allowInsecure=1&sni=www.multiplydose.com#🇺🇸 77 - US - Trojan/WS/TLS/UTLS - 443
-
 trojan://humanity@172.64.152.23:443?security=tls&sni=www.creationlong.org&allowInsecure=1&type=ws&host=www.creationlong.org&path=/assignment#🇺🇸 75 - US - Trojan/WS/TLS - 443
+
+trojan://humanity@172.67.180.92:443?path=/assignment&security=tls&insecure=1&host=www.multiplydose.com&fp=chrome&type=ws&allowInsecure=1&sni=www.multiplydose.com#🇺🇸 77 - US - Trojan/WS/TLS/UTLS - 443
 
 trojan://humanity@172.67.180.92:443?security=tls&sni=www.multiplydose.com&fp=chrome&allowInsecure=1&type=ws&host=www.multiplydose.com&path=/assignment#🇺🇸 78 - US - Trojan/WS/TLS/UTLS - 443
 
@@ -936,69 +840,69 @@ trojan://humanity@188.114.96.3:443?type=ws&host=www.gossipglove.com&path=/assign
 
 trojan://humanity@188.114.96.3:443?path=/assignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#🇺🇸 82 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&host=www.creationlong.org&type=ws&sni=www.creationlong.org#🇺🇸 85 - US - Trojan/WS/TLS - 443
-
 trojan://humanity@188.114.98.0:443?path=%2fassignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#🇺🇸 84 - US - Trojan/WS/TLS - 443
+
+trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&host=www.creationlong.org&type=ws&sni=www.creationlong.org#🇺🇸 85 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&insecure=1&host=www.creationlong.org&type=ws&allowInsecure=1&sni=www.creationlong.org#🇺🇸 86 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@188.114.98.0:443?security=tls&sni=www.creationlong.org&type=ws&host=www.creationlong.org&path=/assignment#🇺🇸 87 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@www.calmlunch.com:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇺🇸 91 - US - Trojan/WS/TLS - 443
-
 trojan://humanity@v1.dabache.top:443?path=/assignment&security=tls&host=www.multiplydose.com&type=ws&sni=www.multiplydose.com#🇺🇸 88 - US - Trojan/WS/TLS - 443
-
-trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=/assignment#🇺🇸 92 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@v1.dabache.top:443?path=/assignment&security=tls&insecure=1&host=www.multiplydose.com&type=ws&allowInsecure=1&sni=www.multiplydose.com#🇺🇸 89 - US - Trojan/WS/TLS - 443
 
+trojan://humanity@www.creationlong.org:443?path=/assignment&security=tls&fp=chrome&type=ws&sni=www.creationlong.org#🇺🇸 95 - US - Trojan/WS/TLS/UTLS - 443
+
+trojan://humanity@www.calmlunch.com:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#🇺🇸 91 - US - Trojan/WS/TLS - 443
+
+trojan://humanity@www.calmlunch.com:443?security=tls&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=/assignment#🇺🇸 92 - US - Trojan/WS/TLS - 443
+
+trojan://humanity@www.creationlong.org:443?security=tls&sni=www.creationlong.org&alpn=h2,http/1.1&fp=chrome&type=ws&path=/assignment#🇺🇸 96 - US - Trojan/WS/TLS/UTLS - 443
+
 trojan://humanity@www.calmlunch.com:443?security=tls&type=ws&host=www.calmlunch.com&path=/assignment#🇺🇸 93 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@www.calmlunch.com:443?security=tls&type=ws&path=/assignment#🇺🇸 94 - US - Trojan/WS/TLS - 443
-
-trojan://humanity@www.creationlong.org:443?path=/assignment&security=tls&fp=chrome&type=ws&sni=www.creationlong.org#🇺🇸 95 - US - Trojan/WS/TLS/UTLS - 443
+trojan://humanity@www.creationlong.org:443?security=tls&sni=www.creationlong.org&alpn=h2,http/1.1&type=ws&path=/assignment#🇺🇸 97 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@www.gossipglove.com:443?allowInsecure=1&path=/assignment&type=ws#🇺🇸 98 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@www.gossipglove.com:443?security=tls&fp=chrome&type=ws&path=/assignment#🇺🇸 99 - US - Trojan/WS/TLS/UTLS - 443
+trojan://humanity@www.calmlunch.com:443?security=tls&type=ws&path=/assignment#🇺🇸 94 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@www.creationlong.org:443?security=tls&sni=www.creationlong.org&alpn=h2,http/1.1&fp=chrome&type=ws&path=/assignment#🇺🇸 96 - US - Trojan/WS/TLS/UTLS - 443
+trojan://humanity@www.gossipglove.com:443?security=tls&fp=chrome&type=ws&path=/assignment#🇺🇸 99 - US - Trojan/WS/TLS/UTLS - 443
 
 trojan://humanity@www.gossipglove.com:443?security=tls&fp=chrome&type=ws&path=/assignment&allow_insecure=1#🇺🇸 100 - US - Trojan/WS/TLS/UTLS - 443
 
 trojan://humanity@www.multiplydose.com:443?allowInsecure=1&host=www.multiplydose.com&path=/assignment&type=ws#🇺🇸 101 - US - Trojan/WS/TLS - 443
 
-trojan://humanity@www.creationlong.org:443?security=tls&sni=www.creationlong.org&alpn=h2,http/1.1&type=ws&path=/assignment#🇺🇸 97 - US - Trojan/WS/TLS - 443
-
 trojan://humanity@www.multiplydose.com:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.multiplydose.com#🇺🇸 102 - US - Trojan/WS/TLS/UTLS - 443
+
+trojan://humanity@www.multiplydose.com:443?security=tls&type=ws&path=/assignment&allow_insecure=1#🇺🇸 104 - US - Trojan/WS/TLS - 443
 
 trojan://humanity@www.multiplydose.com:443?security=tls&sni=www.multiplydose.com&fp=chrome&allowInsecure=1&type=ws&path=/assignment#🇺🇸 103 - US - Trojan/WS/TLS/UTLS - 443
 
-trojan://humanity@www.multiplydose.com:443?security=tls&type=ws&path=/assignment&allow_insecure=1#🇺🇸 104 - US - Trojan/WS/TLS - 443
+trojan://q2GRUM1-odJBWq_KV6xv2fuNvu8ed-@8443.golden-cards.me:443?security=tls#🇺🇸 108 - US - Trojan/TLS - 443
 
 trojan://q2GRUM1-odJBWq_KV6xv2fuNvu8ed-@8443.golden-cards.me:443?security=tls&insecure=1&type=tcp&allowInsecure=1#🇺🇸 109 - US - Trojan/TLS - 443
 
 trojan://q2GRUM1-odJBWq_KV6xv2fuNvu8ed-@8443.golden-cards.me:443?security=tls&type=tcp&path=/&allow_insecure=1#🇺🇸 110 - US - Trojan/TLS - 443
 
-trojan://q2GRUM1-odJBWq_KV6xv2fuNvu8ed-@8443.golden-cards.me:443?security=tls#🇺🇸 108 - US - Trojan/TLS - 443
-
 trojan://qmBSKnAl6LYi9=z23Rs.Z@37.235.49.209:28099?security=tls&sni=celestialcorset.crystalhamster.click#🇮🇸 111 - IS - Trojan/TLS - 28099
 
 trojan://wp9IsiY82uQhcmgNC1eoBM@80.173.231.254:12420?security=tls&sni=www.semanticstaplegun.click#🇳🇴 126 - NO - Trojan/TLS - 12420
 
-vmess://eyJhZGQiOiAiNDcuMjUwLjQ1LjIzNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiODAwMzliNGQtYmFjMC00Zjg5LTgyYzctNTRmYWQzYjBhMWVhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLCAicG9ydCI6IDg2MTMsICJwcyI6ICLwn4ey8J+HviAxMCAtIE1ZIC0gVk1lc3MvV1MgLSA4NjEzIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgIm5hbWUiOiAi8J+HsvCfh75NWS00Ny4yNTAuNDUuMjM0LTQ3OTkifQ==
-
-vmess://eyJhZGQiOiAiNDcuMjUwLjQ1LjIzNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYzc3ZjQ4ZjUtNGJlMy00NDYxLWI1MmItNDk5OThlN2I4OTdiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLCAicG9ydCI6IDQzMDYzLCAicHMiOiAi8J+HsvCfh74gMTEgLSBNWSAtIFZNZXNzL1dTIC0gNDMwNjMiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4ey8J+Hvk1ZLTQ3LjI1MC40NS4yMzQtNDc5OCJ9
-
 vmess://eyJhZGQiOiAiNTEuNzkuMTAyLjI1MyIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9JT2ViaExNaGwxQ1RiRkhiTDk1bXlmUlgyIiwgInBvcnQiOiA4MCwgInBzIjogIvCfh6jwn4emIDEyIC0gQ0EgLSBWTWVzcy9XUyAtIDgwIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgIm5hbWUiOiAi8J+HqPCfh6ZDQS01MS43OS4xMDIuMjUzLTA4MDMifQ==
-
-vmess://eyJhZGQiOiAiNDcuMjQ0LjEyMC4xOTciLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjg0NWU2YjA4LTI5MTktNDI5MC1hZGUwLTVkYzdkY2VhNTljYSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYXJraT9lZD0yMDQ4IiwgInBvcnQiOiA0NDg2NywgInBzIjogIvCfh63wn4ewIDkgLSBISyAtIFZNZXNzL1dTIC0gNDQ4NjciLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4et8J+HsEhLLTQ3LjI0NC4xMjAuMTk3LTQ3NzYifQ==
-
-vmess://eyJhZGQiOiAiNTEuMTU4LjE1MS4yNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNDBlMzA2YTYtN2NhYi00MGFjLWEwODUtYTk2MTg5NWViMTFiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpIiwgInBvcnQiOiAyMDEwNCwgInBzIjogIvCfh7Pwn4exIDEzIC0gTkwgLSBWTWVzcy9XUyAtIDIwMTA0IiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgIm5hbWUiOiAi8J+Hs/Cfh7FOTC01MS4xNTguMTUxLjI0LTY5MTEifQ==
 
 vmess://eyJhZGQiOiAiNDcuMjQ0LjEyMC4xOTciLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjQ1YjgzNTE5LTljNGYtNDA1Mi1hMTFiLTAyZTAxN2I2MzZkNCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYXJraT9lZD0yMDQ4IiwgInBvcnQiOiAzNjcwMywgInBzIjogIvCfh63wn4ewIDggLSBISyAtIFZNZXNzL1dTIC0gMzY3MDMiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4et8J+HsEhLLTQ3LjI0NC4xMjAuMTk3LTQ3NzQifQ==
 
+vmess://eyJhZGQiOiAiNTEuMTU4LjE1MS4yNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNDBlMzA2YTYtN2NhYi00MGFjLWEwODUtYTk2MTg5NWViMTFiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpIiwgInBvcnQiOiAyMDEwNCwgInBzIjogIvCfh7Pwn4exIDEzIC0gTkwgLSBWTWVzcy9XUyAtIDIwMTA0IiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgIm5hbWUiOiAi8J+Hs/Cfh7FOTC01MS4xNTguMTUxLjI0LTY5MTEifQ==
+
+vmess://eyJhZGQiOiAiNDcuMjQ0LjEyMC4xOTciLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjg0NWU2YjA4LTI5MTktNDI5MC1hZGUwLTVkYzdkY2VhNTljYSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYXJraT9lZD0yMDQ4IiwgInBvcnQiOiA0NDg2NywgInBzIjogIvCfh63wn4ewIDkgLSBISyAtIFZNZXNzL1dTIC0gNDQ4NjciLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4et8J+HsEhLLTQ3LjI0NC4xMjAuMTk3LTQ3NzYifQ==
+
 vmess://eyJhZGQiOiAiMTA3LjE4OS43LjE3NiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNDgxNGI3ZDItYjQ3OC00NDgyLWExYWItNmNlYTM0YjY1ODFiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDM0OTcyLCAicHMiOiAi8J+HsfCfh7ogMTkgLSBMVSAtIFZNZXNzL1dTIC0gMzQ5NzIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4ex8J+HukxVLTEwNy4xODkuNy4xNzYtNjkxMiJ9
+
+vmess://eyJhZGQiOiAiNDcuMjUwLjQ1LjIzNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiYzc3ZjQ4ZjUtNGJlMy00NDYxLWI1MmItNDk5OThlN2I4OTdiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLCAicG9ydCI6IDQzMDYzLCAicHMiOiAi8J+HsvCfh74gMTEgLSBNWSAtIFZNZXNzL1dTIC0gNDMwNjMiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4ey8J+Hvk1ZLTQ3LjI1MC40NS4yMzQtNDc5OCJ9
+
+vmess://eyJhZGQiOiAiNDcuMjUwLjQ1LjIzNCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiODAwMzliNGQtYmFjMC00Zjg5LTgyYzctNTRmYWQzYjBhMWVhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9hcmtpP2VkPTIwNDgiLCAicG9ydCI6IDg2MTMsICJwcyI6ICLwn4ey8J+HviAxMCAtIE1ZIC0gVk1lc3MvV1MgLSA4NjEzIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgIm5hbWUiOiAi8J+HsvCfh75NWS00Ny4yNTAuNDUuMjM0LTQ3OTkifQ==
 
 vmess://eyJhZGQiOiAiMTUuMjM1LjQxLjIwMCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9JT2ViaExNaGwxQ1RiRkhiTDk1bXlmUlgyIiwgInBvcnQiOiA4MCwgInBzIjogIvCfh6jwn4emIDIyIC0gQ0EgLSBWTWVzcy9XUyAtIDgwIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgIm5hbWUiOiAi8J+HqPCfh6ZDQS0xNS4yMzUuNDEuMjAwLTA3OTkifQ==
 
@@ -1014,9 +918,9 @@ vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh6/wn4e1IDY1IC0gSlAgLSBWTWVzcy9XUy9UTFMgLSA0
 
 vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh63wn4ewIDY4IC0gSEsgLSBWTWVzcy9XUy9UTFMgLSA0NDMiLCAiYWRkIjogIm4xNzYxMjE0OTA4LndwZzI3Lnh5eiIsICJwb3J0IjogNDQzLCAiaWQiOiAiMzUxNGE5M2YtYmIyNi00NDQyLThmOTktOTcxYjJmZjMzODhhIiwgImFpZCI6ICIwIiwgInNjeSI6IG51bGwsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogIm4xNzYxMjE0OTA4LndwZzI3Lnh5eiIsICJhbHBuIjogbnVsbCwgInBhdGgiOiAiLyIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICIiLCAiZnAiOiBudWxsLCAibmFtZSI6ICLwn4et8J+HsCBISyAyIn0=
 
-vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh63wn4ewIDY5IC0gSEsgLSBWTWVzcy9XUy9UTFMgLSA0NDMiLCAiYWRkIjogIm4xNzUzMzU2MzYxLmxpZTVkLmN5b3UiLCAicG9ydCI6IDQ0MywgImlkIjogImNkZmQ5Nzg3LWRhYzgtNGMxZS05YWU1LTEwNGUyM2E5ZDk5NCIsICJhaWQiOiAiMCIsICJzY3kiOiBudWxsLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICJuMTc1MzM1NjM2MS5saWU1ZC5jeW91IiwgImFscG4iOiBudWxsLCAicGF0aCI6ICIvIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiIsICJmcCI6IG51bGwsICJuYW1lIjogIvCfh63wn4ewIEhLIDMifQ==
-
 vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh6jwn4emIDcyIC0gQ0EgLSBWTWVzcy9XUyAtIDgwIiwgImFkZCI6ICIxNS4yMzUuNDEuMjAwIiwgInBvcnQiOiA4MCwgImlkIjogIjU4ZmUxNTQyLTUyOTAtNDBhZC04MTVhLTc3NzA3YTgxYWZlNSIsICJhaWQiOiAiMCIsICJzY3kiOiBudWxsLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICIxNS4yMzUuNDEuMjAwIiwgImFscG4iOiBudWxsLCAicGF0aCI6ICIvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsICJ0bHMiOiAiIiwgInNuaSI6IG51bGwsICJmcCI6IG51bGwsICJuYW1lIjogIvCfh6jwn4emIENBIDEifQ==
+
+vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh63wn4ewIDY3IC0gSEsgLSBWTWVzcy9XUy9UTFMgLSA0NDMiLCAiYWRkIjogIm4xNzYxMjE0OTEwLjc0cXh2LnRvcCIsICJwb3J0IjogNDQzLCAiaWQiOiAiMDExYzQ2NzAtY2RkZS00NGZiLWI5YmUtOGExZTI3YWYyNmM5IiwgImFpZCI6ICIwIiwgInNjeSI6IG51bGwsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogIm4xNzYxMjE0OTEwLjc0cXh2LnRvcCIsICJhbHBuIjogbnVsbCwgInBhdGgiOiAiLyIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJuMTc2MTIxNDkxMC43NHF4di50b3AiLCAiZnAiOiBudWxsLCAibmFtZSI6ICLwn4et8J+HsCBISyAxMCJ9
 
 vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh63wn4ewIDcwIC0gSEsgLSBWTWVzcy9XUy9UTFMgLSA0NDMiLCAiYWRkIjogIjQ3LjI0My45NS4xODciLCAicG9ydCI6IDQ0MywgImlkIjogImMyOGE2MjU4LTdiYWEtNDBmYy04YTUxLTg3ZjU5Yzg0N2NkNyIsICJhaWQiOiAiMCIsICJzY3kiOiBudWxsLCAibmV0IjogIndzIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6ICIiLCAiYWxwbiI6IG51bGwsICJwYXRoIjogIi8iLCAidGxzIjogInRscyIsICJzbmkiOiAibjE3NjEyMTQ5MDYud3BnMjcueHl6IiwgImZwIjogbnVsbCwgIm5hbWUiOiAi8J+HrfCfh7AgSEsgNCJ9
 
@@ -1027,6 +931,8 @@ vmess://eyJ2IjogbnVsbCwgInBzIjogIvCfh7rwn4e4IDk0IC0gVVMgLSBWTWVzcy9XUy9UTFMgLSA0
 vmess://eyJhZGQiOiAiNTEuNzkuMTAyLjI1MyIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiNThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9JT2ViaExNaGwxQ1RiRkhiTDk1bXlmUlgyIiwgInBvcnQiOiA4MCwgInBzIjogIvCfh6jwn4emIDE0NiAtIENBIC0gVk1lc3MvV1MgLSA4MCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICItLS0iLCAidiI6ICIyIiwgIm5hbWUiOiAiQGNoaWxsZ3V5X3ZwbiJ9
 
 vmess://eyJhZGQiOiAiNDYuMjQ2LjEyNi4xNTQiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImYyZmQwNzg2LTEwNTktNGY2NC1kNTRlLTNmM2E1NjhjNmM2OCIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIvCfh7jwn4eqIDE1NCAtIFNFIC0gVk1lc3MvV1MgLSA0NDMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJuYW1lIjogIkBnaWxhc3Nfb24g8J+Nktu5In0=
+
+vmess://eyJhZGQiOiAiNDcuMjQzLjEzNS43NCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMTM3NTk4NWUtMzM0YS00YzI1LThmNjQtNTJhMTgyYmM4MDM3IiwgImluc2VjdXJlIjogIjEiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL05vdGlmX0NoYXQiLCAicG9ydCI6IDU1MTg1LCAicHMiOiAi8J+HrfCfh7AgMTU1IC0gSEsgLSBWTWVzcy9XUyAtIDU1MTg1IiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIi0tLSIsICJ2IjogIjIiLCAibmFtZSI6ICI+PkBmbHl2MnJheTo6SEs6OkhLOjpISzo6SEs6OkhLOjpISzo6SEsifQ==
 
 vmess://eyJhZGQiOiAiNTEuNzkuMTAzLjc2IiwgImFpZCI6IDAsICJob3N0IjogIndybWVsbXd4bGYuZ2t0ZXZscnF6bndxcW96eS5mYWJwZnM2Nmdpem1ub2poY3ZxeHdsLmt5dHJjZnpxbGE4N2d2Z3ZzNmM3a2pucnVidWguY2MiLCAiaWQiOiAiNThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9JT2ViaExNaGwxQ1RiRkhiTDk1bXlmUlgyIiwgInBvcnQiOiA4MCwgInBzIjogIvCfh6jwn4emIDE1OCAtIENBIC0gVk1lc3MvV1MgLSA4MCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgIm5hbWUiOiAi8J+PtOKAjVNoaW5lIn0=
 
