@@ -55,11 +55,11 @@
 
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg?v=1773493527" alt="Статистика производительности источников" width="800">
+    <img src="assets/channel_stats_chart.svg?v=1773515274" alt="Статистика производительности источников" width="800">
   </a>
 </div>
 
-📊 [Открыть интерактивный отчёт](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1773493527)
+📊 [Открыть интерактивный отчёт](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1773515274)
 
 Каждый источник оценивается по:
 - **Надёжности (35%)** — успешность получения
