@@ -8,107 +8,119 @@ vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?encryption=none&
 
 vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?security=reality&encryption=none&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=4ae260#🇭🇺 147 - HU - VLESS/REALITY/PBK/SID/UTLS - 17267
 
-vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?security=reality&encryption=none&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&host=Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=4ae260#🇭🇺 148 - HU - VLESS/REALITY/PBK/SID/UTLS - 17267
+vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@b.pabloping.cloud:2052?mode=auto&path=/pabloping&encryption=none&host=s2.nakosgol.com&type=xhttp#🇺🇸 160 - US - VLESS/XHTTP - 2052
 
-vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@b.pabloping.cloud:2052?mode=auto&path=/pabloping&encryption=none&host=s2.nakosgol.com&type=xhttp#🇺🇸 161 - US - VLESS/XHTTP - 2052
+vless://25f86cb1-2140-4085-abcb-c3a0ea7a4be0@ov-france1.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#🇫🇷 170 - FR - VLESS/WS - 80
 
-vless://25f86cb1-2140-4085-abcb-c3a0ea7a4be0@ov-france1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#🇫🇷 172 - FR - VLESS/WS - 80
+vless://25f86cb1-2140-4085-abcb-c3a0ea7a4be0@152.228.162.19:80?type=ws&encryption=none&host=Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN&path=/vless/#🇫🇷 169 - FR - VLESS/WS - 80
 
-vless://25f86cb1-2140-4085-abcb-c3a0ea7a4be0@ov-france1.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#🇫🇷 171 - FR - VLESS/WS - 80
+vless://25f86cb1-2140-4085-abcb-c3a0ea7a4be0@ov-france1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#🇫🇷 171 - FR - VLESS/WS - 80
 
-vless://4e6b23f2-932b-4a80-a280-44cdf8a86452@144.76.188.139:443?encryption=none&path=/&security=none&type=ws#🇩🇪 381 - DE - VLESS/WS - 443
+vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@104.21.26.122:80?encryption=none&host=nmju.1jj.ccwu.cc&path=/hBasD7EdpBQ0zGAzsYHmsMrnO&security=none&type=ws#🇺🇸 374 - US - VLESS/WS - 80
 
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?type=ws&encryption=none&host=ovhwuxian.pai50288.uk&path=/57ba2ab1&security=tls&sni=ovhwuxian.pai50288.uk&allowInsecure=1#🇺🇸 399 - US - VLESS/WS/TLS - 8443
+vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@104.21.91.128:80?encryption=none&host=nmki.1yy.ccwu.cc&path=/hBasD7EdpBQ0zGAzsYHmsMrnO&security=none&type=ws#🇺🇸 375 - US - VLESS/WS - 80
 
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&insecure=1&allowInsecure=1&type=ws&host=ovhwuxian.pai50288.uk&path=/57ba2ab1#🇺🇸 400 - US - VLESS/WS/TLS/UTLS - 8443
+vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@172.64.80.1:80?encryption=none&host=nnmkl.2nn.ccwu.cc&path=/hBasD7EdpBQ0zGAzsYHmsMrnO&security=none&type=ws#🇺🇸 376 - US - VLESS/WS - 80
 
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@45.131.209.130:8443?security=tls&sni=ovhwuxian.pai50288.uk&allowInsecure=1&fp=chrome&type=ws&path=/57ba2ab1&host=ovhwuxian.pai50288.uk&packetEncoding=xudp&encryption=none#🇧🇿 403 - BZ - VLESS/WS/TLS/UTLS - 8443
+vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@172.67.136.63:80?encryption=none&host=nmju.1jj.ccwu.cc&path=/hBasD7EdpBQ0zGAzsYHmsMrnO&security=none&type=ws#🇺🇸 377 - US - VLESS/WS - 80
 
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?allowInsecure=1&encryption=none&host=ovhwuxian.pai50288.uk&path=/57ba2ab1&security=tls&sni=ovhwuxian.pai50288.uk&type=ws#🇺🇸 404 - US - VLESS/WS/TLS - 8443
+vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@172.67.200.61:80?encryption=none&host=nmjk.1hh.ccwu.cc&path=/hBasD7EdpBQ0zGAzsYHmsMrnO&security=none&type=ws#🇺🇸 378 - US - VLESS/WS - 80
 
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=random&insecure=1&allowInsecure=1&type=ws&host=ovhwuxian.pai50288.uk&path=/57ba2ab1#🇺🇸 405 - US - VLESS/WS/TLS/UTLS - 8443
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?type=ws&encryption=none&host=ovhwuxian.pai50288.uk&path=/57ba2ab1&security=tls&sni=ovhwuxian.pai50288.uk&allowInsecure=1#🇺🇸 400 - US - VLESS/WS/TLS - 8443
 
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?path=/57ba2ab1&security=tls&encryption=none&host=ovhwuxian.pai50288.uk&fp=chrome&type=ws&sni=ovhwuxian.pai50288.uk#🇺🇸 406 - US - VLESS/WS/TLS/UTLS - 8443
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&insecure=1&allowInsecure=1&type=ws&host=ovhwuxian.pai50288.uk&path=/57ba2ab1#🇺🇸 401 - US - VLESS/WS/TLS/UTLS - 8443
 
-vless://5a54a377-a9d3-4ea5-b7b0-17bd899e202d@pq-india1.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#🇮🇳 408 - IN - VLESS/WS - 80
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=firefox&insecure=1&allowInsecure=1&type=ws&host=ovhwuxian.pai50288.uk&path=/57ba2ab1#🇺🇸 402 - US - VLESS/WS/TLS/UTLS - 8443
 
-vless://5ce84688-f535-46ad-a512-37b17becf6ea@152.228.162.19:80?type=ws&encryption=none&host=akamaized.net&path=/vless/#🇫🇷 422 - FR - VLESS/WS - 80
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@45.131.209.130:8443?type=ws&encryption=none&host=ovhwuxian.pai50288.uk&path=/57ba2ab1&security=tls&sni=ovhwuxian.pai50288.uk&allowInsecure=1#🇧🇿 403 - BZ - VLESS/WS/TLS - 8443
 
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.38.47:2052?type=ws&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=/&ed=2048&eh=Sec-WebSocket-Protocol#🇺🇸 435 - US - VLESS/WS - 2052
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@45.131.209.130:8443?security=tls&sni=ovhwuxian.pai50288.uk&allowInsecure=1&fp=chrome&type=ws&path=/57ba2ab1&host=ovhwuxian.pai50288.uk&packetEncoding=xudp&encryption=none#🇧🇿 404 - BZ - VLESS/WS/TLS/UTLS - 8443
 
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?encryption=none&type=ws&security=none&path=/&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK#🇺🇸 436 - US - VLESS/WS - 2052
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?allowInsecure=1&encryption=none&host=ovhwuxian.pai50288.uk&path=/57ba2ab1&security=tls&sni=ovhwuxian.pai50288.uk&type=ws#🇺🇸 405 - US - VLESS/WS/TLS - 8443
 
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?path=/&security=none&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&type=ws#🇺🇸 437 - US - VLESS/WS - 2052
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=random&insecure=1&allowInsecure=1&type=ws&host=ovhwuxian.pai50288.uk&path=/57ba2ab1#🇺🇸 406 - US - VLESS/WS/TLS/UTLS - 8443
 
-vless://6fd9f786-d974-49d0-b5c4-397678de69a2@193.233.127.219:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&security=reality&sni=www.cybo.com&type=tcp#🇳🇱 579 - NL - VLESS/REALITY/PBK/VISION/UTLS - 443
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?path=/57ba2ab1&security=tls&encryption=none&host=ovhwuxian.pai50288.uk&fp=chrome&type=ws&sni=ovhwuxian.pai50288.uk#🇺🇸 407 - US - VLESS/WS/TLS/UTLS - 8443
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 653 - US - VLESS/GRPC - 8880
+vless://5a54a377-a9d3-4ea5-b7b0-17bd899e202d@pq-india1.09vpn.com:80?path=/vless/&security=none&encryption=none&type=ws#🇮🇳 409 - IN - VLESS/WS - 80
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 654 - US - VLESS/GRPC - 8880
+vless://5ce84688-f535-46ad-a512-37b17becf6ea@152.228.162.19:80?type=ws&encryption=none&host=akamaized.net&path=/vless/#🇫🇷 423 - FR - VLESS/WS - 80
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#🇺🇸 656 - US - VLESS/GRPC - 8880
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.18.38.47:2052?type=ws&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&path=/&ed=2048&eh=Sec-WebSocket-Protocol#🇺🇸 436 - US - VLESS/WS - 2052
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#🇺🇸 655 - US - VLESS/GRPC - 8880
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?encryption=none&type=ws&security=none&path=/&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK#🇺🇸 437 - US - VLESS/WS - 2052
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram,Telegram-@mainv2ray,Telegram-@mainv2ray,Telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇺🇸 657 - US - VLESS/GRPC - 8880
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?path=/&security=none&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&type=ws#🇺🇸 438 - US - VLESS/WS - 2052
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 658 - US - VLESS/GRPC - 8880
+vless://6fd9f786-d974-49d0-b5c4-397678de69a2@193.233.127.219:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&security=reality&sni=www.cybo.com&type=tcp#🇳🇱 578 - NL - VLESS/REALITY/PBK/VISION/UTLS - 443
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?type=grpc&encryption=none#🇺🇸 659 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 651 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?encryption=none&security=none&type=grpc#🇺🇸 661 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 652 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?encryption=none&security=none&type=grpc#🇺🇸 660 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#🇺🇸 653 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&fp=chrome&type=grpc#🇺🇸 662 - US - VLESS/GRPC/UTLS - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 656 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram,Telegram-@mainv2ray,Telegram-@mainv2ray,Telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇺🇸 655 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#🇺🇸 654 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?type=grpc&encryption=none#🇺🇸 657 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?encryption=none&security=none&type=grpc#🇺🇸 658 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?encryption=none&security=none&type=grpc#🇺🇸 659 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&type=grpc#🇺🇸 661 - US - VLESS/GRPC - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&fp=chrome&type=grpc#🇺🇸 660 - US - VLESS/GRPC/UTLS - 8880
+
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&type=grpc#🇺🇸 662 - US - VLESS/GRPC - 8880
 
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&type=grpc#🇺🇸 663 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&type=grpc#🇺🇸 664 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇺🇸 664 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&encryption=none&type=grpc#🇺🇸 665 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 665 - US - VLESS/GRPC/UTLS - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇺🇸 666 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 666 - US - VLESS/GRPC/UTLS - 8880
 
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 667 - US - VLESS/GRPC/UTLS - 8880
 
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 668 - US - VLESS/GRPC/UTLS - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 669 - US - VLESS/GRPC/UTLS - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 669 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&fp=chrome&type=grpc#🇺🇸 670 - US - VLESS/GRPC/UTLS - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 670 - US - VLESS/GRPC - 8880
 
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 671 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 672 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh18v7.viripdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 673 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 673 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v3.globalfymain.com:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 674 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh18v7.viripdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 675 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?encryption=none&security=none&sni=pqh29v4.globalfymain.com&type=grpc#🇺🇸 675 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v3.globalfymain.com:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 676 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&encryption=none&type=grpc#🇺🇸 676 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?encryption=none&security=none&sni=pqh29v4.globalfymain.com&type=grpc#🇺🇸 677 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 678 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&encryption=none&type=grpc#🇺🇸 678 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&encryption=none&type=grpc&sni=pqh29v4.globalfymain.com#🇺🇸 677 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 680 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v1.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 680 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&encryption=none&type=grpc&sni=pqh29v4.globalfymain.com#🇺🇸 679 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&encryption=none&type=grpc#🇺🇸 681 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v1.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 682 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇺🇸 682 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&encryption=none&type=grpc#🇺🇸 683 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 683 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&authority=telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray,telegram-@mainv2ray&type=grpc#🇺🇸 684 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 684 - US - VLESS/GRPC - 8880
 
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 685 - US - VLESS/GRPC - 8880
 
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 687 - US - VLESS/GRPC - 8880
-
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#🇺🇸 686 - US - VLESS/GRPC - 8880
-
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?security=none&allowInsecure=0&encryption=none&type=grpc#🇺🇸 688 - US - VLESS/GRPC - 8880
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?security=none&allowInsecure=0&encryption=none&type=grpc#🇺🇸 686 - US - VLESS/GRPC - 8880
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NTJlNDIzYzU1OWVlZmQ0@156.244.19.94:11201#🇰🇷 6 - KR - SS/AEAD - 11201
 
@@ -120,11 +132,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDkxOGJjODAxZDUzYTRi@57.130.28.148:11201#�
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5N2ZlNmIwN2NiZmFmN2U3@157.185.173.60:18424#🇧🇷 36 - BR - SS/AEAD - 18424
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZDk3NDMzNjg4ZTdlZmQ1@163.171.206.24:44233#🇮🇳 43 - IN - SS/AEAD - 44233
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZDk3NDMzNjg4ZTdlZmQ1@163.171.206.24:44233#🇮🇳 42 - IN - SS/AEAD - 44233
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZDk3NDMzNjg4ZTdlZmQ1@163.171.206.24:44234#🇮🇳 44 - IN - SS/AEAD - 44234
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZDk3NDMzNjg4ZTdlZmQ1@163.171.206.24:44233#🇮🇳 43 - IN - SS/AEAD - 44233
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZDk3NDMzNjg4ZTdlZmQ1@163.171.206.24:44235#🇮🇳 45 - IN - SS/AEAD - 44235
 
@@ -134,9 +146,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDFiYzU0Njg5ZWQ0Yjc1@119.159.245.24:26736#�
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDFiYzU0Njg5ZWQ0Yjc1@119.159.245.24:26737#🇵🇰 64 - PK - SS/AEAD - 26737
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDFiYzU0Njg5ZWQ0Yjc1@119.159.245.24:26738#🇵🇰 65 - PK - SS/AEAD - 26738
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDFiYzU0Njg5ZWQ0Yjc1@119.159.245.24:26739#🇵🇰 66 - PK - SS/AEAD - 26739
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDFiYzU0Njg5ZWQ0Yjc1@119.159.245.24:26738#🇵🇰 65 - PK - SS/AEAD - 26738
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.205.146.153:990#🇧🇭 85 - BH - SS/AEAD - 990
 
@@ -148,39 +160,37 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.154.204.7:990#🇨🇦 108 - CA - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@145.14.131.37:990#🇨🇷 111 - CR - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.205.153.107:990#🇨🇱 113 - CL - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.205.146.153:990#🇧🇭 112 - BH - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@154.205.153.107:990#🇨🇱 113 - CL - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@145.14.131.37:990#🇨🇷 111 - CR - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@176.126.83.158:990#🇮🇹 115 - IT - SS/AEAD - 990
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.93.173.60:990#🇧🇴 117 - BO - SS/AEAD - 990
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.247.64.176:990#🇸🇬 119 - SG - SS/AEAD - 990
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.57.90:990#🇧🇷 123 - BR - SS/AEAD - 990
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@171.22.254.129:990#🇲🇹 114 - MT - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.247.64.176:990#🇸🇬 118 - SG - SS/AEAD - 990
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.192.176:990#🇲🇾 126 - MY - SS/AEAD - 990
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.57.90:990#🇧🇷 122 - BR - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.192.176:990#🇲🇾 125 - MY - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.199:8080#🇳🇱 184 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMzAyN2M5MzFhZTA3YmNl@57.129.69.122:27130#🇩🇪 199 - DE - SS/AEAD - 27130
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.199:8080#🇳🇱 185 - NL - SS/AEAD - 8080
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMzAyN2M5MzFhZTA3YmNl@57.129.69.122:27130#🇩🇪 200 - DE - SS/AEAD - 27130
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMzAyN2M5MzFhZTA3YmNl@57.129.69.122:27130#🇩🇪 201 - DE - SS/AEAD - 27130
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTRmMGI2OTE2ZjY3YmRj@38.54.14.156:11201#🇻🇳 206 - VN - SS/AEAD - 11201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMzAyN2M5MzFhZTA3YmNl@57.129.69.122:27130#🇩🇪 202 - DE - SS/AEAD - 27130
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZWM0ZTZmOWU5NTRhZWFk@119.159.245.24:29700#🇵🇰 244 - PK - SS/AEAD - 29700
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸 247 - US - SS/AEAD - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTRmMGI2OTE2ZjY3YmRj@38.54.14.156:11201#🇻🇳 207 - VN - SS/AEAD - 11201
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZWM0ZTZmOWU5NTRhZWFk@119.159.245.24:29700#🇵🇰 245 - PK - SS/AEAD - 29700
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZWM0ZTZmOWU5NTRhZWFk@119.159.245.24:29700#🇵🇰 246 - PK - SS/AEAD - 29700
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸 248 - US - SS/AEAD - 443
 
@@ -188,15 +198,15 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-penni
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸 250 - US - SS/AEAD - 443
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#🇳🇱 252 - NL - SS/AEAD - 8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸 251 - US - SS/AEAD - 443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#🇳🇱 253 - NL - SS/AEAD - 8080
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#🇳🇱 254 - NL - SS/AEAD - 8080
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#🇳🇱 258 - NL - SS/AEAD - 8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#🇳🇱 255 - NL - SS/AEAD - 8080
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#🇬🇧 262 - GB - SS/AEAD - 8388
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#🇳🇱 259 - NL - SS/AEAD - 8080
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#🇬🇧 263 - GB - SS/AEAD - 8388
 
@@ -210,9 +220,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:80
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.62:8080#🇳🇱 284 - NL - SS/AEAD - 8080
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.82:8080#🇳🇱 285 - NL - SS/AEAD - 8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.62:8080#🇳🇱 285 - NL - SS/AEAD - 8080
 
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#🇬🇧 304 - GB - SS/AEAD - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.82:8080#🇳🇱 286 - NL - SS/AEAD - 8080
+
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#🇬🇧 305 - GB - SS/AEAD - 443
 
 vmess://eyJ2IjogIjIiLCAicHMiOiAi8J+HuvCfh7ggMSAtIFVTIC0gVk1lc3MvV1MgLSA4MCIsICJhZGQiOiAiamprbS56ZW0uaW5kZXZzLmluIiwgInBvcnQiOiA4MCwgImlkIjogImM1NTgzMjhiLWViNDYtNDI0Yy1iOWUwLTU3NDc3MGYwYjA3MiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiamprbS56ZW0uaW5kZXZzLmluIiwgInBhdGgiOiAiLzdzT3owcDRTelUxRDZYTkMwQlhHdEoiLCAidGxzIjogIiIsICJzbmkiOiAiamprbS56ZW0uaW5kZXZzLmluIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJpbnNlY3VyZSI6ICIwIiwgIm5hbWUiOiAiQGVuX3Zwbi/aqdin2YbZgduM2q8g2YfYp9uMINio24zYtNiq2LEifQ==
 
