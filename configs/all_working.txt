@@ -1,16 +1,8 @@
-vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?security=reality&encryption=none&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=4ae260#🇭🇺 152 - HU - VLESS/REALITY/PBK/SID/UTLS - 17267
+vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?security=reality&encryption=none&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=4ae260#🇭🇺 151 - HU - VLESS/REALITY/PBK/SID/UTLS - 17267
 
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?encryption=none&type=ws&security=none&path=/&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK#🇺🇸 476 - US - VLESS/WS - 2052
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?encryption=none&type=ws&security=none&path=/&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK#🇺🇸 472 - US - VLESS/WS - 2052
 
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?path=/&security=none&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&type=ws#🇺🇸 477 - US - VLESS/WS - 2052
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@23.95.76.59:990#🇨🇦 183 - CA - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@23.95.76.59:990#🇨🇦 184 - CA - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.154.204.7:990#🇨🇦 204 - CA - SS/AEAD - 990
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@45.154.204.7:990#🇨🇦 205 - CA - SS/AEAD - 990
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?path=/&security=none&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&type=ws#🇺🇸 473 - US - VLESS/WS - 2052
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.199:8080#🇳🇱 254 - NL - SS/AEAD - 8080
 
