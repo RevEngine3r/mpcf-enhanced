@@ -1,8 +1,6 @@
 ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443#🔒 SS-TCP-NA 🇳🇱 NL-109.201.152.181:443
 
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?encryption=none&type=ws&security=none&path=/&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK#🇺🇸 473 - US - VLESS/WS - 2052&detour=🔒 SS-TCP-NA 🇳🇱 NL-109.201.152.181:443
-
-vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@v3.dabache.top:2052?path=/&security=none&encryption=none&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK&type=ws#🇺🇸 474 - US - VLESS/WS - 2052&detour=🔒 SS-TCP-NA 🇳🇱 NL-109.201.152.181:443
+vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@172.64.146.37:2052?encryption=none&type=ws&security=none&path=/&host=oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK#🇺🇸 474 - US - VLESS/WS - 2052&detour=🔒 SS-TCP-NA 🇳🇱 NL-109.201.152.181:443
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDkxOGJjODAxZDUzYTRi@57.130.28.148:11201#🇫🇷 16 - FR - SS/AEAD - 11201&detour=🔒 SS-TCP-NA 🇳🇱 NL-109.201.152.181:443
 
