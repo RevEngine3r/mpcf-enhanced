@@ -55,11 +55,11 @@
 
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg?v=1774922775" alt="آمار عملکرد منابع" width="800">
+    <img src="assets/channel_stats_chart.svg?v=1774942270" alt="آمار عملکرد منابع" width="800">
   </a>
 </div>
 
-📊 [مشاهده گزارش تعاملی کامل](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1774922775)
+📊 [مشاهده گزارش تعاملی کامل](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1774942270)
 
 هر منبع بر اساس موارد زیر امتیازدهی می‌شود:
 - **قابلیت اطمینان (۳۵٪)** — نرخ موفقیت دریافت
