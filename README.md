@@ -55,11 +55,11 @@ Fetch  →  Geo-enrich  →  Rename  →  Unified Test  →  Write 5 files
 
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg?v=1775677607" alt="Source Performance Statistics" width="800">
+    <img src="assets/channel_stats_chart.svg?v=1775699216" alt="Source Performance Statistics" width="800">
   </a>
 </div>
 
-📊 [View Full Interactive Report](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1775677607)
+📊 [View Full Interactive Report](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1775699216)
 
 Each source is scored on:
 - **Reliability (35%)** — fetch success rate
