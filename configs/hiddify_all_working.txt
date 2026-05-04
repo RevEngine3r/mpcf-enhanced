@@ -1,6 +1,6 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#🇳🇱 228 - NL - SS/AEAD - 8080
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#🇳🇱 229 - NL - SS/AEAD - 8080
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#🇳🇱 230 - NL - SS/AEAD - 8080
-
-trojan://mSzFVhUczD@104.20.5.134:443?allowInsecure=1&alpn=http/1.1&host=abest.api-tel.xyz&path=/&sni=abest.api-tel.xyz&type=ws#🇺🇸 131 - US - Trojan/WS/TLS - 443
+trojan://mSzFVhUczD@104.20.5.134:443?allowInsecure=1&alpn=http/1.1&host=abest.api-tel.xyz&path=/&sni=abest.api-tel.xyz&type=ws#🇺🇸 130 - US - Trojan/WS/TLS - 443
 
