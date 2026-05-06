@@ -55,11 +55,11 @@
 
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg?v=1778077080" alt="来源性能统计" width="800">
+    <img src="assets/channel_stats_chart.svg?v=1778098175" alt="来源性能统计" width="800">
   </a>
 </div>
 
-📊 [查看完整交互式报告](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1778077080)
+📊 [查看完整交互式报告](https://htmlpreview.github.io/?https://github.com/RevEngine3r/mpcf-enhanced/blob/main/assets/performance_report.html?v=1778098175)
 
 每个来源基于以下指标评分：
 - **可靠性 (35%)** — 抓取成功率
