@@ -341,7 +341,7 @@ vless://3a54d818-82c2-49b8-b01a-e8f8e59d59c5@tokyo1.ap221.com:443?allowInsecure=
 
 vless://3a72f0fd-68c8-4089-8b02-36aa1da14e45@134.209.191.114:443?path=/farasati1&security=reality&encryption=none&pbk=as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg&fp=chrome&spx=/&type=xhttp&sni=www.wikipedia.org&sid=1c213fd68e13#🇬🇧 168 - GB - VLESS/XHTTP/REALITY/PBK/SID/UTLS - 443
 
-vless://3ac22fb7-b1f6-4b15-b2ce-e150e8de2873@a.fastlynew.hosting-ip.com:443?encryption=none&security=tls&sni=looazjoijji.global.ssl.fastly.net&type=ws&host=looazjoijji.global.ssl.fastly.net&path=/#🇳🇱 169 - NL - VLESS/WS/TLS - 443
+vless://3ac22fb7-b1f6-4b15-b2ce-e150e8de2873@a.fastlynew.hosting-ip.com:443?encryption=none&security=tls&sni=looazjoijji.global.ssl.fastly.net&type=ws&host=looazjoijji.global.ssl.fastly.net&path=/#🇧🇪 169 - BE - VLESS/WS/TLS - 443
 
 vless://3bdaeb7f-c0fb-406a-9c03-37bb3be055ab@delilah.ns.cloudflare.com:443?path=/nrbpjkws&security=tls&encryption=none&insecure=1&host=639025539575707828.highlander-amsjk.info&type=ws&allowInsecure=1&sni=639025539575707828.highlander-amsjk.info#🇺🇸 170 - US - VLESS/WS/TLS - 443
 
@@ -2739,23 +2739,21 @@ trojan://telegram-id-directvpn@63.184.179.58:22223?security=tls&alpn=http/1.1&he
 
 trojan://telegram-id-privatevpns@15.224.29.207:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 121 - FR - Trojan/TLS - 22222
 
-trojan://telegram-id-privatevpns@15.224.29.207:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 122 - FR - Trojan/TLS - 22222
+trojan://telegram-id-privatevpns@15.224.87.132:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 122 - FR - Trojan/TLS - 22222
 
 trojan://telegram-id-privatevpns@15.224.87.132:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 123 - FR - Trojan/TLS - 22222
 
-trojan://telegram-id-privatevpns@15.224.87.132:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 124 - FR - Trojan/TLS - 22222
+trojan://telegram-id-privatevpns@35.181.195.29:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#🇫🇷 124 - FR - Trojan/TLS - 22222
 
-trojan://telegram-id-privatevpns@35.181.195.29:22222?security=tls&amp;alpn=http/1.1&amp;headerType=none&amp;type=tcp&amp;sni=trojan.burgerip.co.uk#🇫🇷 125 - FR - Trojan/TLS - 22222
+trojan://telegram-id-privatevpns@52.47.129.227:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 125 - FR - Trojan/TLS - 22222
 
-trojan://telegram-id-privatevpns@52.47.129.227:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷 126 - FR - Trojan/TLS - 22222
+trojan://telegram-id-privatevpns@52.59.183.236:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪 126 - DE - Trojan/TLS - 22222
 
-trojan://telegram-id-privatevpns@52.59.183.236:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪 127 - DE - Trojan/TLS - 22222
+trojan://telegram-id-privatevpns@63.184.179.58:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪 127 - DE - Trojan/TLS - 22222
 
-trojan://telegram-id-privatevpns@63.184.179.58:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪 128 - DE - Trojan/TLS - 22222
+trojan://tpCznR-P5%3DjZUb%23c@66.245.193.152:17126?security=tls&headerType=none&type=tcp&sni=ctaldikgfyw.uefahpgsyz.click#🇬🇧 128 - GB - Trojan/TLS - 17126
 
-trojan://tpCznR-P5%3DjZUb%23c@66.245.193.152:17126?security=tls&headerType=none&type=tcp&sni=ctaldikgfyw.uefahpgsyz.click#🇬🇧 129 - GB - Trojan/TLS - 17126
-
-trojan://trojan@ip.sb:8443?path=/&amp;security=tls&amp;host=fofang.pages.dev&amp;type=ws&amp;sni=fofang.pages.dev#🇺🇸 130 - US - Trojan/TLS - 8443
+trojan://trojan@ip.sb:8443?path=/&amp;security=tls&amp;host=fofang.pages.dev&amp;type=ws&amp;sni=fofang.pages.dev#🇺🇸 129 - US - Trojan/TLS - 8443
 
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#🇺🇸 1 - US - Hysteria2/QUIC - 25000
 
