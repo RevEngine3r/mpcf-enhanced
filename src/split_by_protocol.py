@@ -2,16 +2,17 @@
 """
 split_by_protocol.py
 ~~~~~~~~~~~~~~~~~~~~
-Reads configs/google_200.txt, resolves every domain host to an IP address
-(replacing it in the URI so consumers always get a bare IP), then writes
+Reads configs/google_200.txt, resolves every domain host to an IPv4 address
+(replacing it in the URI so consumers always get a bare IPv4), then writes
 one file per detected V2Ray/Xray protocol into configs/google_200_<proto>.txt.
 
 Resolver behaviour
 ------------------
 - Extracts the host from the proxy URI (handles all common schemes).
-- Skips resolution if the host is already an IPv4 or IPv6 literal.
-- Resolves all unique domains concurrently (ThreadPoolExecutor) with a
-  configurable timeout so a slow DNS server never blocks the whole run.
+- Skips resolution if the host is already an IPv4 literal.
+- If the host is an IPv6 literal it is treated as unresolvable and kept as-is.
+- Resolves all unique domains concurrently (ThreadPoolExecutor) requesting
+  AF_INET only, so the result is always an IPv4 address.
 - Tries up to RESOLVER_RETRIES times per domain with exponential back-off.
 - Falls back to the original domain if resolution fails (proxy is still kept).
 - Results are cached in memory so the same domain is only looked up once.
@@ -48,7 +49,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 from urllib.parse import urlparse, urlunparse
 
-# ── paths ─────────────────────────────────────────────────────────────────────
+# ── paths ───────────────────────────────────────────────────────────────────
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT   = os.path.dirname(SCRIPT_DIR)
 CONFIGS_DIR = os.path.join(REPO_ROOT, "configs")
@@ -81,29 +82,41 @@ PROTOCOL_PATTERNS: list[tuple[str, str]] = [
 _COMPILED = [(re.compile(p, re.IGNORECASE), n) for p, n in PROTOCOL_PATTERNS]
 
 # vmess lines are base64 JSON — host is inside the payload, not the URI netloc.
-# We parse them separately.
 _VMESS_RE = re.compile(r"^vmess://", re.IGNORECASE)
 
-# ── helpers ───────────────────────────────────────────────────────────────────
 
-def _is_ip(host: str) -> bool:
-    """Return True if host is already an IPv4 or IPv6 literal."""
+# ── IP helpers ──────────────────────────────────────────────────────────────────
+
+def _is_ipv4(host: str) -> bool:
+    """Return True if host is already a dotted-decimal IPv4 literal."""
     try:
-        ipaddress.ip_address(host.strip("[]"))
+        ipaddress.IPv4Address(host)
         return True
     except ValueError:
         return False
 
 
-def _resolve_once(domain: str) -> Optional[str]:
-    """One DNS lookup attempt; returns first IPv4/IPv6 string or None."""
+def _is_ipv6(host: str) -> bool:
+    """Return True if host is an IPv6 literal (with or without brackets)."""
     try:
-        results = socket.getaddrinfo(domain, None, socket.AF_UNSPEC,
+        ipaddress.IPv6Address(host.strip("[]"))
+        return True
+    except ValueError:
+        return False
+
+
+# ── resolver ───────────────────────────────────────────────────────────────────
+
+def _resolve_once_ipv4(domain: str) -> Optional[str]:
+    """
+    Single DNS lookup requesting AF_INET only.
+    Returns the first IPv4 string, or None on failure.
+    """
+    try:
+        results = socket.getaddrinfo(domain, None, socket.AF_INET,
                                      socket.SOCK_STREAM)
-        for family, _, _, _, sockaddr in results:
-            ip = sockaddr[0]
-            if family in (socket.AF_INET, socket.AF_INET6):
-                return ip
+        for _family, _, _, _, sockaddr in results:
+            return sockaddr[0]   # always IPv4 dotted-decimal
     except OSError:
         pass
     return None
@@ -111,10 +124,15 @@ def _resolve_once(domain: str) -> Optional[str]:
 
 def resolve_domain(domain: str) -> str:
     """
-    Resolve domain → IP with retries + back-off.
-    Returns the IP string, or the original domain on failure.
+    Resolve domain → IPv4 with retries + back-off.
+    - Already IPv4  → returned unchanged.
+    - IPv6 literal  → returned unchanged (cannot force-IPv4 a literal).
+    - Domain        → resolved to IPv4, or kept as-is on failure.
     """
-    if _is_ip(domain):
+    if _is_ipv4(domain):
+        return domain
+    if _is_ipv6(domain):
+        # Keep IPv6 literals; we cannot re-resolve them to v4 here.
         return domain
 
     delay = RESOLVER_BACKOFF
@@ -122,7 +140,7 @@ def resolve_domain(domain: str) -> str:
         old_timeout = socket.getdefaulttimeout()
         socket.setdefaulttimeout(RESOLVER_TIMEOUT)
         try:
-            ip = _resolve_once(domain)
+            ip = _resolve_once_ipv4(domain)
         finally:
             socket.setdefaulttimeout(old_timeout)
 
@@ -133,19 +151,20 @@ def resolve_domain(domain: str) -> str:
             time.sleep(delay)
             delay *= RESOLVER_BACKOFF
 
-    print(f"[resolver] ✗  {domain}  — resolution failed, keeping domain")
+    print(f"[resolver] ✗  {domain}  — IPv4 resolution failed, keeping domain")
     return domain
 
 
 def _build_cache(domains: set[str]) -> dict[str, str]:
-    """Resolve all unique domains concurrently, return {domain: ip_or_domain}."""
+    """Resolve all unique domains concurrently, return {domain: ipv4_or_domain}."""
     cache: dict[str, str] = {}
-    only_domains = {d for d in domains if not _is_ip(d)}
+    # Only attempt resolution for plain domains (skip both v4 and v6 literals)
+    only_domains = {d for d in domains if not _is_ipv4(d) and not _is_ipv6(d)}
 
     if not only_domains:
         return {d: d for d in domains}
 
-    print(f"[resolver] Resolving {len(only_domains)} unique domain(s) "
+    print(f"[resolver] Resolving {len(only_domains)} unique domain(s) to IPv4 "
           f"with {RESOLVER_WORKERS} workers …")
 
     with ThreadPoolExecutor(max_workers=RESOLVER_WORKERS) as pool:
@@ -157,16 +176,16 @@ def _build_cache(domains: set[str]) -> dict[str, str]:
             except Exception:
                 cache[domain] = domain
 
-    # IPs resolve to themselves
+    # Pass IP literals through unchanged
     for d in domains - only_domains:
         cache[d] = d
 
     resolved = sum(1 for d, ip in cache.items() if ip != d)
-    print(f"[resolver] ✓  {resolved}/{len(only_domains)} domain(s) resolved to IP")
+    print(f"[resolver] ✓  {resolved}/{len(only_domains)} domain(s) resolved to IPv4")
     return cache
 
 
-# ── host extraction per scheme ────────────────────────────────────────────────
+# ── host extraction per scheme ───────────────────────────────────────────────
 
 def _extract_host_standard(uri: str) -> Optional[str]:
     """Extract hostname from a standard URI (vless/trojan/ss/hy2/tuic/…)."""
@@ -183,7 +202,6 @@ def _extract_host_vmess(uri: str) -> Optional[str]:
     import base64
     try:
         b64 = uri[len("vmess://"):]
-        # pad
         b64 += "=" * (-len(b64) % 4)
         data = json.loads(base64.b64decode(b64).decode("utf-8", errors="replace"))
         return data.get("add") or data.get("host") or None
@@ -200,33 +218,25 @@ def extract_host(line: str) -> Optional[str]:
 # ── host replacement per scheme ───────────────────────────────────────────────
 
 def _replace_host_standard(uri: str, new_host: str) -> str:
-    """Replace hostname in a standard URI, preserving everything else."""
+    """
+    Replace hostname in a standard URI with a plain IPv4 address.
+    Preserves userinfo and port; removes any IPv6 brackets that may have
+    existed in the original netloc.
+    """
     try:
         parsed = urlparse(uri)
+        raw_host = parsed.hostname or ""   # always bracket-free
+
+        if not raw_host:
+            return uri
+
         old_netloc = parsed.netloc
+        # If the original host was IPv6 it appeared as [xxxx] in netloc
+        old_host_in_netloc = f"[{raw_host}]" if _is_ipv6(raw_host) else raw_host
+        # new_host is always plain IPv4 — no brackets needed
+        new_netloc = old_netloc.replace(old_host_in_netloc, new_host, 1)
 
-        # Reconstruct netloc: [userinfo@]<host>[:port]
-        # parsed.hostname strips brackets; we need raw host for IPv6
-        raw_host = parsed.hostname or ""
-        if ":" in new_host and not new_host.startswith("["):
-            formatted_host = f"[{new_host}]"   # IPv6 literal needs brackets
-        else:
-            formatted_host = new_host
-
-        if raw_host:
-            # Replace only the host part in the original netloc string
-            # to safely preserve userinfo and port
-            if ":" in raw_host:                             # was IPv6
-                old_host_in_netloc = f"[{raw_host}]"
-            else:
-                old_host_in_netloc = raw_host
-
-            new_netloc = old_netloc.replace(old_host_in_netloc, formatted_host, 1)
-        else:
-            new_netloc = old_netloc
-
-        new_parsed = parsed._replace(netloc=new_netloc)
-        return urlunparse(new_parsed)
+        return urlunparse(parsed._replace(netloc=new_netloc))
     except Exception:
         return uri
 
@@ -297,7 +307,7 @@ def split_google_200() -> None:
             host_map[idx] = host
             unique_hosts.add(host)
 
-    # ── 3. Resolve all domains concurrently ───────────────────────────────────
+    # ── 3. Resolve all domains to IPv4 concurrently ────────────────────────────
     dns_cache = _build_cache(unique_hosts)
 
     # ── 4. Rewrite hosts in URI lines ─────────────────────────────────────────
@@ -312,7 +322,7 @@ def split_google_200() -> None:
                 rewrites += 1
         resolved_lines.append(line)
 
-    print(f"[split_by_protocol] ✓  {rewrites} URI(s) had domain replaced with IP")
+    print(f"[split_by_protocol] ✓  {rewrites} URI(s) had domain replaced with IPv4")
 
     # ── 5. Split by protocol ──────────────────────────────────────────────────
     buckets: defaultdict[str, list[str]] = defaultdict(list)
