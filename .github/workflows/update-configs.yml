@@ -2,9 +2,6 @@ name: Update Proxy Configs
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 03:30 Tehran
-    - cron: '0 6 * * *'   # 09:30 Tehran
-    - cron: '0 12 * * *'  # 15:30 Tehran
     - cron: '0 18 * * *'  # 21:30 Tehran
   workflow_dispatch:
 
