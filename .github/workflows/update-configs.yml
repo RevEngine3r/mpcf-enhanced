@@ -105,7 +105,14 @@ jobs:
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 5: Update README cache-bust timestamps
+      # Step 5: Split google_200.txt by protocol
+      # -----------------------------------------------------------------
+      - name: Split google_200 by protocol
+        run: python src/split_by_protocol.py
+        continue-on-error: true
+
+      # -----------------------------------------------------------------
+      # Step 6: Update README cache-bust timestamps
       # -----------------------------------------------------------------
       - name: Update README timestamps
         run: |
@@ -117,7 +124,7 @@ jobs:
           done
 
       # -----------------------------------------------------------------
-      # Step 6: Commit + push
+      # Step 7: Commit + push
       # -----------------------------------------------------------------
       - name: Commit and push
         run: |
@@ -134,6 +141,9 @@ jobs:
           git add    configs/channel_stats.json      || true
           git add    assets/                         || true
           git add    README.md README_FA.md README_CN.md README_RU.md || true
+
+          # Add all protocol-split files (google_200_*.txt)
+          git add -f configs/google_200_*.txt        || true
 
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
 
