@@ -2,21 +2,29 @@
 """
 split_by_protocol.py
 ~~~~~~~~~~~~~~~~~~~~
-Reads configs/google_200.txt, resolves every domain host to an IPv4 address
-(replacing it in the URI so consumers always get a bare IPv4), then writes
-one file per detected V2Ray/Xray protocol into configs/google_200_<proto>.txt.
+Reads configs/google_200.txt, deduplicates lines by their proxy URI (the part
+before any trailing #comment), resolves every domain host to an IPv4 address
+(replacing it in the URI so consumers always get a bare IPv4), then writes one
+file per detected V2Ray/Xray protocol into configs/google_200_<proto>.txt.
+
+Pipeline
+--------
+  1. Read   — load non-blank, non-comment lines
+  2. Dedup  — key = line.split('#')[0].strip()  (first occurrence wins)
+  3. Resolve— replace domain hosts with IPv4 (AF_INET, concurrent)
+  4. Rewrite— substitute resolved IPs back into URIs
+  5. Split  — one output file per protocol
 
 Resolver behaviour
 ------------------
-- Extracts the host from the proxy URI (handles all common schemes).
 - Skips resolution if the host is already an IPv4 literal.
-- If the host is an IPv6 literal it is treated as unresolvable and kept as-is.
+- IPv6 literals are kept as-is (cannot force-resolve to v4).
 - Resolves all unique domains concurrently (ThreadPoolExecutor) requesting
-  AF_INET only, so the result is always an IPv4 address.
+  AF_INET only, so the result is always a dotted-decimal IPv4 string.
 - Tries up to RESOLVER_RETRIES times per domain with exponential back-off.
-- Falls back to the original domain if resolution fails (proxy is still kept).
-- Results are cached in memory so the same domain is only looked up once.
-- Uses concurrent.futures for pure stdlib — no extra dependencies.
+- Falls back to the original domain if resolution fails (proxy kept).
+- Results are cached in memory; same domain is only looked up once.
+- Pure stdlib — no extra dependencies.
 
 Supported protocols
 -------------------
@@ -49,7 +57,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 from urllib.parse import urlparse, urlunparse
 
-# ── paths ───────────────────────────────────────────────────────────────────
+# ── paths ─────────────────────────────────────────────────────────────────────
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT   = os.path.dirname(SCRIPT_DIR)
 CONFIGS_DIR = os.path.join(REPO_ROOT, "configs")
@@ -85,7 +93,37 @@ _COMPILED = [(re.compile(p, re.IGNORECASE), n) for p, n in PROTOCOL_PATTERNS]
 _VMESS_RE = re.compile(r"^vmess://", re.IGNORECASE)
 
 
-# ── IP helpers ──────────────────────────────────────────────────────────────────
+# ── deduplication ─────────────────────────────────────────────────────────────
+
+def _dedup_key(line: str) -> str:
+    """
+    Return the deduplication key for a proxy line.
+    Everything before the first '#' (stripped) is the actual URI;
+    the trailing #comment is ignored for comparison purposes.
+    """
+    return line.split("#", 1)[0].strip()
+
+
+def deduplicate(lines: list[str]) -> list[str]:
+    """
+    Remove duplicate proxy lines, keeping the first occurrence.
+    Two lines are considered duplicates when their URI keys are identical
+    (i.e. the content before any trailing #comment, case-sensitive).
+    """
+    seen: set[str] = set()
+    result: list[str] = []
+    for line in lines:
+        key = _dedup_key(line)
+        if not key:
+            continue
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(line)
+    return result
+
+
+# ── IP helpers ────────────────────────────────────────────────────────────────
 
 def _is_ipv4(host: str) -> bool:
     """Return True if host is already a dotted-decimal IPv4 literal."""
@@ -105,7 +143,7 @@ def _is_ipv6(host: str) -> bool:
         return False
 
 
-# ── resolver ───────────────────────────────────────────────────────────────────
+# ── resolver ──────────────────────────────────────────────────────────────────
 
 def _resolve_once_ipv4(domain: str) -> Optional[str]:
     """
@@ -132,7 +170,6 @@ def resolve_domain(domain: str) -> str:
     if _is_ipv4(domain):
         return domain
     if _is_ipv6(domain):
-        # Keep IPv6 literals; we cannot re-resolve them to v4 here.
         return domain
 
     delay = RESOLVER_BACKOFF
@@ -158,7 +195,6 @@ def resolve_domain(domain: str) -> str:
 def _build_cache(domains: set[str]) -> dict[str, str]:
     """Resolve all unique domains concurrently, return {domain: ipv4_or_domain}."""
     cache: dict[str, str] = {}
-    # Only attempt resolution for plain domains (skip both v4 and v6 literals)
     only_domains = {d for d in domains if not _is_ipv4(d) and not _is_ipv6(d)}
 
     if not only_domains:
@@ -176,7 +212,6 @@ def _build_cache(domains: set[str]) -> dict[str, str]:
             except Exception:
                 cache[domain] = domain
 
-    # Pass IP literals through unchanged
     for d in domains - only_domains:
         cache[d] = d
 
@@ -185,7 +220,7 @@ def _build_cache(domains: set[str]) -> dict[str, str]:
     return cache
 
 
-# ── host extraction per scheme ───────────────────────────────────────────────
+# ── host extraction per scheme ────────────────────────────────────────────────
 
 def _extract_host_standard(uri: str) -> Optional[str]:
     """Extract hostname from a standard URI (vless/trojan/ss/hy2/tuic/…)."""
@@ -210,9 +245,11 @@ def _extract_host_vmess(uri: str) -> Optional[str]:
 
 
 def extract_host(line: str) -> Optional[str]:
-    if _VMESS_RE.match(line):
-        return _extract_host_vmess(line)
-    return _extract_host_standard(line)
+    # Use only the URI part (before any #comment) for host extraction
+    uri = _dedup_key(line)
+    if _VMESS_RE.match(uri):
+        return _extract_host_vmess(uri)
+    return _extract_host_standard(uri)
 
 
 # ── host replacement per scheme ───────────────────────────────────────────────
@@ -220,8 +257,7 @@ def extract_host(line: str) -> Optional[str]:
 def _replace_host_standard(uri: str, new_host: str) -> str:
     """
     Replace hostname in a standard URI with a plain IPv4 address.
-    Preserves userinfo and port; removes any IPv6 brackets that may have
-    existed in the original netloc.
+    Preserves userinfo, port, path, query, fragment.
     """
     try:
         parsed = urlparse(uri)
@@ -231,9 +267,7 @@ def _replace_host_standard(uri: str, new_host: str) -> str:
             return uri
 
         old_netloc = parsed.netloc
-        # If the original host was IPv6 it appeared as [xxxx] in netloc
         old_host_in_netloc = f"[{raw_host}]" if _is_ipv6(raw_host) else raw_host
-        # new_host is always plain IPv4 — no brackets needed
         new_netloc = old_netloc.replace(old_host_in_netloc, new_host, 1)
 
         return urlunparse(parsed._replace(netloc=new_netloc))
@@ -258,18 +292,21 @@ def _replace_host_vmess(uri: str, new_host: str) -> str:
 
 
 def replace_host(line: str, new_host: str) -> str:
-    if new_host == extract_host(line):   # nothing changed
+    uri = _dedup_key(line)          # operate on the URI part only
+    comment = line[len(uri):]       # preserve trailing #comment as-is
+    if new_host == extract_host(line):
         return line
-    if _VMESS_RE.match(line):
-        return _replace_host_vmess(line, new_host)
-    return _replace_host_standard(line, new_host)
+    if _VMESS_RE.match(uri):
+        return _replace_host_vmess(uri, new_host) + comment
+    return _replace_host_standard(uri, new_host) + comment
 
 
 # ── protocol detection ────────────────────────────────────────────────────────
 
 def detect_protocol(line: str) -> str:
+    uri = _dedup_key(line)
     for pattern, name in _COMPILED:
-        if pattern.match(line):
+        if pattern.match(uri):
             return name
     return "unknown"
 
@@ -285,11 +322,10 @@ def split_google_200() -> None:
     raw_lines: list[str] = []
     with open(INPUT_FILE, "r", encoding="utf-8") as fh:
         for raw in fh:
-            line = raw.rstrip("\n")
-            stripped = line.strip()
-            if not stripped or stripped.startswith("#"):
+            line = raw.rstrip("\n").strip()
+            if not line or line.startswith("#"):
                 continue
-            raw_lines.append(stripped)
+            raw_lines.append(line)
 
     if not raw_lines:
         print("[split_by_protocol] ⚠  google_200.txt is empty or has no proxy lines.")
@@ -297,23 +333,28 @@ def split_google_200() -> None:
 
     print(f"[split_by_protocol] Read {len(raw_lines)} proxy line(s) from google_200.txt")
 
-    # ── 2. Collect all unique hosts ───────────────────────────────────────────
+    # ── 2. Deduplicate by URI key (before #comment) ───────────────────────────
+    deduped = deduplicate(raw_lines)
+    dropped = len(raw_lines) - len(deduped)
+    print(f"[split_by_protocol] ✓  Dedup: kept {len(deduped)}, dropped {dropped} duplicate(s)")
+
+    # ── 3. Collect all unique hosts ───────────────────────────────────────────
     host_map: dict[int, str] = {}   # line_index → host
     unique_hosts: set[str] = set()
 
-    for idx, line in enumerate(raw_lines):
+    for idx, line in enumerate(deduped):
         host = extract_host(line)
         if host:
             host_map[idx] = host
             unique_hosts.add(host)
 
-    # ── 3. Resolve all domains to IPv4 concurrently ────────────────────────────
+    # ── 4. Resolve all domains to IPv4 concurrently ───────────────────────────
     dns_cache = _build_cache(unique_hosts)
 
-    # ── 4. Rewrite hosts in URI lines ─────────────────────────────────────────
+    # ── 5. Rewrite hosts in URI lines ─────────────────────────────────────────
     resolved_lines: list[str] = []
     rewrites = 0
-    for idx, line in enumerate(raw_lines):
+    for idx, line in enumerate(deduped):
         host = host_map.get(idx)
         if host:
             ip = dns_cache.get(host, host)
@@ -324,7 +365,7 @@ def split_google_200() -> None:
 
     print(f"[split_by_protocol] ✓  {rewrites} URI(s) had domain replaced with IPv4")
 
-    # ── 5. Split by protocol ──────────────────────────────────────────────────
+    # ── 6. Split by protocol ──────────────────────────────────────────────────
     buckets: defaultdict[str, list[str]] = defaultdict(list)
     for line in resolved_lines:
         proto = detect_protocol(line)
