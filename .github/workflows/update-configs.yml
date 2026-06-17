@@ -95,21 +95,29 @@ jobs:
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 4: Charts / reports
+      # Step 4: Merge current google_200 into persistent history
+      #         Then overwrite google_200.txt with the full historic pool
+      # -----------------------------------------------------------------
+      - name: Persist google_200 history
+        run: python src/persist_google_200.py
+        continue-on-error: true
+
+      # -----------------------------------------------------------------
+      # Step 5: Charts / reports
       # -----------------------------------------------------------------
       - name: Generate charts and reports
         run: python src/generate_charts.py
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 5: Split google_200.txt by protocol
+      # Step 6: Split google_200.txt by protocol
       # -----------------------------------------------------------------
       - name: Split google_200 by protocol
         run: python src/split_by_protocol.py
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 6: Update README cache-bust timestamps
+      # Step 7: Update README cache-bust timestamps
       # -----------------------------------------------------------------
       - name: Update README timestamps
         run: |
@@ -121,7 +129,7 @@ jobs:
           done
 
       # -----------------------------------------------------------------
-      # Step 7: Commit + push
+      # Step 8: Commit + push
       # -----------------------------------------------------------------
       - name: Commit and push
         run: |
@@ -130,6 +138,7 @@ jobs:
 
           git add -f configs/all_working.txt         || true
           git add -f configs/google_200.txt          || true
+          git add -f configs/google_200_history.txt  || true
           git add -f configs/hiddify_all_working.txt || true
           git add -f configs/hiddify_google_200.txt  || true
           git add -f configs/hiddify_all_detour.txt  || true
