@@ -88,36 +88,45 @@ jobs:
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 3: Single-pass test + Google-200 split -> 5 output files
+      # Step 3: Pre-test dedup + history merge
+      #         Merges proxy_configs.txt + google_200_history.txt,
+      #         deduplicates, writes proxy_configs_merged.txt
+      # -----------------------------------------------------------------
+      - name: Merge history + dedup before testing
+        run: python src/persist_google_200.py pre
+        continue-on-error: true
+
+      # -----------------------------------------------------------------
+      # Step 4: Single-pass test on the merged+deduped input
       # -----------------------------------------------------------------
       - name: Run unified tester (xray + google-200 check)
-        run: python src/unified_tester.py configs/proxy_configs.txt
+        run: python src/unified_tester.py configs/proxy_configs_merged.txt
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 4: Merge current google_200 into persistent history
-      #         Then overwrite google_200.txt with the full historic pool
+      # Step 5: Post-test — persist new google_200 results into history,
+      #         expand google_200.txt with full historic pool
       # -----------------------------------------------------------------
       - name: Persist google_200 history
-        run: python src/persist_google_200.py
+        run: python src/persist_google_200.py post
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 5: Charts / reports
+      # Step 6: Charts / reports
       # -----------------------------------------------------------------
       - name: Generate charts and reports
         run: python src/generate_charts.py
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 6: Split google_200.txt by protocol
+      # Step 7: Split google_200.txt by protocol
       # -----------------------------------------------------------------
       - name: Split google_200 by protocol
         run: python src/split_by_protocol.py
         continue-on-error: true
 
       # -----------------------------------------------------------------
-      # Step 7: Update README cache-bust timestamps
+      # Step 8: Update README cache-bust timestamps
       # -----------------------------------------------------------------
       - name: Update README timestamps
         run: |
@@ -129,27 +138,28 @@ jobs:
           done
 
       # -----------------------------------------------------------------
-      # Step 8: Commit + push
+      # Step 9: Commit + push
       # -----------------------------------------------------------------
       - name: Commit and push
         run: |
           git config --global user.name  'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-          git add -f configs/all_working.txt         || true
-          git add -f configs/google_200.txt          || true
-          git add -f configs/google_200_history.txt  || true
-          git add -f configs/hiddify_all_working.txt || true
-          git add -f configs/hiddify_google_200.txt  || true
-          git add -f configs/hiddify_all_detour.txt  || true
-          git add    configs/proxy_configs.txt       || true
-          git add    configs/location_cache.json     || true
-          git add    configs/channel_stats.json      || true
-          git add    assets/                         || true
+          git add -f configs/all_working.txt              || true
+          git add -f configs/google_200.txt               || true
+          git add -f configs/google_200_history.txt       || true
+          git add -f configs/proxy_configs_merged.txt     || true
+          git add -f configs/hiddify_all_working.txt      || true
+          git add -f configs/hiddify_google_200.txt       || true
+          git add -f configs/hiddify_all_detour.txt       || true
+          git add    configs/proxy_configs.txt            || true
+          git add    configs/location_cache.json          || true
+          git add    configs/channel_stats.json           || true
+          git add    assets/                              || true
           git add    README.md README_FA.md README_CN.md README_RU.md || true
 
           # Add all protocol-split files (google_200_*.txt)
-          git add -f configs/google_200_*.txt        || true
+          git add -f configs/google_200_*.txt             || true
 
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
 
