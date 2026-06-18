@@ -2,7 +2,7 @@ name: Update Proxy Configs
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # 21:30 Tehran
+    - cron: '0 18 */3 * *'  # Every 3 days at 21:30 Tehran
   workflow_dispatch:
 
 permissions:
