@@ -1,6 +1,24 @@
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 134 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@betty.ns.cloudflare.com:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 101 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@www.speedtest.net:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 74 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@www.speedtest.net:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 166 - US - VLESS/WS/TLS/UTLS - 443
+
 trojan://hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey@38.60.136.156:443?security=tls&fp=chrome&type=tcp&path=/&allow_insecure=1#🇫🇷 970 - FR - Trojan/TLS/UTLS - 443
 
 trojan://hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey@38.60.136.156:443?security=tls&sni=38.60.136.156&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#🇫🇷 971 - FR - Trojan/TLS/UTLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?path=/odiyfws&security=tls&encryption=none&host=octopusss.net&type=ws&sni=octopusss.net#🇺🇸 68 - US - VLESS/WS/TLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?encryption=none&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 159 - US - VLESS/WS/TLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@172.64.32.75:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 163 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@173.245.58.75:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 164 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@betty.ns.cloudflare.com:443?encryption=none&fp=chrome&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🏳️ 146 - XX - VLESS/WS/TLS/UTLS - 443
 
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?#🇱🇻 406 - LV - VLESS - 25752
 
@@ -8,9 +26,9 @@ vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=false&f
 
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&type=tcp&headerType=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#🇱🇻 408 - LV - VLESS - 25752
 
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?headertype=noneÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---&security=none&type=tcp#🇱🇻 410 - LV - VLESS - 25752
-
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?fp=chrome&headertype=none&quicsecurity=none&type=tcp#🇱🇻 409 - LV - VLESS/UTLS - 25752
+
+vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?headertype=noneÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---&security=none&type=tcp#🇱🇻 410 - LV - VLESS - 25752
 
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&headerType=none&fp=firefox&type=tcp#🇱🇻 411 - LV - VLESS/UTLS - 25752
 
@@ -20,239 +38,179 @@ vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&en
 
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&host=/?BIA_TELEGRAM@YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy&headerType=none&type=tcp#🇱🇻 414 - LV - VLESS - 25752
 
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&encryption=none&headerType=none&quicSecurity=none&fp=chrome&insecure=1#🇱🇻 416 - LV - VLESS/UTLS - 25752
-
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&sni=/&type=tcp#🇱🇻 415 - LV - VLESS - 25752
+
+vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&encryption=none&headerType=none&quicSecurity=none&fp=chrome&insecure=1#🇱🇻 416 - LV - VLESS/UTLS - 25752
 
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#🇱🇻 417 - LV - VLESS - 25752
 
-trojan://ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed@38.60.202.163:443?security=tls&sni=38.60.202.163#🇦🇪 793 - AE - Trojan/TLS - 443
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@172.64.32.75:443?encryption=none&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 143 - US - VLESS/WS/TLS - 443
 
-trojan://ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed@38.60.202.163:443?security=tls&sni=38.60.202.163&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#🇦🇪 796 - AE - Trojan/TLS/UTLS - 443
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 69 - US - VLESS/WS/TLS - 443
 
-trojan://ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed@38.60.202.163:443?security=tls&sni=38.60.202.163&type=tcp&headerType=none&path=/#🇦🇪 797 - AE - Trojan/TLS - 443
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@173.245.58.75:443?encryption=none&type=ws&security=tls&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&insecure=0&allowInsecure=0#🇺🇸 144 - US - VLESS/WS/TLS/UTLS - 443
+
+vless://6ae44ad9-c2cb-4bdf-8e48-6c01fa646372@45.89.106.101:40443?flow=xtls-rprx-vision&fp=firefox&pbk=f6MOnGRTqdns7Lut75DSrnFZeiiZ4N04gnj5m-l7KnM&security=reality&sid=54ce&sni=deepl.com&type=tcp#🇮🇳 912 - IN - VLESS/REALITY/PBK/SID/VISION/UTLS - 40443
 
 vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?encryption=none&type=tcp&security=reality&headerType=none&sni=google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&sid=b318242471ba4f5b&flow=xtls-rprx-vision#🇰🇿 1000 - KZ - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
 trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?allowInsecure=0#🇲🇾 512 - MY - Trojan/TLS - 443
 
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&security=none&type=tcp#🇺🇸 453 - US - VLESS - 25752
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@108.162.192.75:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 141 - US - VLESS/WS/TLS - 443
+
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@172.64.32.75:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 143 - US - VLESS/WS/TLS - 443
+
+vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&security=none&type=tcp#🇱🇻 370 - LV - VLESS - 25752
 
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&headerType=none&security=none&encryption=none#🇱🇻 356 - LV - VLESS - 25752
 
 trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?type=tcp&security=tls&sni=38.60.168.129#🇲🇾 565 - MY - Trojan/TLS - 443
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls#🇲🇾 554 - MY - Trojan/TLS - 443
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls#🇲🇾 556 - MY - Trojan/TLS - 443
 
 trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#🇲🇾 567 - MY - Trojan/TLS - 443
 
-vless://1f6531a1-a6eb-4274-9f51-4a0899456fcf@195.254.165.243:443?security=reality&encryption=none&pbk=zSjG6wndmLAzE8ykCBXpAm2eh0viWVSy3gt2juXF4EE&headerType=none&fp=chrome&spx=/giyWVcXDg48T294&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=eaa8#🇳🇱 340 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@108.162.192.75:443?ed=2048&eh=Sec-WebSocket-Protocol&encryption=none&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 140 - US - VLESS/WS/TLS - 443
 
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@85.17.145.65:12068?type=ws&security=none&fp=firefox&path=/#🇳🇱 105 - NL - VLESS/WS/UTLS - 12068
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@173.245.58.75:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 145 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=/&security=none&encryption=none&type=ws#🏳️ 106 - XX - VLESS/WS - 12068
+vless://1f6531a1-a6eb-4274-9f51-4a0899456fcf@195.254.165.243:443?security=reality&encryption=none&pbk=zSjG6wndmLAzE8ykCBXpAm2eh0viWVSy3gt2juXF4EE&headerType=none&fp=chrome&spx=/giyWVcXDg48T294&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=eaa8#🇳🇱 332 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?type=ws&path=/&sni=mypanel.unixzone.us#🏳️ 108 - XX - VLESS/WS - 12068
+vless://54bb59cf-96fc-4a66-8488-fa2391f2e650@190.97.165.84:448?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&security=reality&pbk=XxCsLlJ3kJJa2MiPHS3FlF0DyAS9TkQkn8lfCVZgDQw&sid=cd2d4a8f08aa985d#🏳️ 917 - XX - VLESS/REALITY/PBK/SID/VISION - 448
 
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?type=ws&headerType=none&security=none&encryption=none&fp=chrome&path=/&host=mypanel.unixzone.us#🏳️ 107 - XX - VLESS/WS/UTLS - 12068
+vless://54bb59cf-96fc-4a66-8488-fa2391f2e650@190.97.165.84:448?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=XxCsLlJ3kJJa2MiPHS3FlF0DyAS9TkQkn8lfCVZgDQw&sid=cd2d4a8f08aa985d&type=tcp&headerType=none#🏳️ 918 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 448
 
-vless://146eb6cf-a99c-4022-85ca-022cf81502dc@195.74.93.254:443?security=reality&encryption=none&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&host=/?BIA_TELEGRAM@ShadowProxy66&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=247fd6dab1a34a48#🇹🇷 307 - TR - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&path=/#🇲🇾 557 - MY - Trojan/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?encryption=none&security=tls&sni=vangoghhh.info&insecure=0&allowInsecure=0&type=ws&host=vangoghhh.info&path=/rdfgtws#🏳️ 308 - XX - VLESS/WS/TLS - 443
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&sni=38.60.168.129&type=tcp&path=/#🇲🇾 558 - MY - Trojan/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&insecure=0&allowInsecure=0#🏳️ 309 - XX - VLESS/WS/TLS/UTLS - 443
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&type=tcp&headerType=none&path=/#🇲🇾 559 - MY - Trojan/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?host=vangoghhh.info&sni=vangoghhh.info&security=tls&insecure=0&path=/rdfgtws&encryption=none&allowInsecure=0&type=ws#🏳️ 310 - XX - VLESS/WS/TLS - 443
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&type=tcp&headerType=none&path=/&allow_insecure=0#🇲🇾 560 - MY - Trojan/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?insecure=0&allowInsecure=0&security=tls&sni=vangoghhh.info&type=ws&path=/rdfgtws&encryption=none&host=vangoghhh.info#🏳️ 311 - XX - VLESS/WS/TLS - 443
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?sni=38.60.168.129&path=/#🇲🇾 561 - MY - Trojan/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?path=/rdfgtws&security=tls&encryption=none&host=vangoghhh.info&allowinsecure=0&type=ws&sni=vangoghhh.info#🏳️ 312 - XX - VLESS/WS/TLS - 443
+vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@de2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🏳️ 13 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&fp=chrome&type=ws&allowInsecure=0&sni=vangoghhh.info#🏳️ 313 - XX - VLESS/WS/TLS/UTLS - 443
+vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@65.109.184.172:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🇫🇮 12 - FI - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🏳️ 314 - XX - VLESS/WS/TLS - 443
+vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&sid=3fa2fdb7dce16b8b&type=tcp&headerType=none&host=snapp.ir#🏳️ 20 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🏳️ 315 - XX - VLESS/WS/TLS/UTLS - 443
+vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🏳️ 19 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.101:443?security=tls&type=ws&sni=vangoghhh.info&host=vangoghhh.info&path=/rdfgtws&insecure=0&allowInsecure=0&encryption=none#🏳️ 316 - XX - VLESS/WS/TLS - 443
+vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🏳️ 16 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.139:443?encryption=none&host=vangoghhh.info&path=/rdfgtws&security=tls&sni=vangoghhh.info&type=ws#🇺🇸 317 - US - VLESS/WS/TLS - 443
+vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?encryption=none&path=/&security=none&type=ws#🇳🇱 57 - NL - VLESS/WS - 12068
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.139:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🇺🇸 319 - US - VLESS/WS/TLS - 443
+vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=/&security=none&encryption=none&type=ws#🇳🇱 58 - NL - VLESS/WS - 12068
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.139:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🇺🇸 320 - US - VLESS/WS/TLS/UTLS - 443
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@104.17.147.22:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 67 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.2:443?encryption=none&security=tls&sni=vangoghhh.info&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=vangoghhh.info&path=/rdfgtws#🏳️ 321 - XX - VLESS/WS/TLS/UTLS - 443
+vless://073d1d50-8478-47bf-a828-7a1b381931d5@www.speedtest.net:443?encryption=none&fp=chrome&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 73 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.2:443?path=/rdfgtws&security=tls&encryption=none&host=vangoghhh.info&type=ws&sni=vangoghhh.info#🏳️ 322 - XX - VLESS/WS/TLS - 443
+vless://146eb6cf-a99c-4022-85ca-022cf81502dc@195.74.93.254:443?security=reality&encryption=none&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&host=/?BIA_TELEGRAM@ShadowProxy66&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=247fd6dab1a34a48#🇩🇪 196 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.2:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🏳️ 324 - XX - VLESS/WS/TLS/UTLS - 443
+vless://1c0abb34-4313-4acb-993d-62bf52eace71@104.16.72.41:443?encryption=none&type=ws&security=tls&path=/&host=c.downloadphysics.ir&sni=c.downloadphysics.ir&fp=chrome&insecure=0&allowInsecure=0#🏳️ 301 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.70:443?encryption=none&host=vangoghhh.info&path=/rdfgtws&security=tls&sni=vangoghhh.info&type=ws#🏳️ 325 - XX - VLESS/WS/TLS - 443
+vless://1c0abb34-4313-4acb-993d-62bf52eace71@104.16.72.41:443?path=/&security=tls&encryption=none&insecure=0&host=c.downloadphysics.ir&fp=chrome&type=ws&allowInsecure=0&sni=c.downloadphysics.ir#🏳️ 303 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.70:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=0&allowInsecure=0#🏳️ 326 - XX - VLESS/WS/TLS - 443
+vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#🇱🇻 371 - LV - VLESS - 25752
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.70:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🏳️ 328 - XX - VLESS/WS/TLS - 443
+vless://347166e5-b4ee-487a-8b8a-aadf99ffb9f2@176.123.165.127:57836?encryption=none&security=none&type=tcp#🇷🇺 474 - RU - VLESS - 57836
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.16.72.70:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🏳️ 329 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.174.3:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=JoinProxyVPN11.amoosamiii.net&type=ws#🇨🇦 680 - CA - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.18.153.10:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=1&allowInsecure=1#🇺🇸 330 - US - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🏳️ 682 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.18.153.10:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🇺🇸 331 - US - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 685 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@104.18.153.10:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🇺🇸 332 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&security=tls&sni=amoosamiii.net&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 684 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@141.193.213.20:443?encryption=none&fp=chrome&host=vangoghhh.info&path=/rdfgtws&security=tls&sni=JoinProxyVPN11.vangoghhh.info&type=ws#🏳️ 333 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=1&allowInsecure=1#🏳️ 686 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@162.159.38.119:443?encryption=none&security=tls&sni=vangoghhh.info&allowInsecure=1&type=ws&host=vangoghhh.info&path=/rdfgtws#🇺🇸 334 - US - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 693 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@162.159.38.119:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws#🇺🇸 335 - US - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 695 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@162.159.38.119:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&fp=chrome&type=ws&allowInsecure=0&sni=vangoghhh.info#🇺🇸 336 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?type=ws&host=amoosamiii.net&insecure=0&allowInsecure=0&path=/poiuyws&encryption=none&security=tls&sni=amoosamiii.net#🏳️ 697 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@162.159.38.119:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info#🇺🇸 337 - US - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@108.162.192.75:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 698 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@172.64.32.75:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&fp=chrome&type=ws&allowInsecure=0&sni=vangoghhh.info#🇺🇸 338 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 699 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@173.245.58.75:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&fp=chrome&type=ws&allowInsecure=0&sni=vangoghhh.info#🇺🇸 340 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=0&allowInsecure=0#🏳️ 700 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@172.64.32.75:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🇺🇸 339 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?host=amoosamiii.net&allowInsecure=0&type=ws&insecure=0&sni=amoosamiii.net&encryption=none&path=/poiuyws&security=tls#🏳️ 701 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@173.245.58.75:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🇺🇸 341 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?insecure=0&sni=amoosamiii.net&type=ws&host=amoosamiii.net&path=/poiuyws&encryption=none&security=tls&allowInsecure=0#🏳️ 702 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?encryption=none&host=vangoghhh.info&path=/rdfgtws&security=tls&sni=vangoghhh.info&type=ws#🏳️ 344 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?path=/poiuyws&encryption=none&allowInsecure=0&type=ws&host=amoosamiii.net&insecure=0&sni=amoosamiii.net&security=tls#🏳️ 704 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?encryption=none&fp=chrome&host=vangoghhh.info&path=/rdfgtws&security=tls&sni=vangoghhh.info&type=ws#🏳️ 342 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 712 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?encryption=none&security=tls&sni=vangoghhh.info&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=vangoghhh.info&path=/rdfgtws#🏳️ 345 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?type=ws&insecure=0&allowInsecure=0&path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&sni=amoosamiii.net#🏳️ 714 - XX - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&insecure=0&allowInsecure=0#🏳️ 347 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?encryption=none&fp=chrome&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 716 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=0&allowInsecure=0#🏳️ 349 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=0&allowInsecure=0#🇺🇸 718 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=1&allowInsecure=1#🏳️ 350 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&encryption=none&allowInsecure=0&type=ws&host=amoosamiii.net&sni=amoosamiii.net&security=tls&insecure=0#🇺🇸 720 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&fp=chrome&type=ws&allowInsecure=0&sni=vangoghhh.info#🏳️ 351 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&type=ws&sni=amoosamiii.net#🇺🇸 722 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🏳️ 354 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&type=ws&sni=amoosamiii.net#🇺🇸 725 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.130.125.126:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=0&allowInsecure=0#🏳️ 356 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?encryption=none&fp=chrome&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🏳️ 729 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@188.114.97.6:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🏳️ 355 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&allowinsecure=0&type=ws&sni=amoosamiii.net#🏳️ 732 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.130.125.126:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🏳️ 357 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&type=ws&sni=amoosamiii.net#🏳️ 735 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.130.125.126:443?path=/rdfgtws&security=tls&encryption=none&insecure=1&host=vangoghhh.info&type=ws&allowInsecure=1&sni=vangoghhh.info#🏳️ 358 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 737 - XX - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.130.125.158:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&alpn=h3,h2,http/1.1&fp=ios&insecure=0&allowInsecure=0#🏳️ 361 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 739 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@betty.ns.cloudflare.com:443?encryption=none&type=ws&security=tls&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=0&allowInsecure=0#🏳️ 362 - XX - VLESS/WS/TLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&allowinsecure=0&type=ws&sni=amoosamiii.net#🇺🇸 741 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@betty.ns.cloudflare.com:443?security=tls&type=ws&path=/rdfgtws&host=vangoghhh.info&sni=vangoghhh.info&fp=chrome&encryption=none#🏳️ 363 - XX - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&type=ws&sni=amoosamiii.net#🇺🇸 742 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@news.microsoft.com:443?encryption=none&fp=chrome&host=vangoghhh.info&path=/rdfgtws&security=tls&sni=JoinProxyVPN11.vangoghhh.info&type=ws#🇺🇸 364 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🇺🇸 744 - US - VLESS/WS/TLS - 443
 
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@news.microsoft.com:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&fp=chrome&type=ws&allowInsecure=0&sni=JoinProxyVPN11.vangoghhh.info#🇺🇸 365 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@celestara.biz:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🇨🇦 745 - CA - VLESS/WS/TLS - 443
 
-vless://199436d3-2fa2-4e34-a1de-844419de5a4f@xn-ip.dbsll.ir:2083?path=/?ed=2048&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=xn-de.shakhle.ir.&fp=firefox&type=ws&allowInsecure=0&sni=xn-de.shakhle.ir.#🏳️ 383 - XX - VLESS/WS/TLS/UTLS - 2083
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@celestara.biz:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🇨🇦 746 - CA - VLESS/WS/TLS/UTLS - 443
 
-vless://199436d3-2fa2-4e34-a1de-844419de5a4f@xn-ip.dbsll.ir:2083?security=tls&sni=xn-de.shakhle.ir.&type=ws&headerType=none&host=xn-de.shakhle.ir.&path=/?ed=2048fp=chrome#🏳️ 381 - XX - VLESS/WS/TLS - 2083
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?type=ws&encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net#🇺🇸 747 - US - VLESS/WS/TLS - 443
 
-vless://1c0abb34-4313-4acb-993d-62bf52eace71@104.16.72.41:443?path=/&security=tls&encryption=none&insecure=0&host=c.downloadphysics.ir&fp=chrome&type=ws&allowInsecure=0&sni=c.downloadphysics.ir#🇺🇸 405 - US - VLESS/WS/TLS/UTLS - 443
+vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🇺🇸 750 - US - VLESS/WS/TLS - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.174.3:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=JoinProxyVPN11.amoosamiii.net&type=ws#🇺🇸 861 - US - VLESS/WS/TLS - 443
+vless://6e41151e-ae07-4ea6-910e-7a3986b7bc0d@31.76.38.18:7443?sid=d82fb387&type=tcp&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&headerType=none&fp=chrome&security=reality&encryption=none&flow=xtls-rprx-vision&sni=icloud.com#🇩🇪 898 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 7443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 862 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#🇳🇱 430 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🇺🇸 863 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇳🇱 435 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🇺🇸 864 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#🇳🇱 441 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🇺🇸 865 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#🏳️ 438 - XX - SS/AEAD - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?type=ws&host=amoosamiii.net&insecure=0&allowInsecure=0&path=/poiuyws&encryption=none&security=tls&sni=amoosamiii.net#🇺🇸 866 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:8080#🏳️ 447 - XX - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.21.36.120:443?encryption=none&security=tls&sni=amoosamiii.net&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 867 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇳🇱 462 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.21.36.120:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🏳️ 868 - XX - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080#🇳🇱 443 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@108.162.192.75:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 869 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:443#🇳🇱 451 - NL - SS/AEAD - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@108.162.192.75:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🇺🇸 870 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇳🇱 454 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 871 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.17:8080#🏳️ 445 - XX - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?encryption=none&fp=chrome&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 873 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.47:8080#🇳🇱 466 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=0&allowInsecure=0#🇺🇸 874 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.204:8080#🏳️ 472 - XX - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&type=ws&sni=amoosamiii.net#🇺🇸 875 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:8080#🇳🇱 473 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&type=ws&sni=amoosamiii.net#🇺🇸 876 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🇺🇸 877 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.67.193.253:443?encryption=none&security=tls&sni=amoosamiii.net&type=ws&host=amoosamiii.net&path=/poiuyws#🇺🇸 878 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?encryption=none&fp=chrome&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 882 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&allowinsecure=0&type=ws&sni=amoosamiii.net#🇺🇸 884 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&type=ws&sni=amoosamiii.net#🇺🇸 885 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🇺🇸 886 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🏳️ 888 - XX - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&allowinsecure=0&type=ws&sni=amoosamiii.net#🏳️ 889 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🏳️ 890 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@celestara.biz:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 891 - XX - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?type=ws&encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net#🇺🇸 892 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🇺🇸 893 - US - VLESS/WS/TLS - 443
-
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&headerType=none&type=tcp#🇲🇾 555 - MY - Trojan/TLS - 443
-
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&sni=38.60.168.129&type=tcp#🇲🇾 556 - MY - Trojan/TLS - 443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#🇪🇪 14 - EE - SS/AEAD - 41348
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZNUVKWm9qVk1FTnZrRFZGWWxpRXFF@62.133.63.169:37096#🇹🇷 366 - TR - SS/AEAD - 37096
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#🏳️ 725 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#🏳️ 829 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🏳️ 743 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#🏳️ 764 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080#🏳️ 770 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.17:8080#🇳🇱 777 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:8080#🏳️ 779 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#🏳️ 762 - XX - SS/AEAD - 443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8080#🇳🇱 761 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇳🇱 830 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.204:8080#🇳🇱 827 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:443#🏳️ 780 - XX - SS/AEAD - 443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#🇺🇸 824 - US - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🏳️ 803 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.9:8080#🏳️ 825 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:8080#🇳🇱 828 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.47:8080#🏳️ 811 - XX - SS/AEAD - 8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#🇳🇱 474 - NL - SS/AEAD - 8080
 
