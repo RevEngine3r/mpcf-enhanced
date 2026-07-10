@@ -1,216 +1,114 @@
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 134 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@betty.ns.cloudflare.com:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 101 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@www.speedtest.net:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 74 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@www.speedtest.net:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 166 - US - VLESS/WS/TLS/UTLS - 443
-
-trojan://hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey@38.60.136.156:443?security=tls&fp=chrome&type=tcp&path=/&allow_insecure=1#🇫🇷 970 - FR - Trojan/TLS/UTLS - 443
-
-trojan://hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey@38.60.136.156:443?security=tls&sni=38.60.136.156&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#🇫🇷 971 - FR - Trojan/TLS/UTLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?path=/odiyfws&security=tls&encryption=none&host=octopusss.net&type=ws&sni=octopusss.net#🇺🇸 68 - US - VLESS/WS/TLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?encryption=none&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 159 - US - VLESS/WS/TLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@172.64.32.75:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 163 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@173.245.58.75:443?security=tls&type=ws&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&encryption=none#🇺🇸 164 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@betty.ns.cloudflare.com:443?encryption=none&fp=chrome&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🏳️ 146 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?#🇱🇻 406 - LV - VLESS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=false&fp=chrome&type=tcp&headerType=none&path=/#🇱🇻 407 - LV - VLESS/UTLS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&type=tcp&headerType=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#🇱🇻 408 - LV - VLESS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?fp=chrome&headertype=none&quicsecurity=none&type=tcp#🇱🇻 409 - LV - VLESS/UTLS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?headertype=noneÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---&security=none&type=tcp#🇱🇻 410 - LV - VLESS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&headerType=none&fp=firefox&type=tcp#🇱🇻 411 - LV - VLESS/UTLS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&headerType=none&fp=chrome&type=tcp#🇱🇻 412 - LV - VLESS/UTLS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&headerType=none&type=tcp#🇱🇻 315 - LV - VLESS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&host=/?BIA_TELEGRAM@YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy&headerType=none&type=tcp#🇱🇻 414 - LV - VLESS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&sni=/&type=tcp#🇱🇻 415 - LV - VLESS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&encryption=none&headerType=none&quicSecurity=none&fp=chrome&insecure=1#🇱🇻 416 - LV - VLESS/UTLS - 25752
-
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&security=none&encryption=none&sni=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#🇱🇻 417 - LV - VLESS - 25752
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@172.64.32.75:443?encryption=none&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 143 - US - VLESS/WS/TLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@159.112.235.52:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 69 - US - VLESS/WS/TLS - 443
-
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@173.245.58.75:443?encryption=none&type=ws&security=tls&path=/odiyfws&host=octopusss.net&sni=octopusss.net&fp=chrome&insecure=0&allowInsecure=0#🇺🇸 144 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080#🇳🇱 370 - NL - SS/AEAD - 8080
 
 vless://6ae44ad9-c2cb-4bdf-8e48-6c01fa646372@45.89.106.101:40443?flow=xtls-rprx-vision&fp=firefox&pbk=f6MOnGRTqdns7Lut75DSrnFZeiiZ4N04gnj5m-l7KnM&security=reality&sid=54ce&sni=deepl.com&type=tcp#🇮🇳 912 - IN - VLESS/REALITY/PBK/SID/VISION/UTLS - 40443
 
-vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?encryption=none&type=tcp&security=reality&headerType=none&sni=google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&sid=b318242471ba4f5b&flow=xtls-rprx-vision#🇰🇿 1000 - KZ - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
+vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?encryption=none&type=tcp&security=reality&headerType=none&sni=google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&sid=b318242471ba4f5b&flow=xtls-rprx-vision#🇰🇿 836 - KZ - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?allowInsecure=0#🇲🇾 512 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#🇳🇱 504 - NL - SS/AEAD - 8080
 
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@108.162.192.75:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 141 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.183:8080#🏳️ 317 - XX - SS/AEAD - 8080
 
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@172.64.32.75:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 143 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#🇳🇱 318 - NL - SS/AEAD - 8080
 
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?encryption=none&security=none&type=tcp#🇱🇻 370 - LV - VLESS - 25752
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.206:8080#🇳🇱 367 - NL - SS/AEAD - 8080
 
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&headerType=none&security=none&encryption=none#🇱🇻 356 - LV - VLESS - 25752
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8080#🇳🇱 351 - NL - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?type=tcp&security=tls&sni=38.60.168.129#🇲🇾 565 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080#🇳🇱 359 - NL - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls#🇲🇾 556 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.203:8080#🏳️ 355 - XX - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#🇲🇾 567 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.205:8080#🇳🇱 361 - NL - SS/AEAD - 8080
 
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@108.162.192.75:443?ed=2048&eh=Sec-WebSocket-Protocol&encryption=none&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 140 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#🇳🇱 326 - NL - SS/AEAD - 8080
 
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@173.245.58.75:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 145 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#🇳🇱 329 - NL - SS/AEAD - 8080
 
-vless://1f6531a1-a6eb-4274-9f51-4a0899456fcf@195.254.165.243:443?security=reality&encryption=none&pbk=zSjG6wndmLAzE8ykCBXpAm2eh0viWVSy3gt2juXF4EE&headerType=none&fp=chrome&spx=/giyWVcXDg48T294&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=eaa8#🇳🇱 332 - NL - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8080#🇳🇱 390 - NL - SS/AEAD - 8080
 
-vless://54bb59cf-96fc-4a66-8488-fa2391f2e650@190.97.165.84:448?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&security=reality&pbk=XxCsLlJ3kJJa2MiPHS3FlF0DyAS9TkQkn8lfCVZgDQw&sid=cd2d4a8f08aa985d#🏳️ 917 - XX - VLESS/REALITY/PBK/SID/VISION - 448
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#🇳🇱 412 - NL - SS/AEAD - 8080
 
-vless://54bb59cf-96fc-4a66-8488-fa2391f2e650@190.97.165.84:448?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=XxCsLlJ3kJJa2MiPHS3FlF0DyAS9TkQkn8lfCVZgDQw&sid=cd2d4a8f08aa985d&type=tcp&headerType=none#🏳️ 918 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 448
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.215:8080#🇳🇱 384 - NL - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&path=/#🇲🇾 557 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇳🇱 399 - NL - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&sni=38.60.168.129&type=tcp&path=/#🇲🇾 558 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.191:8080#🇳🇱 330 - NL - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&type=tcp&headerType=none&path=/#🇲🇾 559 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇺🇸 647 - US - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls&type=tcp&headerType=none&path=/&allow_insecure=0#🇲🇾 560 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#🇳🇱 315 - NL - SS/AEAD - 8080
 
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?sni=38.60.168.129&path=/#🇲🇾 561 - MY - Trojan/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.179:8080#🇳🇱 310 - NL - SS/AEAD - 8080
 
-vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@de2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN/PuLaVPN/PuLaVPN/PuLaVPN//PuLaVPN&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🏳️ 13 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.211:8080#🇳🇱 376 - NL - SS/AEAD - 8080
 
-vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@65.109.184.172:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🇫🇮 12 - FI - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.207:8080#🇳🇱 369 - NL - SS/AEAD - 8080
 
-vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&sid=3fa2fdb7dce16b8b&type=tcp&headerType=none&host=snapp.ir#🏳️ 20 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#🇫🇮 104 - FI - SS/AEAD - 28687
 
-vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🏳️ 19 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#🇳🇱 311 - NL - SS/AEAD - 8080
 
-vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🏳️ 16 - XX - VLESS/REALITY/PBK/SID/VISION/UTLS - 1020
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@158.173.20.171:443#🇳🇱 489 - NL - SS/AEAD - 443
 
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?encryption=none&path=/&security=none&type=ws#🇳🇱 57 - NL - VLESS/WS - 12068
+vmess://eyJhZGQiOiAiOTQuMTMxLjEwOC4zNiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiOTg1NWYxZjAtYTgwMC00MGQ0LThiMzgtYzdkM2ViNzkzMDJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIvCfh7nwn4e3IDUyMCAtIFRSIC0gVk1lc3MvV1MgLSA0NDMiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4ey8J+HqU1ELTk0LjEzMS4xMDguMzYtMDEyMiJ9
 
-vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?path=/&security=none&encryption=none&type=ws#🇳🇱 58 - NL - VLESS/WS - 12068
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.219:8080#🇳🇱 420 - NL - SS/AEAD - 8080
 
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@104.17.147.22:443?path=/odiyfws&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 67 - US - VLESS/WS/TLS/UTLS - 443
+vless://158d03db-e5d7-4540-a31c-b2daa7aa4964@38.180.39.171:443?security=reality&encryption=none&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=247fd6dab1a34a48#🇰🇿 278 - KZ - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-vless://073d1d50-8478-47bf-a828-7a1b381931d5@www.speedtest.net:443?encryption=none&fp=chrome&host=octopusss.net&path=/odiyfws&security=tls&sni=octopusss.net&type=ws#🇺🇸 73 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.195:8080#🇳🇱 573 - NL - SS/AEAD - 8080
 
-vless://146eb6cf-a99c-4022-85ca-022cf81502dc@195.74.93.254:443?security=reality&encryption=none&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&host=/?BIA_TELEGRAM@ShadowProxy66&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=247fd6dab1a34a48#🇩🇪 196 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.194:8080#🏳️ 356 - XX - SS/AEAD - 8080
 
-vless://1c0abb34-4313-4acb-993d-62bf52eace71@104.16.72.41:443?encryption=none&type=ws&security=tls&path=/&host=c.downloadphysics.ir&sni=c.downloadphysics.ir&fp=chrome&insecure=0&allowInsecure=0#🏳️ 301 - XX - VLESS/WS/TLS/UTLS - 443
+vmess://eyJhZGQiOiAiOTQuMTMxLjEwOC4zNiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiOTg1NWYxZjAtYTgwMC00MGQ0LThiMzgtYzdkM2ViNzkzMDJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIvCfj7PvuI8gNTIzIC0gWFggLSBWTWVzcy9XUyAtIDQ0MyIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJuYW1lIjogIvCfh7Lwn4epTUQtOTQuMTMxLjEwOC4zNi0wMTI3In0=
 
-vless://1c0abb34-4313-4acb-993d-62bf52eace71@104.16.72.41:443?path=/&security=tls&encryption=none&insecure=0&host=c.downloadphysics.ir&fp=chrome&type=ws&allowInsecure=0&sni=c.downloadphysics.ir#🏳️ 303 - XX - VLESS/WS/TLS/UTLS - 443
+vmess://eyJhZGQiOiAiOTQuMTMxLjEwOC4zNiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiOTg1NWYxZjAtYTgwMC00MGQ0LThiMzgtYzdkM2ViNzkzMDJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIvCfh7nwn4e3IDUxOCAtIFRSIC0gVk1lc3MvV1MgLSA0NDMiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAibmFtZSI6ICLwn4ey8J+HqU1ELTk0LjEzMS4xMDguMzYtMDEwMiJ9
 
-vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#🇱🇻 371 - LV - VLESS - 25752
+vless://03707fb7-0990-440f-88f6-b0e0f7242a38@104.16.75.234:443?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=us-1.ariyuz.org&fp=chrome&type=ws&allowInsecure=0&sni=server-ir-4.ariyuz.org#🇺🇸 16 - US - VLESS/WS/TLS/UTLS - 443
 
-vless://347166e5-b4ee-487a-8b8a-aadf99ffb9f2@176.123.165.127:57836?encryption=none&security=none&type=tcp#🇷🇺 474 - RU - VLESS - 57836
+vless://065d23e5-7151-46b2-b010-76300cdf0997@104.253.74.186:2089?security=reality&encryption=none&pbk=EgU08aKdsWX7VkDnLhVjKfasViLjpBH_367vxFu5d1M&headerType=none&fp=chrome&type=tcp&sni=www.sony.com#🇺🇸 44 - US - VLESS/REALITY/PBK/UTLS - 2089
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.174.3:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=JoinProxyVPN11.amoosamiii.net&type=ws#🇨🇦 680 - CA - VLESS/WS/TLS - 443
+vless://146eb6cf-a99c-4022-85ca-022cf81502dc@195.74.93.254:443?security=reality&encryption=none&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=247fd6dab1a34a48#🇩🇪 190 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🏳️ 682 - XX - VLESS/WS/TLS - 443
+vless://146eb6cf-a99c-4022-85ca-022cf81502dc@195.74.93.254:443?security=reality&encryption=none&pbk=7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s&host=/?BIA_TELEGRAM@ShadowProxy66&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=web.max.ru&sid=247fd6dab1a34a48#🇩🇪 192 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 685 - XX - VLESS/WS/TLS - 443
+vless://6ae44ad9-c2cb-4bdf-8e48-6c01fa646372@45.89.106.101:40443?flow=xtls-rprx-vision&fp=chrome&pbk=f6MOnGRTqdns7Lut75DSrnFZeiiZ4N04gnj5m-l7KnM&security=reality&sid=54ce&sni=deepl.com&type=tcp#🇮🇳 811 - IN - VLESS/REALITY/PBK/SID/VISION/UTLS - 40443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&security=tls&sni=amoosamiii.net&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 684 - XX - VLESS/WS/TLS/UTLS - 443
+vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?security=reality&encryption=none&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=b318242471ba4f5b#🇰🇿 837 - KZ - VLESS/REALITY/PBK/SID/VISION/UTLS - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=1&allowInsecure=1#🏳️ 686 - XX - VLESS/WS/TLS - 443
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&headerType=none&type=tcp#🇵🇰 948 - PK - Trojan/TLS - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 693 - XX - VLESS/WS/TLS/UTLS - 443
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58#🇵🇰 949 - PK - Trojan/TLS - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 695 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#🇳🇱 405 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@104.16.72.41:443?type=ws&host=amoosamiii.net&insecure=0&allowInsecure=0&path=/poiuyws&encryption=none&security=tls&sni=amoosamiii.net#🏳️ 697 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8080#🇳🇱 412 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@108.162.192.75:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 698 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇳🇱 409 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🏳️ 699 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#🏳️ 416 - XX - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=0&allowInsecure=0#🏳️ 700 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:8080#🇳🇱 422 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?host=amoosamiii.net&allowInsecure=0&type=ws&insecure=0&sni=amoosamiii.net&encryption=none&path=/poiuyws&security=tls#🏳️ 701 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#🇳🇱 413 - NL - SS/AEAD - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?insecure=0&sni=amoosamiii.net&type=ws&host=amoosamiii.net&path=/poiuyws&encryption=none&security=tls&allowInsecure=0#🏳️ 702 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#🇳🇱 425 - NL - SS/AEAD - 443
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?path=/poiuyws&encryption=none&allowInsecure=0&type=ws&host=amoosamiii.net&insecure=0&sni=amoosamiii.net&security=tls#🏳️ 704 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇳🇱 429 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 712 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇳🇱 437 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@141.193.213.21:443?type=ws&insecure=0&allowInsecure=0&path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&sni=amoosamiii.net#🏳️ 714 - XX - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.47:8080#🇳🇱 442 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?encryption=none&fp=chrome&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 716 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.204:8080#🏳️ 449 - XX - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?encryption=none&type=ws&security=tls&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&insecure=0&allowInsecure=0#🇺🇸 718 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#🇳🇱 450 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&encryption=none&allowInsecure=0&type=ws&host=amoosamiii.net&sni=amoosamiii.net&security=tls&insecure=0#🇺🇸 720 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080#🇳🇱 418 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&type=ws&sni=amoosamiii.net#🇺🇸 722 - US - VLESS/WS/TLS/UTLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#🇳🇱 447 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@172.64.32.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&type=ws&sni=amoosamiii.net#🇺🇸 725 - US - VLESS/WS/TLS - 443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.17:8080#🇳🇱 420 - NL - SS/AEAD - 8080
 
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?encryption=none&fp=chrome&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🏳️ 729 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&allowinsecure=0&type=ws&sni=amoosamiii.net#🏳️ 732 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&type=ws&sni=amoosamiii.net#🏳️ 735 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@173.245.58.75:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&fp=chrome&type=ws&allowInsecure=0&sni=amoosamiii.net#🏳️ 737 - XX - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net&type=ws#🇺🇸 739 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&fp=chrome&allowinsecure=0&type=ws&sni=amoosamiii.net#🇺🇸 741 - US - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&host=amoosamiii.net&type=ws&sni=amoosamiii.net#🇺🇸 742 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@betty.ns.cloudflare.com:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🇺🇸 744 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@celestara.biz:443?encryption=none&security=tls&sni=amoosamiii.net&insecure=0&allowInsecure=0&type=ws&host=amoosamiii.net&path=/poiuyws#🇨🇦 745 - CA - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@celestara.biz:443?security=tls&type=ws&path=/poiuyws&host=amoosamiii.net&sni=amoosamiii.net&fp=chrome&encryption=none#🇨🇦 746 - CA - VLESS/WS/TLS/UTLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?type=ws&encryption=none&host=amoosamiii.net&path=/poiuyws&security=tls&sni=amoosamiii.net#🇺🇸 747 - US - VLESS/WS/TLS - 443
-
-vless://4f013568-a58b-4b04-b5dd-4d52bf1c33a4@news.microsoft.com:443?path=/poiuyws&security=tls&encryption=none&insecure=0&host=amoosamiii.net&type=ws&allowInsecure=0&sni=amoosamiii.net#🇺🇸 750 - US - VLESS/WS/TLS - 443
-
-vless://6e41151e-ae07-4ea6-910e-7a3986b7bc0d@31.76.38.18:7443?sid=d82fb387&type=tcp&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&headerType=none&fp=chrome&security=reality&encryption=none&flow=xtls-rprx-vision&sni=icloud.com#🇩🇪 898 - DE - VLESS/REALITY/PBK/SID/VISION/UTLS - 7443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#🇳🇱 430 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇳🇱 435 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#🇳🇱 441 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#🏳️ 438 - XX - SS/AEAD - 443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:8080#🏳️ 447 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇳🇱 462 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080#🇳🇱 443 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:443#🇳🇱 451 - NL - SS/AEAD - 443
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇳🇱 454 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.17:8080#🏳️ 445 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.47:8080#🇳🇱 466 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.204:8080#🏳️ 472 - XX - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:8080#🇳🇱 473 - NL - SS/AEAD - 8080
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#🇳🇱 474 - NL - SS/AEAD - 8080
+vmess://eyJhZGQiOiAiOTQuMTMxLjEwOC4zNiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiOTg1NWYxZjAtYTgwMC00MGQ0LThiMzgtYzdkM2ViNzkzMDJkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIvCfj7PvuI8gNTE2IC0gWFggLSBWTWVzcy9XUyAtIDQ0MyIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJuYW1lIjogIvCfh7Lwn4epTUQtOTQuMTMxLjEwOC4zNi0wMTc3In0=
 
