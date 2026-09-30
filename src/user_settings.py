@@ -63,17 +63,10 @@ ENABLED_PROTOCOLS = {
 # Maximum age of configurations in days.
 MAX_CONFIG_AGE_DAYS = 1
 
-# Sing-box tester — kept for config.py import compatibility (not used in pipeline).
-ENABLE_SINGBOX_TESTER      = False
-SINGBOX_TESTER_MAX_WORKERS = 8
-SINGBOX_TESTER_TIMEOUT_SECONDS = 10
-SINGBOX_TESTER_URLS        = ['https://www.youtube.com/generate_204']
-
 # Xray tester — used by unified_tester.py.
 ENABLE_XRAY_TESTER          = True
 XRAY_TESTER_MAX_WORKERS     = 8
-XRAY_TESTER_TIMEOUT_SECONDS = 15
-XRAY_TESTER_URLS            = ['https://aistudio.google.com/']
+XRAY_TESTER_TIMEOUT_SECONDS = 5
 
 # Location API Settings.
 LOCATION_APIS = [

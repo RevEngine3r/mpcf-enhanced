@@ -47,11 +47,14 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-GOOGLE_TARGET  = 'https://aistudio.google.com/'
+GOOGLE_TARGET  = 'https://dl.google.com/android/repository/source-37.2_r01.zip'
 XRAY_PATH      = 'xray'
-TIMEOUT        = 15
-STARTUP_DELAY  = 2.0
+TIMEOUT        = 3
+STARTUP_DELAY  = 0.8
 MAX_WORKERS    = max(4, (os.cpu_count() or 4) * 2)
+
+GOOGLE200_FILE = 'configs/google_200.txt'
+FETCHED_FILE   = 'configs/fetched.txt'
 
 SKIP_PROTOCOLS = {'tuic://', 'wireguard://', 'hysteria2://', 'hy2://'}
 
@@ -280,26 +283,68 @@ def write_plain(path: str, lines: list[str]) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Merge helpers
+# ---------------------------------------------------------------------------
+def _uri_key(line: str) -> str:
+    """Dedup key: bare URI before any trailing #comment."""
+    return line.split('#', 1)[0].strip()
+
+
+def _merge_dedup(*lists: list[str]) -> list[str]:
+    """Union of lists, first occurrence wins (by URI key)."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for lst in lists:
+        for line in lst:
+            line = line.strip()
+            if not line or line.startswith('//'):
+                continue
+            key = _uri_key(line)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            out.append(line)
+    return out
+
+
+def _read_lines(path: str) -> list[str]:
+    try:
+        with open(path, 'r', encoding='utf-8') as fh:
+            return [
+                l.strip() for l in fh
+                if l.strip() and not l.startswith('//')
+            ]
+    except FileNotFoundError:
+        return []
+
+
+def _write_lines(path: str, lines: list[str]) -> None:
+    os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as fh:
+        for line in lines:
+            fh.write(line + '\n')
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
-    input_file = sys.argv[1] if len(sys.argv) > 1 else 'configs/proxy_configs.txt'
+    fetched = _read_lines(FETCHED_FILE)
+    existing = _read_lines(GOOGLE200_FILE)
 
-    lines = load_lines(input_file)
-    if not lines:
-        logger.error('No proxy lines found. Aborting.')
+    if not fetched and not existing:
+        logger.error('Nothing to test: no fetched.txt and no google_200.txt.')
         sys.exit(0)
 
-    logger.info(f'Testing {len(lines)} proxies with {MAX_WORKERS} workers ...')
-    logger.info(f'Google target: {GOOGLE_TARGET}')
-    logger.info(f'Landing proxy tag: {LANDING_TAG}')
+    pool = _merge_dedup(fetched, existing)
+    logger.info(
+        f'Pool: fetched={len(fetched)} | existing={len(existing)} '
+        f'| merged={len(pool)} unique'
+    )
 
     google200: list[str] = []
-    all_working: list[str] = []
-    failed = 0
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futures = {pool.submit(test_proxy, uri): uri for uri in lines}
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool_ex:
+        futures = {pool_ex.submit(test_proxy, uri): uri for uri in pool}
         done = 0
         for fut in as_completed(futures):
             done += 1
@@ -311,49 +356,19 @@ def main() -> None:
 
             if result == 'google200':
                 google200.append(uri)
-            elif result == 'working':
-                all_working.append(uri)
-            else:
-                failed += 1
 
-            if done % 25 == 0 or done == len(lines):
-                logger.info(
-                    f'Progress {done}/{len(lines)} '
-                    f'| google200={len(google200)} '
-                    f'| working={len(all_working)} '
-                    f'| failed={failed}'
-                )
+            if done % 25 == 0 or done == len(pool):
+                logger.info(f'Progress {done}/{len(pool)} | winners={len(google200)}')
 
-    logger.info(
-        f'Done. google200={len(google200)}  '
-        f'all_working={len(all_working)}  '
-        f'failed={failed}'
-    )
+    # --- write the persistent pool ---
+    _write_lines(GOOGLE200_FILE, google200)
+    logger.info(f'Wrote {len(google200)} working proxies → {GOOGLE200_FILE}')
 
-    # --- write outputs ---
-    write_plain('configs/google_200.txt',          google200)
-    write_plain('configs/all_working.txt',         all_working)
-    write_plain('configs/hiddify_google_200.txt',  google200)
-    write_plain('configs/hiddify_all_working.txt', all_working)
-
-    # Detour file: landing proxy first (plain-text fragment), then every
-    # all_working proxy with &detour=<landing tag> appended to its name.
-    detour_lines = [LANDING_PROXY]
-    for uri in all_working:
-        if '109.201.152.181:443' in uri:
-            continue
-        detour_lines.append(with_detour(uri, LANDING_TAG))
-    write_plain('configs/hiddify_all_detour.txt', detour_lines)
-
-    logger.info('Output files written:')
-    for f in [
-        'configs/all_working.txt',
-        'configs/google_200.txt',
-        'configs/hiddify_all_working.txt',
-        'configs/hiddify_google_200.txt',
-        'configs/hiddify_all_detour.txt',
-    ]:
-        logger.info(f'  {f}')
+    # --- cleanup transient input ---
+    try:
+        os.remove(FETCHED_FILE)
+    except FileNotFoundError:
+        pass
 
 
 if __name__ == '__main__':

@@ -110,7 +110,7 @@ class ProxyConfig:
     def _initialize_settings(self):
         self.CHANNEL_RETRY_LIMIT = min(10, max(1, 5))
         self.CHANNEL_ERROR_THRESHOLD = min(0.9, max(0.1, 0.7))
-        self.OUTPUT_FILE = 'configs/proxy_configs.txt'
+        self.OUTPUT_FILE = 'configs/fetched.txt'
         self.STATS_FILE = 'configs/channel_stats.json'
         self.MAX_RETRIES = min(10, max(1, 5))
         self.RETRY_DELAY = min(60, max(5, 15))
