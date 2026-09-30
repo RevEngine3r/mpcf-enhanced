@@ -42,7 +42,7 @@ class ConfigEnricher:
             'Accept': 'application/json, text/plain, */*',
             'Accept-Language': 'en-US,en;q=0.9'
         }
-        self.location_cache = LRUCache(capacity=5000)
+        self.location_cache = LRUCache(capacity=10000)
         self.location_apis = self._initialize_apis()
         self.successful_patterns = {}
         self.session = requests.Session()

@@ -47,7 +47,7 @@ SOURCE_URLS = [
 USE_MAXIMUM_POWER = False
 
 # Desired number of configurations to fetch (ignored if USE_MAXIMUM_POWER = True).
-SPECIFIC_CONFIG_COUNT = 5000
+SPECIFIC_CONFIG_COUNT = 10000
 
 # Protocols to enable or disable.
 ENABLED_PROTOCOLS = {
