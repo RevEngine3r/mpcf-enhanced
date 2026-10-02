@@ -2,7 +2,7 @@ name: Update Proxy Configs
 
 on:
   schedule:
-    - cron: '0 18 */3 * *'   # every 3 days
+    - cron: '0 18 */3 * *'    # every 3 days
   workflow_dispatch:
 
 permissions:
@@ -11,16 +11,14 @@ permissions:
 jobs:
   update-configs:
     runs-on: ubuntu-latest
-    timeout-minutes: 60        # was 180 — pipeline is much faster now
+    timeout-minutes: 60
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -32,29 +30,21 @@ jobs:
       - name: Install Xray
         run: |
           MAX_RETRIES=3
-          RETRY_COUNT=0
-
+          N=0
           install_xray() {
-            LATEST_URL=$(curl -sL "https://api.github.com/repos/XTLS/Xray-core/releases/latest" \
+            URL=$(curl -sL "https://api.github.com/repos/XTLS/Xray-core/releases/latest" \
               | jq -r '.assets[] | select(.name=="Xray-linux-64.zip") | .browser_download_url')
-
-            [ -z "$LATEST_URL" ] || [ "$LATEST_URL" = "null" ] && return 1
-
-            wget -q --timeout=30 --tries=3 -O xray.zip "$LATEST_URL" || return 1
-            [ -s xray.zip ] || return 1
+            [ -z "$URL" ] || [ "$URL" = "null" ] && return 1
+            wget -q --timeout=30 --tries=3 -O xray.zip "$URL" || return 1
             unzip -o xray.zip xray || return 1
             sudo mv xray /usr/local/bin/ && sudo chmod +x /usr/local/bin/xray
             xray version || return 1
             rm -f xray.zip geoip.dat geosite.dat LICENSE
-            return 0
           }
-
-          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+          while [ $N -lt $MAX_RETRIES ]; do
             install_xray && echo "✓ Xray ready" && exit 0
-            RETRY_COUNT=$((RETRY_COUNT + 1))
-            [ $RETRY_COUNT -lt $MAX_RETRIES ] && sleep 20
+            N=$((N+1)); [ $N -lt $MAX_RETRIES ] && sleep 20
           done
-
           FALLBACK="https://github.com/XTLS/Xray-core/releases/download/v25.1.1/Xray-linux-64.zip"
           wget -q --timeout=30 --tries=3 -O xray.zip "$FALLBACK" \
             && unzip -o xray.zip xray \
@@ -62,52 +52,35 @@ jobs:
             && sudo chmod +x /usr/local/bin/xray \
             && xray version \
             && rm -f xray.zip geoip.dat geosite.dat LICENSE \
-            && echo "✓ Xray ready (fallback)" \
             || { echo "✗ Xray install failed"; exit 1; }
 
-      - name: Create output directories
+      - name: Create output directory
         run: mkdir -p configs
 
-      # -----------------------------------------------------------------
-      # 1. Fetch fresh proxies  →  configs/fetched.txt
-      # -----------------------------------------------------------------
-      - name: Fetch proxy configs
-        run: python src/fetch_configs.py
+      - name: Fetch configs
+        run: python src/fetcher.py
         continue-on-error: true
 
-      # -----------------------------------------------------------------
-      # 2. Enrich with geolocation (incremental; cached IPs skipped)
-      # -----------------------------------------------------------------
       - name: Enrich with location data
-        run: python src/enrich_configs.py configs/fetched.txt configs/location.json
+        run: python src/enricher.py configs/fetched.txt configs/location.json
         continue-on-error: true
 
-      # -----------------------------------------------------------------
-      # 3. Rename with country flags  →  configs/fetched_named.txt
-      # -----------------------------------------------------------------
       - name: Rename configs with country flags
-        run: python src/rename_configs.py configs/location.json configs/fetched.txt configs/fetched_named.txt
+        run: python src/renamer.py configs/location.json configs/fetched.txt configs/fetched_named.txt
         continue-on-error: true
 
-      # -----------------------------------------------------------------
-      # 4. Merge with previous winners + test  →  configs/google_200.txt
-      # -----------------------------------------------------------------
-      - name: Test and persist google_200 pool
-        run: python src/unified_tester.py
+      - name: Test proxies
+        run: python src/tester.py
         continue-on-error: true
 
-      # -----------------------------------------------------------------
-      # 5. Commit + push
-      # -----------------------------------------------------------------
       - name: Commit and push
         run: |
           git config --global user.name  'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-          # Only the persistent pool + caches
-          git add -f configs/google_200.txt     || true
-          git add -f configs/all_working.txt    || true
-          git add    configs/location.json      || true
+          git add -f configs/google_200.txt   || true
+          git add -f configs/all_working.txt  || true
+          git add    configs/location.json    || true
 
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
 

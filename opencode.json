@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "mcp": {
+    "servers": {
+      "filesystem": {
+        "type": "local",
+        "command": [
+          "npx",
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "D:\\Sources\\Python\\mpcf-enhanced"
+        ]
+      }
+    }
+  }
+}
