@@ -44,7 +44,7 @@ SOURCE_URLS = [
 ]
 
 # Set to True to fetch the maximum possible number of configurations.
-USE_MAXIMUM_POWER = False
+USE_MAXIMUM_POWER = True
 
 # Desired number of configurations to fetch (ignored if USE_MAXIMUM_POWER = True).
 SPECIFIC_CONFIG_COUNT = 10000

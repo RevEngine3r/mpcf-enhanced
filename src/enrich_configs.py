@@ -2,12 +2,10 @@ import json
 import os
 import sys
 import logging
-import base64
 import socket
 import requests
 import time
 from typing import Dict, Optional, Tuple, List
-from urllib.parse import urlparse, parse_qs
 from collections import OrderedDict
 from user_settings import LOCATION_APIS
 import config_parser as parser

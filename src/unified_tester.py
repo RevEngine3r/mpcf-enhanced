@@ -47,14 +47,16 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-GOOGLE_TARGET  = 'https://dl.google.com/android/repository/source-37.2_r01.zip'
-XRAY_PATH      = 'xray'
-TIMEOUT        = 3
-STARTUP_DELAY  = 0.8
-MAX_WORKERS    = max(4, (os.cpu_count() or 4) * 2)
+GOOGLE_TARGET = 'https://dl.google.com/android/repository/repository2-4.xml'
+# GOOGLE_TARGET = 'https://dl.google.com/android/repository/source-37.2_r01.zip'
+XRAY_PATH = 'xray'
+TIMEOUT = 3
+STARTUP_DELAY = 0.8
+MAX_WORKERS = max(4, (os.cpu_count() or 4) * 2)
 
+ALL_WORKING_FILE = 'configs/all_working.txt'
 GOOGLE200_FILE = 'configs/google_200.txt'
-FETCHED_FILE   = 'configs/fetched.txt'
+FETCHED_FILE = 'configs/fetched.txt'
 
 SKIP_PROTOCOLS = {'tuic://', 'wireguard://', 'hysteria2://', 'hy2://'}
 
@@ -73,7 +75,7 @@ LANDING_TAG = unquote(
 # Write the landing proxy with its decoded fragment so all names in the file
 # are consistent plain-text (Hiddify reads fragments as plain text).
 LANDING_PROXY = (
-    LANDING_PROXY_RAW.split('#')[0] + '#' + LANDING_TAG
+        LANDING_PROXY_RAW.split('#')[0] + '#' + LANDING_TAG
 )
 
 
@@ -172,7 +174,7 @@ def build_outbound(uri: str) -> Optional[dict]:
 # ---------------------------------------------------------------------------
 # Single-proxy test
 # ---------------------------------------------------------------------------
-def test_proxy(uri: str) -> Tuple[str, str]:
+def test_proxy(uri: str) -> tuple[str, str] | None:
     low = uri.lower()
     for skip in SKIP_PROTOCOLS:
         if low.startswith(skip):
@@ -207,7 +209,7 @@ def test_proxy(uri: str) -> Tuple[str, str]:
                 return 'failed', uri
 
             proxies = {
-                'http':  f'http://127.0.0.1:{port}',
+                'http': f'http://127.0.0.1:{port}',
                 'https': f'http://127.0.0.1:{port}',
             }
             resp = requests.head(
@@ -324,23 +326,28 @@ def _write_lines(path: str, lines: list[str]) -> None:
         for line in lines:
             fh.write(line + '\n')
 
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main() -> None:
     fetched = _read_lines(FETCHED_FILE)
-    existing = _read_lines(GOOGLE200_FILE)
+    existing_all = _read_lines(ALL_WORKING_FILE)
 
-    if not fetched and not existing:
-        logger.error('Nothing to test: no fetched.txt and no google_200.txt.')
+    if not fetched and not existing_all:
+        logger.error(
+            'Nothing to test: no fetched.txt, no google_200.txt, '
+            'no all_working.txt.'
+        )
         sys.exit(0)
 
-    pool = _merge_dedup(fetched, existing)
+    pool = _merge_dedup(fetched, existing_all)
     logger.info(
-        f'Pool: fetched={len(fetched)} | existing={len(existing)} '
-        f'| merged={len(pool)} unique'
+        f'Pool: fetched={len(fetched)} | prev_all={len(existing_all)} '
+        f' | merged={len(pool)} unique'
     )
 
+    all_working: list[str] = []
     google200: list[str] = []
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool_ex:
@@ -354,15 +361,31 @@ def main() -> None:
                 logger.error(f'Future error: {e}')
                 result, uri = 'failed', futures[fut]
 
+            # 'google200' == HTTP 200, 'working' == any other HTTP response
+
+            if result in ['working', 'google200']:
+                all_working.append(uri)
+
             if result == 'google200':
                 google200.append(uri)
 
             if done % 25 == 0 or done == len(pool):
-                logger.info(f'Progress {done}/{len(pool)} | winners={len(google200)}')
+                logger.info(
+                    f'Progress {done}/{len(pool)} '
+                    f'| all_working={len(all_working)} '
+                    f'| google200={len(google200)}'
+                )
 
-    # --- write the persistent pool ---
+    # --- write persistent pools ---
+    _write_lines(ALL_WORKING_FILE, all_working)
+    logger.info(
+        f'Wrote {len(all_working)} working proxies → {ALL_WORKING_FILE}'
+    )
+
     _write_lines(GOOGLE200_FILE, google200)
-    logger.info(f'Wrote {len(google200)} working proxies → {GOOGLE200_FILE}')
+    logger.info(
+        f'Wrote {len(google200)} HTTP-200 proxies → {GOOGLE200_FILE}'
+    )
 
     # --- cleanup transient input ---
     try:

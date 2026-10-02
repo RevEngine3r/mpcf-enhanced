@@ -106,6 +106,7 @@ jobs:
 
           # Only the persistent pool + caches
           git add -f configs/google_200.txt     || true
+          git add -f configs/all_working.txt    || true
           git add    configs/location.json      || true
 
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
