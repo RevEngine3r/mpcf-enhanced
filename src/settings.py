@@ -16,8 +16,6 @@ SOURCE_URLS = [
     "https://t.me/s/prrofile_purple",
     "https://t.me/s/DirectVPN",
     "https://t.me/s/persianvpnhub",
-    "https://t.me/v2ray_configs_pool",
-    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
     "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",
     "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
     "https://raw.githubusercontent.com/parvinxs/Submahsanetxsparvin/refs/heads/main/Sub.mahsa.xsparvin",
@@ -54,9 +52,9 @@ SOURCE_URLS = [
 
 # --- Fetch behaviour -------------------------------------------------------
 MAX_CONFIG_AGE_DAYS = 3  # drop Telegram posts older than this
-REQUEST_TIMEOUT = 60  # seconds
-MAX_RETRIES = 5
-RETRY_DELAY = 15  # base seconds; doubles on each retry
+REQUEST_TIMEOUT = 15  # seconds
+MAX_RETRIES = 2
+RETRY_DELAY = 3  # base seconds; doubles on each retry
 
 # --- Protocol toggles (scheme:// -> bool) ----------------------------------
 ENABLED_PROTOCOLS = {
@@ -73,6 +71,9 @@ ENABLED_PROTOCOLS = {
 # Each entry is a URL template; {ip} is substituted at lookup time.
 # Responses are scanned for the first usable country-code / country-name pair,
 # so these can be mixed and matched freely.
+
+GEOIP_DB_PATH = "data/dbip-country-lite.mmdb"
+
 LOCATION_APIS = [
     "https://ip-api.com/json/{ip}",
     "https://ipapi.co/{ip}/json/",
@@ -94,12 +95,11 @@ XRAY_SKIP_PROTOCOLS = {"tuic", "wireguard", "hysteria2", "hy2"}
 # Pipeline constants (usually don't need changing)
 # =============================================================================
 
-OUTPUT_DIR = "configs"
+OUTPUT_DIR = "sub"
 FETCHED_FILE = f"{OUTPUT_DIR}/fetched.txt"
-LOCATION_FILE = f"{OUTPUT_DIR}/location.json"
-NAMED_FILE = f"{OUTPUT_DIR}/fetched_named.txt"
 ALL_WORKING_FILE = f"{OUTPUT_DIR}/all_working.txt"
 GOOGLE200_FILE = f"{OUTPUT_DIR}/google_200.txt"
+MERGED_FILE = f"{OUTPUT_DIR}/merged.txt"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",

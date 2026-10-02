@@ -55,18 +55,26 @@ jobs:
             || { echo "✗ Xray install failed"; exit 1; }
 
       - name: Create output directory
-        run: mkdir -p configs
+        run: mkdir -p sub
 
       - name: Fetch configs
         run: python src/fetcher.py
         continue-on-error: true
 
-      - name: Enrich with location data
-        run: python src/enricher.py configs/fetched.txt configs/location.json
+      - name: Merge configs
+        run: python src/merger.py
         continue-on-error: true
 
-      - name: Rename configs with country flags
-        run: python src/renamer.py configs/location.json configs/fetched.txt configs/fetched_named.txt
+      - name: De-B64 configs
+        run: python src/deb64er.py
+        continue-on-error: true
+
+      - name: Resolve domain to IP configs
+        run: python src/resolver.py
+        continue-on-error: true
+
+      - name: Enrich with location data
+        run: python src/enricher.py
         continue-on-error: true
 
       - name: Test proxies
@@ -80,7 +88,6 @@ jobs:
 
           git add -f configs/google_200.txt   || true
           git add -f configs/all_working.txt  || true
-          git add    configs/location.json    || true
 
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
 

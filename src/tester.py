@@ -229,16 +229,15 @@ def merge_dedup(*lists: list[str]) -> list[str]:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    fetched = read_lines(settings.FETCHED_FILE)
-    existing = read_lines(settings.ALL_WORKING_FILE)
+    merged = read_lines(settings.MERGED_FILE)
 
-    if not fetched and not existing:
+    if not merged:
         log.error("nothing to test (no fetched.txt, no all_working.txt)")
         sys.exit(0)
 
-    pool = merge_dedup(fetched, existing)
+    pool = merge_dedup(merged)
     log.info(
-        f"pool: fetched={len(fetched)} prev_all={len(existing)} merged={len(pool)}"
+        f"pool: merged={len(merged)} merged={len(pool)}"
     )
 
     all_working: list[str] = []

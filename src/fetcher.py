@@ -3,15 +3,14 @@
 Usage:
     python src/fetcher.py
 """
+import html
 import logging
 import os
 import re
 import time
-from datetime import datetime, timedelta, timezone
 from typing import Optional
 
 import requests
-from bs4 import BeautifulSoup
 
 import parsers
 import settings
@@ -49,36 +48,65 @@ def fetch_url(url: str) -> Optional[str]:
 
 
 # ---------------------------------------------------------------------------
+# HTML -> plain text
+# ---------------------------------------------------------------------------
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_CODE_BLOCK_RE = re.compile(r"<code[^>]*>(.*?)</code>", re.DOTALL | re.IGNORECASE)
+_BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
+# tg-emoji / emoji wrappers: drop entire element including inner media/svg
+_TG_EMOJI_RE = re.compile(
+    r"<tg-emoji\b[^>]*>.*?</tg-emoji>", re.DOTALL | re.IGNORECASE
+)
+_EMOJI_I_RE = re.compile(
+    r"<i\b[^>]*class=\"[^\"]*\bemoji\b[^\"]*\"[^>]*>.*?</i>",
+    re.DOTALL | re.IGNORECASE,
+)
+
+
+def _clean_fragment(fragment: str) -> str:
+    """Clean an HTML fragment (typically a <code> block) down to plain text."""
+    # Drop emoji elements entirely — they contain nested <b>, <img>, <video>,
+    # svg data URIs, etc. that would otherwise leak garbage into the output.
+    fragment = _TG_EMOJI_RE.sub("", fragment)
+    fragment = _EMOJI_I_RE.sub("", fragment)
+    # Convert <br> to newlines so configs stay line-separated
+    fragment = _BR_RE.sub("\n", fragment)
+    # Strip remaining tags
+    fragment = _TAG_RE.sub("", fragment)
+    # Unescape entities last (so &amp; -> &, &#64; -> @, etc.)
+    fragment = html.unescape(fragment)
+    return fragment
+
+
+def html_to_text(page: str) -> str:
+    """Extract proxy URIs from a Telegram preview page.
+
+    Telegram wraps configs in <code>…</code> blocks. We only look inside
+    those blocks — everything else on the page (ads, tg-emoji media with
+    embedded <video src>, reaction counts, footer links) is noise that
+    would otherwise be mangled into fake "configs" by naive tag stripping.
+    """
+    blocks = _CODE_BLOCK_RE.findall(page)
+    if not blocks:
+        return ""
+    cleaned = [_clean_fragment(b) for b in blocks]
+    return "\n".join(cleaned)
+
+
+# ---------------------------------------------------------------------------
 # Per-source strategies
 # ---------------------------------------------------------------------------
 
 def fetch_telegram(url: str) -> list[str]:
-    html = fetch_url(url)
-    if not html:
+    page = fetch_url(url)
+    if not page:
         return []
-
-    soup = BeautifulSoup(html, "html.parser")
-    cutoff = datetime.now(timezone.utc) - timedelta(days=settings.MAX_CONFIG_AGE_DAYS)
-
-    configs: list[str] = []
-    for msg in soup.find_all("div", class_="tgme_widget_message_text"):
-        date = _message_date(msg)
-        if date and date < cutoff:
-            continue
-        if msg.text:
-            configs.extend(parsers.split_configs(msg.text))
-    return configs
-
-
-def _message_date(msg) -> Optional[datetime]:
-    try:
-        parent = msg.find_parent("div", class_="tgme_widget_message")
-        time_el = parent.find("time") if parent else None
-        if time_el and time_el.get("datetime"):
-            return datetime.fromisoformat(time_el["datetime"].replace("Z", "+00:00"))
-    except Exception:
-        pass
-    return None
+    text = html_to_text(page)
+    if not text.strip():
+        log.warning(f"no <code> blocks found in {url}")
+        return []
+    return parsers.split_configs(text)
 
 
 def fetch_ssconf(url: str) -> list[str]:
